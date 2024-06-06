@@ -1,0 +1,1155 @@
+CRITICAL - 2024-01-03 00:23:05 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Login failed for user 'sa'. SQLSTATE: 28000, code: 18456
+[Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot open database "ingresoCG" requested by the login. The login failed. SQLSTATE: 42000, code: 4060
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 142.
+ 1 APPPATH\Controllers\TestController.php(14): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestController->UsuariosRegistrados()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 01:06:52 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "UsuariosCG.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('UsuariosCG.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('UsuariosCG', [], true)
+ 3 APPPATH\Controllers\obtenerTodosLosRegistros.php(15): view('UsuariosCG', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerTodosLosRegistros->UsuariosCG()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerTodosLosRegistros))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 01:14:01 --> ErrorException: Undefined array key "Usuario"
+in APPPATH\Views\CGView\UsuariosCG.php on line 23.
+ 1 APPPATH\Views\CGView\UsuariosCG.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Usuario"', 'C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\UsuariosCG.php', 23)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\UsuariosCG.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('CGView/UsuariosCG', [], true)
+ 5 APPPATH\Controllers\obtenerTodosLosRegistros.php(15): view('CGView/UsuariosCG', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerTodosLosRegistros->UsuariosCG()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerTodosLosRegistros))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 01:15:12 --> ErrorException: Undefined array key "usuario"
+in APPPATH\Views\CGView\UsuariosCG.php on line 23.
+ 1 APPPATH\Views\CGView\UsuariosCG.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "usuario"', 'C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\UsuariosCG.php', 23)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\UsuariosCG.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('CGView/UsuariosCG', [], true)
+ 5 APPPATH\Controllers\obtenerTodosLosRegistros.php(15): view('CGView/UsuariosCG', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerTodosLosRegistros->UsuariosCG()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerTodosLosRegistros))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 01:17:32 --> ErrorException: Undefined array key "Cedula"
+in APPPATH\Views\CGView\UsuariosCG.php on line 24.
+ 1 APPPATH\Views\CGView\UsuariosCG.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Cedula"', 'C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\UsuariosCG.php', 24)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\UsuariosCG.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('CGView/UsuariosCG', [], true)
+ 5 APPPATH\Controllers\obtenerTodosLosRegistros.php(15): view('CGView/UsuariosCG', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerTodosLosRegistros->UsuariosCG()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerTodosLosRegistros))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 01:18:23 --> ErrorException: Undefined array key "Cédula"
+in APPPATH\Views\CGView\UsuariosCG.php on line 24.
+ 1 APPPATH\Views\CGView\UsuariosCG.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Cédula"', 'C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\UsuariosCG.php', 24)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\UsuariosCG.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('CGView/UsuariosCG', [], true)
+ 5 APPPATH\Controllers\obtenerTodosLosRegistros.php(15): view('CGView/UsuariosCG', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerTodosLosRegistros->UsuariosCG()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerTodosLosRegistros))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 01:18:57 --> ErrorException: Undefined array key "Cédula"
+in APPPATH\Views\CGView\UsuariosCG.php on line 24.
+ 1 APPPATH\Views\CGView\UsuariosCG.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Cédula"', 'C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\UsuariosCG.php', 24)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\UsuariosCG.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('CGView/UsuariosCG', [], true)
+ 5 APPPATH\Controllers\obtenerTodosLosRegistros.php(15): view('CGView/UsuariosCG', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerTodosLosRegistros->UsuariosCG()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerTodosLosRegistros))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 01:20:20 --> ErrorException: Undefined array key "Cedula"
+in APPPATH\Views\CGView\UsuariosCG.php on line 24.
+ 1 APPPATH\Views\CGView\UsuariosCG.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Cedula"', 'C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\UsuariosCG.php', 24)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\UsuariosCG.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('CGView/UsuariosCG', [], true)
+ 5 APPPATH\Controllers\obtenerTodosLosRegistros.php(15): view('CGView/UsuariosCG', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerTodosLosRegistros->UsuariosCG()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerTodosLosRegistros))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 01:21:56 --> ErrorException: Undefined array key "Cedula"
+in APPPATH\Views\CGView\UsuariosCG.php on line 24.
+ 1 APPPATH\Views\CGView\UsuariosCG.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Cedula"', 'C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\UsuariosCG.php', 24)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\UsuariosCG.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('CGView/UsuariosCG', [], true)
+ 5 APPPATH\Controllers\obtenerTodosLosRegistros.php(15): view('CGView/UsuariosCG', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerTodosLosRegistros->UsuariosCG()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerTodosLosRegistros))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 01:22:41 --> ErrorException: Undefined array key "Nombre_completo"
+in APPPATH\Views\CGView\UsuariosCG.php on line 25.
+ 1 APPPATH\Views\CGView\UsuariosCG.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nombre_completo"', 'C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\UsuariosCG.php', 25)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\UsuariosCG.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('CGView/UsuariosCG', [], true)
+ 5 APPPATH\Controllers\obtenerTodosLosRegistros.php(15): view('CGView/UsuariosCG', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerTodosLosRegistros->UsuariosCG()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerTodosLosRegistros))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 01:24:18 --> ErrorException: Undefined array key "NOMBRE_COMPLETO"
+in APPPATH\Views\CGView\UsuariosCG.php on line 25.
+ 1 APPPATH\Views\CGView\UsuariosCG.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "NOMBRE_COMPLETO"', 'C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\UsuariosCG.php', 25)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\UsuariosCG.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('CGView/UsuariosCG', [], true)
+ 5 APPPATH\Controllers\obtenerTodosLosRegistros.php(15): view('CGView/UsuariosCG', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerTodosLosRegistros->UsuariosCG()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerTodosLosRegistros))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 01:26:26 --> ErrorException: Undefined array key "NOMBRE_COMPLETO"
+in APPPATH\Views\CGView\UsuariosCG.php on line 25.
+ 1 APPPATH\Views\CGView\UsuariosCG.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "NOMBRE_COMPLETO"', 'C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\UsuariosCG.php', 25)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\UsuariosCG.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('CGView/UsuariosCG', [], true)
+ 5 APPPATH\Controllers\obtenerTodosLosRegistros.php(15): view('CGView/UsuariosCG', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerTodosLosRegistros->UsuariosCG()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerTodosLosRegistros))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 01:27:08 --> ErrorException: Undefined array key "NOMBRE_COMPLETO"
+in APPPATH\Views\CGView\UsuariosCG.php on line 25.
+ 1 APPPATH\Views\CGView\UsuariosCG.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "NOMBRE_COMPLETO"', 'C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\UsuariosCG.php', 25)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\UsuariosCG.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('CGView/UsuariosCG', [], true)
+ 5 APPPATH\Controllers\obtenerTodosLosRegistros.php(15): view('CGView/UsuariosCG', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerTodosLosRegistros->UsuariosCG()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerTodosLosRegistros))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 01:29:05 --> ErrorException: Undefined array key "NOMBRE_COMPLETO"
+in APPPATH\Views\CGView\UsuariosCG.php on line 25.
+ 1 APPPATH\Views\CGView\UsuariosCG.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "NOMBRE_COMPLETO"', 'C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\UsuariosCG.php', 25)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\UsuariosCG.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('CGView/UsuariosCG', [], true)
+ 5 APPPATH\Controllers\obtenerTodosLosRegistros.php(15): view('CGView/UsuariosCG', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerTodosLosRegistros->UsuariosCG()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerTodosLosRegistros))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 01:34:47 --> ErrorException: Undefined array key "NOMBRE_COMPLETO"
+in APPPATH\Views\CGView\UsuariosCG.php on line 25.
+ 1 APPPATH\Views\CGView\UsuariosCG.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "NOMBRE_COMPLETO"', 'C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\UsuariosCG.php', 25)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\UsuariosCG.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('CGView/UsuariosCG', [], true)
+ 5 APPPATH\Controllers\obtenerTodosLosRegistros.php(15): view('CGView/UsuariosCG', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerTodosLosRegistros->UsuariosCG()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerTodosLosRegistros))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 01:48:51 --> ErrorException: Undefined array key "id"
+in APPPATH\Views\CGView\UsuariosCG.php on line 19.
+ 1 APPPATH\Views\CGView\UsuariosCG.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\UsuariosCG.php', 19)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\UsuariosCG.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('CGView/UsuariosCG', [], true)
+ 5 APPPATH\Controllers\obtenerTodosLosRegistros.php(15): view('CGView/UsuariosCG', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerTodosLosRegistros->UsuariosCG()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerTodosLosRegistros))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 01:50:30 --> ErrorException: Undefined array key "ID"
+in APPPATH\Views\CGView\UsuariosCG.php on line 29.
+ 1 APPPATH\Views\CGView\UsuariosCG.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ID"', 'C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\UsuariosCG.php', 29)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\UsuariosCG.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('CGView/UsuariosCG', [], true)
+ 5 APPPATH\Controllers\obtenerTodosLosRegistros.php(15): view('CGView/UsuariosCG', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerTodosLosRegistros->UsuariosCG()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerTodosLosRegistros))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 01:50:36 --> ErrorException: Undefined array key "ID"
+in APPPATH\Views\CGView\UsuariosCG.php on line 29.
+ 1 APPPATH\Views\CGView\UsuariosCG.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ID"', 'C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\UsuariosCG.php', 29)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\UsuariosCG.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('CGView/UsuariosCG', [], true)
+ 5 APPPATH\Controllers\obtenerTodosLosRegistros.php(15): view('CGView/UsuariosCG', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerTodosLosRegistros->UsuariosCG()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerTodosLosRegistros))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 02:40:47 --> ParseError: syntax error, unexpected token "*", expecting "function" or "const"
+in APPPATH\Controllers\CG.php on line 11.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\central\\app\\Controllers\\CG.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CG')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CG')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\CG', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 14:55:49 --> ErrorException: Undefined property: App\Controllers\obtenerTodosLosRegistros::$Datosbd_models
+in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 APPPATH\Controllers\obtenerTodosLosRegistros.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\obtenerTodosLosRegistros::$Datosbd_models', 'C:\\xampp\\htdocs\\central\\app\\Controllers\\obtenerTodosLosRegistros.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerTodosLosRegistros->Buscar()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerTodosLosRegistros))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 14:56:28 --> ErrorException: Undefined property: App\Controllers\obtenerTodosLosRegistros::$Datosbd_models
+in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 APPPATH\Controllers\obtenerTodosLosRegistros.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\obtenerTodosLosRegistros::$Datosbd_models', 'C:\\xampp\\htdocs\\central\\app\\Controllers\\obtenerTodosLosRegistros.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerTodosLosRegistros->Buscar()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerTodosLosRegistros))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 15:56:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 15:56:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 15:56:13 --> TypeError: CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\xampp\htdocs\central\app\Models\Datosbd_models.php on line 15
+in SYSTEMPATH\Database\BaseBuilder.php on line 981.
+ 1 APPPATH\Models\Datosbd_models.php(15): CodeIgniter\Database\BaseBuilder->like('CEDULA', null)
+ 2 APPPATH\Controllers\obtenerTodosLosRegistros.php(25): App\Models\Datosbd_models->buscarRegistros(null)
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerTodosLosRegistros->Buscar()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerTodosLosRegistros))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 15:59:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 15:59:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 15:59:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 15:59:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 15:59:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 16:01:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 16:01:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 16:01:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 16:01:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 16:02:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 16:02:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 16:02:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 16:03:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 16:03:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 16:03:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 16:03:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 16:03:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 16:04:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 16:04:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 16:04:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 16:04:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 16:05:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 16:05:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 16:07:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 16:07:17 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\CGView\UsuariosCG.php on line 81.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('CGView/UsuariosCG', [], true)
+ 4 APPPATH\Controllers\obtenerTodosLosRegistros.php(28): view('CGView/UsuariosCG', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerTodosLosRegistros->Buscar()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerTodosLosRegistros))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 16:07:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 16:32:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 16:32:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 16:33:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 16:33:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 16:35:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 16:35:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 16:41:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-03 16:41:43 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Login failed for user 'sa'. SQLSTATE: 28000, code: 18456
+[Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot open database "CGingreso" requested by the login. The login failed. SQLSTATE: 42000, code: 4060 in C:\xampp\htdocs\central\system\Database\SQLSRV\Connection.php:142
+Stack trace:
+#0 C:\xampp\htdocs\central\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\xampp\htdocs\central\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\central\system\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\xampp\htdocs\central\system\Model.php(242): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\central\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\central\app\Models\Datosbd_models.php(10): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\central\app\Controllers\obtenerTodosLosRegistros.php(12): App\Models\Datosbd_models->obtenerTodosLosRegistros()
+#7 C:\xampp\htdocs\central\system\CodeIgniter.php(941): App\Controllers\obtenerTodosLosRegistros->UsuariosCG()
+#8 C:\xampp\htdocs\central\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerTodosLosRegistros))
+#9 C:\xampp\htdocs\central\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\central\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-01-03 16:41:43 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [SQLSRV]: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Login failed for user 'sa'. SQLSTATE: 28000, code: 18456
+[Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot open database "CGingreso" requested by the login. The login failed. SQLSTATE: 42000, code: 4060
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "CGingreso"."dbo"."usuario"', [], false)
+ 3 SYSTEMPATH\Model.php(242): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\Datosbd_models.php(10): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\obtenerTodosLosRegistros.php(12): App\Models\Datosbd_models->obtenerTodosLosRegistros()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerTodosLosRegistros->UsuariosCG()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerTodosLosRegistros))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 16:49:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 16:50:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 16:52:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 16:52:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 16:53:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 16:53:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 16:54:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 17:04:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 17:04:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 17:05:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 18:07:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-03 18:07:19 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Login failed for user 'sa'. SQLSTATE: 28000, code: 18456
+[Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot open database "CGingreso" requested by the login. The login failed. SQLSTATE: 42000, code: 4060 in C:\xampp\htdocs\central\system\Database\SQLSRV\Connection.php:142
+Stack trace:
+#0 C:\xampp\htdocs\central\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\xampp\htdocs\central\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\central\system\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\xampp\htdocs\central\system\Model.php(242): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\central\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\central\app\Models\Datosbd_models.php(10): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\central\app\Controllers\obtenerTodosLosRegistros.php(12): App\Models\Datosbd_models->obtenerTodosLosRegistros()
+#7 C:\xampp\htdocs\central\system\CodeIgniter.php(941): App\Controllers\obtenerTodosLosRegistros->UsuariosCG()
+#8 C:\xampp\htdocs\central\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerTodosLosRegistros))
+#9 C:\xampp\htdocs\central\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\central\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-01-03 18:07:19 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [SQLSRV]: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Login failed for user 'sa'. SQLSTATE: 28000, code: 18456
+[Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot open database "CGingreso" requested by the login. The login failed. SQLSTATE: 42000, code: 4060
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "CGingreso"."dbo"."empleados"', [], false)
+ 3 SYSTEMPATH\Model.php(242): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\Datosbd_models.php(10): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\obtenerTodosLosRegistros.php(12): App\Models\Datosbd_models->obtenerTodosLosRegistros()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerTodosLosRegistros->UsuariosCG()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerTodosLosRegistros))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 18:07:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-03 18:07:23 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Login failed for user 'sa'. SQLSTATE: 28000, code: 18456
+[Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot open database "CGingreso" requested by the login. The login failed. SQLSTATE: 42000, code: 4060 in C:\xampp\htdocs\central\system\Database\SQLSRV\Connection.php:142
+Stack trace:
+#0 C:\xampp\htdocs\central\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\xampp\htdocs\central\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\central\system\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\xampp\htdocs\central\system\Model.php(242): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\central\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\central\app\Models\Datosbd_models.php(10): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\central\app\Controllers\obtenerTodosLosRegistros.php(12): App\Models\Datosbd_models->obtenerTodosLosRegistros()
+#7 C:\xampp\htdocs\central\system\CodeIgniter.php(941): App\Controllers\obtenerTodosLosRegistros->UsuariosCG()
+#8 C:\xampp\htdocs\central\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerTodosLosRegistros))
+#9 C:\xampp\htdocs\central\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\central\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-01-03 18:07:23 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [SQLSRV]: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Login failed for user 'sa'. SQLSTATE: 28000, code: 18456
+[Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot open database "CGingreso" requested by the login. The login failed. SQLSTATE: 42000, code: 4060
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "CGingreso"."dbo"."empleados"', [], false)
+ 3 SYSTEMPATH\Model.php(242): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\Datosbd_models.php(10): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\obtenerTodosLosRegistros.php(12): App\Models\Datosbd_models->obtenerTodosLosRegistros()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerTodosLosRegistros->UsuariosCG()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerTodosLosRegistros))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 18:07:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-03 18:07:53 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Login failed for user 'sa'. SQLSTATE: 28000, code: 18456
+[Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot open database "CGingreso" requested by the login. The login failed. SQLSTATE: 42000, code: 4060 in C:\xampp\htdocs\central\system\Database\SQLSRV\Connection.php:142
+Stack trace:
+#0 C:\xampp\htdocs\central\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\xampp\htdocs\central\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\central\system\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\xampp\htdocs\central\system\Model.php(242): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\central\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\central\app\Models\Datosbd_models.php(10): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\central\app\Controllers\obtenerTodosLosRegistros.php(12): App\Models\Datosbd_models->obtenerTodosLosRegistros()
+#7 C:\xampp\htdocs\central\system\CodeIgniter.php(941): App\Controllers\obtenerTodosLosRegistros->UsuariosCG()
+#8 C:\xampp\htdocs\central\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerTodosLosRegistros))
+#9 C:\xampp\htdocs\central\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\central\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-01-03 18:07:53 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [SQLSRV]: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Login failed for user 'sa'. SQLSTATE: 28000, code: 18456
+[Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot open database "CGingreso" requested by the login. The login failed. SQLSTATE: 42000, code: 4060
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "CGingreso"."dbo"."empleados"', [], false)
+ 3 SYSTEMPATH\Model.php(242): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\Datosbd_models.php(10): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\obtenerTodosLosRegistros.php(12): App\Models\Datosbd_models->obtenerTodosLosRegistros()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerTodosLosRegistros->UsuariosCG()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerTodosLosRegistros))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 18:08:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-03 18:08:37 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Login failed for user 'sa'. SQLSTATE: 28000, code: 18456
+[Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot open database "CGingreso" requested by the login. The login failed. SQLSTATE: 42000, code: 4060 in C:\xampp\htdocs\central\system\Database\SQLSRV\Connection.php:142
+Stack trace:
+#0 C:\xampp\htdocs\central\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\xampp\htdocs\central\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\central\system\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\xampp\htdocs\central\system\Model.php(242): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\central\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\central\app\Models\Datosbd_models.php(10): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\central\app\Controllers\obtenerTodosLosRegistros.php(12): App\Models\Datosbd_models->obtenerTodosLosRegistros()
+#7 C:\xampp\htdocs\central\system\CodeIgniter.php(941): App\Controllers\obtenerTodosLosRegistros->UsuariosCG()
+#8 C:\xampp\htdocs\central\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerTodosLosRegistros))
+#9 C:\xampp\htdocs\central\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\central\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-01-03 18:08:37 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [SQLSRV]: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Login failed for user 'sa'. SQLSTATE: 28000, code: 18456
+[Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot open database "CGingreso" requested by the login. The login failed. SQLSTATE: 42000, code: 4060
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "CGingreso"."dbo"."empleados"', [], false)
+ 3 SYSTEMPATH\Model.php(242): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\Datosbd_models.php(10): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\obtenerTodosLosRegistros.php(12): App\Models\Datosbd_models->obtenerTodosLosRegistros()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerTodosLosRegistros->UsuariosCG()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerTodosLosRegistros))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 18:08:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-03 18:08:41 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Login failed for user 'sa'. SQLSTATE: 28000, code: 18456
+[Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot open database "CGingreso" requested by the login. The login failed. SQLSTATE: 42000, code: 4060 in C:\xampp\htdocs\central\system\Database\SQLSRV\Connection.php:142
+Stack trace:
+#0 C:\xampp\htdocs\central\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\xampp\htdocs\central\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\central\system\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\xampp\htdocs\central\system\Model.php(242): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\central\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\central\app\Models\Datosbd_models.php(10): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\central\app\Controllers\obtenerTodosLosRegistros.php(12): App\Models\Datosbd_models->obtenerTodosLosRegistros()
+#7 C:\xampp\htdocs\central\system\CodeIgniter.php(941): App\Controllers\obtenerTodosLosRegistros->UsuariosCG()
+#8 C:\xampp\htdocs\central\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerTodosLosRegistros))
+#9 C:\xampp\htdocs\central\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\central\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-01-03 18:08:41 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [SQLSRV]: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Login failed for user 'sa'. SQLSTATE: 28000, code: 18456
+[Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot open database "CGingreso" requested by the login. The login failed. SQLSTATE: 42000, code: 4060
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "CGingreso"."dbo"."empleados"', [], false)
+ 3 SYSTEMPATH\Model.php(242): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\Datosbd_models.php(10): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\obtenerTodosLosRegistros.php(12): App\Models\Datosbd_models->obtenerTodosLosRegistros()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerTodosLosRegistros->UsuariosCG()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerTodosLosRegistros))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 18:08:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-03 18:08:45 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Login failed for user 'sa'. SQLSTATE: 28000, code: 18456
+[Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot open database "CGingreso" requested by the login. The login failed. SQLSTATE: 42000, code: 4060 in C:\xampp\htdocs\central\system\Database\SQLSRV\Connection.php:142
+Stack trace:
+#0 C:\xampp\htdocs\central\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\xampp\htdocs\central\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\central\system\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\xampp\htdocs\central\system\Model.php(242): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\central\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\central\app\Models\Datosbd_models.php(10): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\central\app\Controllers\obtenerTodosLosRegistros.php(12): App\Models\Datosbd_models->obtenerTodosLosRegistros()
+#7 C:\xampp\htdocs\central\system\CodeIgniter.php(941): App\Controllers\obtenerTodosLosRegistros->UsuariosCG()
+#8 C:\xampp\htdocs\central\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerTodosLosRegistros))
+#9 C:\xampp\htdocs\central\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\central\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-01-03 18:08:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [SQLSRV]: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Login failed for user 'sa'. SQLSTATE: 28000, code: 18456
+[Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot open database "CGingreso" requested by the login. The login failed. SQLSTATE: 42000, code: 4060
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "CGingreso"."dbo"."empleados"', [], false)
+ 3 SYSTEMPATH\Model.php(242): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\Datosbd_models.php(10): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\obtenerTodosLosRegistros.php(12): App\Models\Datosbd_models->obtenerTodosLosRegistros()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerTodosLosRegistros->UsuariosCG()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerTodosLosRegistros))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 18:10:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 18:10:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 18:16:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 18:16:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 18:20:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 18:27:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 18:28:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 18:28:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 18:31:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 18:32:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 18:32:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 18:32:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 18:33:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 18:34:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 18:35:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 18:35:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 19:25:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 19:26:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 19:29:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 19:45:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 19:46:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 19:54:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 20:02:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 20:31:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 20:32:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 20:40:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 20:42:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 20:42:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 20:54:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 20:54:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 22:24:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 22:25:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 22:25:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 22:25:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 22:25:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 22:25:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 22:25:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 22:26:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 22:26:29 --> BadMethodCallException: Call to undefined method App\Models\Datosbd_models::obtenerDiezPrimerosRegistros
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\obtenerTodosLosRegistros.php(12): CodeIgniter\Model->__call('obtenerDiezPrimerosRegistros', [])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerTodosLosRegistros->UsuariosCG()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerTodosLosRegistros))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 22:26:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 22:29:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 22:30:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 22:42:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 22:44:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 22:44:10 --> Error: Object of type App\Models\Datosbd_models is not callable
+in APPPATH\Models\Datosbd_models.php on line 10.
+ 1 APPPATH\Controllers\obtenerTodosLosRegistros.php(12): App\Models\Datosbd_models->obtenerDiezPrimerosRegistros()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerTodosLosRegistros->UsuariosCG()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerTodosLosRegistros))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 22:44:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 22:44:25 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\CGView\UsuariosCG.php on line 98.
+ 1 APPPATH\Views\CGView\UsuariosCG.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\UsuariosCG.php', 98)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\UsuariosCG.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('CGView/UsuariosCG', [], true)
+ 5 APPPATH\Controllers\obtenerTodosLosRegistros.php(15): view('CGView/UsuariosCG', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerTodosLosRegistros->UsuariosCG()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerTodosLosRegistros))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 22:45:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 22:46:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 22:47:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 22:47:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 22:55:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 22:55:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 22:55:35 --> Error: Call to undefined method CodeIgniter\HTTP\IncomingRequest::POST()
+in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerTodosLosRegistros->Buscar()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerTodosLosRegistros))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 23:03:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 23:06:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 23:06:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 23:06:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 23:06:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 23:24:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 23:25:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 23:26:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 23:26:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 23:26:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 23:26:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 23:28:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 23:30:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 23:31:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 23:32:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 23:32:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 23:35:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 23:35:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 23:36:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 23:36:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 23:37:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 23:39:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 23:40:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 23:41:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 23:41:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 23:41:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 23:42:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 23:43:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 23:43:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 23:45:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 23:48:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 23:51:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 23:51:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 23:54:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 23:59:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-03 23:59:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

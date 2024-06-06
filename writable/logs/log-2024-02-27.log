@@ -1,0 +1,235 @@
+INFO - 2024-02-27 07:33:49 --> Antes de obtener información del usuario para: admin
+INFO - 2024-02-27 07:33:49 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-02-27 07:33:49 --> Contraseña ingresada: 1
+ERROR - 2024-02-27 07:33:49 --> Autenticación fallida para el usuario: admin
+CRITICAL - 2024-02-27 07:33:49 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "loginCG.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('loginCG.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('loginCG', [], true)
+ 3 APPPATH\Controllers\LoginController.php(73): view('loginCG', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->autenticar()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 07:33:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 07:48:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 07:48:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 07:48:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 07:48:57 --> Antes de obtener información del usuario para: admin
+INFO - 2024-02-27 07:48:57 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-02-27 07:48:57 --> Contraseña ingresada: 1
+ERROR - 2024-02-27 07:48:57 --> Autenticación fallida para el usuario: admin
+INFO - 2024-02-27 07:48:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 07:49:27 --> Antes de obtener información del usuario para: admin
+INFO - 2024-02-27 07:49:27 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-02-27 07:49:27 --> Contraseña ingresada: pruebaCG123
+INFO - 2024-02-27 07:49:27 --> Contraseña verificada con éxito.
+INFO - 2024-02-27 07:49:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 07:49:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 07:49:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 07:49:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 07:49:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 07:49:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 07:49:46 --> Antes de obtener información del usuario para: admin
+INFO - 2024-02-27 07:49:46 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-02-27 07:49:46 --> Contraseña ingresada: pruebaCG123
+INFO - 2024-02-27 07:49:46 --> Contraseña verificada con éxito.
+INFO - 2024-02-27 07:49:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 07:49:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 07:50:28 --> Antes de obtener información del usuario para: admin
+INFO - 2024-02-27 07:50:28 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-02-27 07:50:28 --> Contraseña ingresada: 1
+ERROR - 2024-02-27 07:50:28 --> Autenticación fallida para el usuario: admin
+INFO - 2024-02-27 07:50:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 07:50:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 08:05:02 --> Antes de obtener información del usuario para: admin
+INFO - 2024-02-27 08:05:02 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-02-27 08:05:02 --> Contraseña ingresada: 1
+ERROR - 2024-02-27 08:05:02 --> Autenticación fallida para el usuario: admin
+INFO - 2024-02-27 08:05:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 08:15:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 08:22:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 08:34:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 08:34:19 --> Antes de obtener información del usuario para: admin
+INFO - 2024-02-27 08:34:19 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-02-27 08:34:19 --> Contraseña ingresada: pruebaCG123
+INFO - 2024-02-27 08:34:19 --> Contraseña verificada con éxito.
+INFO - 2024-02-27 08:34:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 08:35:43 --> Antes de obtener información del usuario para: admin
+INFO - 2024-02-27 08:35:43 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-02-27 08:35:43 --> Contraseña ingresada: 1
+ERROR - 2024-02-27 08:35:43 --> Autenticación fallida para el usuario: admin
+INFO - 2024-02-27 08:35:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 08:35:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 08:35:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 09:45:39 --> Antes de obtener información del usuario para: porteria1
+INFO - 2024-02-27 09:45:39 --> Contraseña almacenada para el usuario "porteria1": 123@
+INFO - 2024-02-27 09:45:39 --> Contraseña ingresada: 123@
+INFO - 2024-02-27 09:45:39 --> Contraseña verificada con éxito.
+INFO - 2024-02-27 09:45:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 10:36:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 10:36:36 --> Antes de obtener información del usuario para: admin
+INFO - 2024-02-27 10:36:36 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-02-27 10:36:36 --> Contraseña ingresada: pruebaCG123
+INFO - 2024-02-27 10:36:36 --> Contraseña verificada con éxito.
+INFO - 2024-02-27 10:36:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 10:36:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 10:37:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 10:37:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 10:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 10:38:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 10:39:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 10:48:16 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\CGView\Registros.php on line 206.
+ 1 APPPATH\Views\CGView\Registros.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\Registros.php', 206)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\Registros.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('CGView/Registros', [], true)
+ 5 APPPATH\Controllers\obtenerRegistros.php(36): view('CGView/Registros', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerRegistros->Buscar2()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerRegistros))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 10:48:31 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\CGView\Registros.php on line 206.
+ 1 APPPATH\Views\CGView\Registros.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\Registros.php', 206)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\Registros.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('CGView/Registros', [], true)
+ 5 APPPATH\Controllers\obtenerRegistros.php(36): view('CGView/Registros', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerRegistros->Buscar2()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerRegistros))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 10:49:44 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\CGView\Registros.php on line 206.
+ 1 APPPATH\Views\CGView\Registros.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\Registros.php', 206)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\Registros.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('CGView/Registros', [], true)
+ 5 APPPATH\Controllers\obtenerRegistros.php(36): view('CGView/Registros', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerRegistros->Buscar2()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerRegistros))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 10:49:49 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\CGView\Registros.php on line 206.
+ 1 APPPATH\Views\CGView\Registros.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\Registros.php', 206)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\Registros.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('CGView/Registros', [], true)
+ 5 APPPATH\Controllers\obtenerRegistros.php(36): view('CGView/Registros', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerRegistros->Buscar2()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerRegistros))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 10:52:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 10:52:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 10:52:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 10:52:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 10:52:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 10:52:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 10:52:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 10:52:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 10:52:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 10:52:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-27 10:53:52 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\CGView\Registros.php on line 206.
+ 1 APPPATH\Views\CGView\Registros.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\Registros.php', 206)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\Registros.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('CGView/Registros', [], true)
+ 5 APPPATH\Controllers\obtenerRegistros.php(36): view('CGView/Registros', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerRegistros->Buscar2()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerRegistros))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 10:53:58 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\CGView\Registros.php on line 206.
+ 1 APPPATH\Views\CGView\Registros.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\Registros.php', 206)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\Registros.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('CGView/Registros', [], true)
+ 5 APPPATH\Controllers\obtenerRegistros.php(36): view('CGView/Registros', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerRegistros->Buscar2()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerRegistros))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 10:54:06 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\CGView\Registros.php on line 206.
+ 1 APPPATH\Views\CGView\Registros.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\Registros.php', 206)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\Registros.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('CGView/Registros', [], true)
+ 5 APPPATH\Controllers\obtenerRegistros.php(36): view('CGView/Registros', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerRegistros->Buscar2()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerRegistros))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 10:55:09 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\CGView\Registros.php on line 206.
+ 1 APPPATH\Views\CGView\Registros.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\Registros.php', 206)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\Registros.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('CGView/Registros', [], true)
+ 5 APPPATH\Controllers\obtenerRegistros.php(36): view('CGView/Registros', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerRegistros->Buscar2()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerRegistros))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 10:55:12 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\CGView\Registros.php on line 206.
+ 1 APPPATH\Views\CGView\Registros.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\Registros.php', 206)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\Registros.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('CGView/Registros', [], true)
+ 5 APPPATH\Controllers\obtenerRegistros.php(36): view('CGView/Registros', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerRegistros->Buscar2()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerRegistros))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 10:56:34 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\CGView\Registros.php on line 206.
+ 1 APPPATH\Views\CGView\Registros.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\Registros.php', 206)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\Registros.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('CGView/Registros', [], true)
+ 5 APPPATH\Controllers\obtenerRegistros.php(36): view('CGView/Registros', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerRegistros->Buscar2()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerRegistros))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-27 10:58:19 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\CGView\Registros.php on line 206.
+ 1 APPPATH\Views\CGView\Registros.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\Registros.php', 206)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\Registros.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('CGView/Registros', [], true)
+ 5 APPPATH\Controllers\obtenerRegistros.php(36): view('CGView/Registros', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerRegistros->Buscar2()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerRegistros))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-27 11:56:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 11:56:16 --> Antes de obtener información del usuario para: admin
+INFO - 2024-02-27 11:56:16 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-02-27 11:56:16 --> Contraseña ingresada: 3
+ERROR - 2024-02-27 11:56:16 --> Autenticación fallida para el usuario: admin
+INFO - 2024-02-27 11:56:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 13:21:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 13:25:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 13:25:19 --> Antes de obtener información del usuario para: admin
+INFO - 2024-02-27 13:25:19 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-02-27 13:25:19 --> Contraseña ingresada: pruebaCG123
+INFO - 2024-02-27 13:25:19 --> Contraseña verificada con éxito.
+INFO - 2024-02-27 13:25:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 14:01:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 14:01:44 --> Antes de obtener información del usuario para: admin
+INFO - 2024-02-27 14:01:44 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-02-27 14:01:44 --> Contraseña ingresada: pruebaCG123
+INFO - 2024-02-27 14:01:44 --> Contraseña verificada con éxito.
+INFO - 2024-02-27 14:01:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 14:03:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 14:03:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 15:12:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-27 16:07:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

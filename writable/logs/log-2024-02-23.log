@@ -1,0 +1,240 @@
+INFO - 2024-02-23 08:38:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 08:38:59 --> Antes de obtener información del usuario para: sistemas
+INFO - 2024-02-23 08:38:59 --> Contraseña almacenada para el usuario "sistemas": 12345@
+INFO - 2024-02-23 08:38:59 --> Contraseña ingresada: sistemasCG123
+ERROR - 2024-02-23 08:38:59 --> Autenticación fallida para el usuario: sistemas
+INFO - 2024-02-23 08:38:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 08:38:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 08:42:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 08:42:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 08:42:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 08:44:55 --> Antes de obtener información del usuario para: sistemas
+INFO - 2024-02-23 08:44:55 --> Contraseña almacenada para el usuario "sistemas": 12345@
+INFO - 2024-02-23 08:44:55 --> Contraseña ingresada: sistemasCG123
+ERROR - 2024-02-23 08:44:55 --> Autenticación fallida para el usuario: sistemas
+INFO - 2024-02-23 08:44:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 08:44:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 08:45:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 08:46:39 --> Antes de obtener información del usuario para: porteria1
+INFO - 2024-02-23 08:46:39 --> Contraseña almacenada para el usuario "porteria1": 123@
+INFO - 2024-02-23 08:46:39 --> Contraseña ingresada: 123@
+INFO - 2024-02-23 08:46:39 --> Contraseña verificada con éxito.
+INFO - 2024-02-23 08:46:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-23 08:47:10 --> ErrorException: Undefined array key "CODIGO"
+in APPPATH\Views\CGView\Registros.php on line 205.
+ 1 APPPATH\Views\CGView\Registros.php(205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "CODIGO"', 'C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\Registros.php', 205)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\Registros.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('CGView/Registros', [], true)
+ 5 APPPATH\Controllers\obtenerRegistros.php(36): view('CGView/Registros', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerRegistros->Buscar2()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerRegistros))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 08:47:28 --> ErrorException: Undefined array key "CODIGO"
+in APPPATH\Views\CGView\Registros.php on line 205.
+ 1 APPPATH\Views\CGView\Registros.php(205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "CODIGO"', 'C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\Registros.php', 205)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\Registros.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('CGView/Registros', [], true)
+ 5 APPPATH\Controllers\obtenerRegistros.php(36): view('CGView/Registros', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerRegistros->Buscar2()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerRegistros))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 08:47:43 --> ErrorException: Undefined array key "CODIGO"
+in APPPATH\Views\CGView\Registros.php on line 205.
+ 1 APPPATH\Views\CGView\Registros.php(205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "CODIGO"', 'C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\Registros.php', 205)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\Registros.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('CGView/Registros', [], true)
+ 5 APPPATH\Controllers\obtenerRegistros.php(36): view('CGView/Registros', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerRegistros->Buscar2()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerRegistros))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-23 08:49:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 08:49:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 08:49:40 --> Antes de obtener información del usuario para: daniel
+INFO - 2024-02-23 08:49:40 --> Contraseña almacenada para el usuario "daniel": 12345@
+INFO - 2024-02-23 08:49:40 --> Contraseña ingresada: sistemasCG123
+ERROR - 2024-02-23 08:49:40 --> Autenticación fallida para el usuario: daniel
+INFO - 2024-02-23 08:49:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 08:49:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 08:49:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 08:50:19 --> Antes de obtener información del usuario para: daniel
+INFO - 2024-02-23 08:50:19 --> Contraseña almacenada para el usuario "daniel": 12345@
+INFO - 2024-02-23 08:50:19 --> Contraseña ingresada: 12345@
+INFO - 2024-02-23 08:50:19 --> Contraseña verificada con éxito.
+INFO - 2024-02-23 08:50:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 09:16:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 09:17:01 --> Antes de obtener información del usuario para: admin
+INFO - 2024-02-23 09:17:01 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-02-23 09:17:01 --> Contraseña ingresada: 12345@
+ERROR - 2024-02-23 09:17:01 --> Autenticación fallida para el usuario: admin
+INFO - 2024-02-23 09:17:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 09:17:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 09:17:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 09:17:22 --> Antes de obtener información del usuario para: admin
+INFO - 2024-02-23 09:17:22 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-02-23 09:17:22 --> Contraseña ingresada: sistemasCG123
+ERROR - 2024-02-23 09:17:22 --> Autenticación fallida para el usuario: admin
+INFO - 2024-02-23 09:17:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 09:17:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 09:17:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 09:17:58 --> Antes de obtener información del usuario para: admin
+INFO - 2024-02-23 09:17:58 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-02-23 09:17:58 --> Contraseña ingresada: pruebaCG1234
+ERROR - 2024-02-23 09:17:58 --> Autenticación fallida para el usuario: admin
+INFO - 2024-02-23 09:17:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 09:17:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 09:18:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 09:18:12 --> Antes de obtener información del usuario para: admin
+INFO - 2024-02-23 09:18:12 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-02-23 09:18:12 --> Contraseña ingresada: pruebaCG123
+INFO - 2024-02-23 09:18:12 --> Contraseña verificada con éxito.
+INFO - 2024-02-23 09:18:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 09:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 09:21:24 --> Antes de obtener información del usuario para: admin
+INFO - 2024-02-23 09:21:24 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-02-23 09:21:24 --> Contraseña ingresada: pruebaCG123
+INFO - 2024-02-23 09:21:24 --> Contraseña verificada con éxito.
+INFO - 2024-02-23 09:21:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 09:21:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 09:22:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 09:22:34 --> Antes de obtener información del usuario para: admin
+INFO - 2024-02-23 09:22:34 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-02-23 09:22:34 --> Contraseña ingresada: pruebaCG123
+INFO - 2024-02-23 09:22:34 --> Contraseña verificada con éxito.
+INFO - 2024-02-23 09:22:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 09:22:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 09:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 09:28:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 09:29:12 --> Antes de obtener información del usuario para: admin
+INFO - 2024-02-23 09:29:12 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-02-23 09:29:12 --> Contraseña ingresada: pruebaCG123
+INFO - 2024-02-23 09:29:12 --> Contraseña verificada con éxito.
+INFO - 2024-02-23 09:29:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 09:29:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 09:29:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-23 09:35:22 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "CGView/UsuariosRegistrados.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('CGView/UsuariosRegistrados.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('CGView/UsuariosRegistrados', [], true)
+ 3 APPPATH\Controllers\PruebaUsuariosController.php(16): view('CGView/UsuariosRegistrados', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PruebaUsuariosController->PruebaUsuariosCG()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PruebaUsuariosController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-23 09:35:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-23 09:36:31 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "CGView/UsuariosRegistrados.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('CGView/UsuariosRegistrados.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('CGView/UsuariosRegistrados', [], true)
+ 3 APPPATH\Controllers\PruebaUsuariosController.php(16): view('CGView/UsuariosRegistrados', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PruebaUsuariosController->PruebaUsuariosCG()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PruebaUsuariosController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 09:36:36 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "CGView/UsuariosRegistrados.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('CGView/UsuariosRegistrados.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('CGView/UsuariosRegistrados', [], true)
+ 3 APPPATH\Controllers\PruebaUsuariosController.php(16): view('CGView/UsuariosRegistrados', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PruebaUsuariosController->PruebaUsuariosCG()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PruebaUsuariosController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-23 09:38:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 09:38:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 09:39:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 09:39:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 09:41:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 09:53:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 09:53:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 09:53:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 09:54:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 09:54:22 --> Antes de obtener información del usuario para: admin
+INFO - 2024-02-23 09:54:22 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-02-23 09:54:22 --> Contraseña ingresada: pruebaCG123
+INFO - 2024-02-23 09:54:22 --> Contraseña verificada con éxito.
+INFO - 2024-02-23 09:54:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 09:54:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 09:55:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 09:55:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 09:56:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 09:57:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 09:57:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 09:58:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 10:36:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 10:36:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 10:37:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 10:38:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 10:40:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 10:41:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 10:41:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 10:41:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 10:42:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 11:30:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 11:30:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 11:30:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 11:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 11:37:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 11:47:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 11:52:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 11:52:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 11:56:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 11:56:54 --> Antes de obtener información del usuario para: admin
+INFO - 2024-02-23 11:56:54 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-02-23 11:56:54 --> Contraseña ingresada: pruebaCG123
+INFO - 2024-02-23 11:56:54 --> Contraseña verificada con éxito.
+INFO - 2024-02-23 11:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-23 11:57:06 --> ErrorException: Undefined array key "CODIGO"
+in APPPATH\Views\CGView\Registros.php on line 205.
+ 1 APPPATH\Views\CGView\Registros.php(205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "CODIGO"', 'C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\Registros.php', 205)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\Registros.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('CGView/Registros', [], true)
+ 5 APPPATH\Controllers\obtenerRegistros.php(36): view('CGView/Registros', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerRegistros->Buscar2()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerRegistros))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-23 11:57:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 11:57:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 11:57:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 11:57:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 11:57:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 11:57:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 12:06:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 12:06:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 12:26:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 12:27:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 12:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 12:30:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 12:31:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 12:43:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 12:43:38 --> Antes de obtener información del usuario para: admin
+INFO - 2024-02-23 12:43:38 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-02-23 12:43:38 --> Contraseña ingresada: sistemasCG123
+ERROR - 2024-02-23 12:43:38 --> Autenticación fallida para el usuario: admin
+INFO - 2024-02-23 12:43:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 12:43:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 12:43:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 12:44:03 --> Antes de obtener información del usuario para: admin
+INFO - 2024-02-23 12:44:03 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-02-23 12:44:03 --> Contraseña ingresada: pruebaCG123
+INFO - 2024-02-23 12:44:03 --> Contraseña verificada con éxito.
+INFO - 2024-02-23 12:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 13:04:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 13:04:22 --> Antes de obtener información del usuario para: admin
+INFO - 2024-02-23 13:04:22 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-02-23 13:04:22 --> Contraseña ingresada: pruebaCG123
+INFO - 2024-02-23 13:04:22 --> Contraseña verificada con éxito.
+INFO - 2024-02-23 13:04:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 13:04:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 13:04:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 13:05:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 13:05:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 13:06:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 13:23:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

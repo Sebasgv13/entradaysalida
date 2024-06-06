@@ -1,0 +1,144 @@
+INFO - 2024-02-06 07:28:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 07:28:28 --> Antes de obtener información del usuario para: PORTERIA1
+INFO - 2024-02-06 07:28:28 --> Contraseña almacenada para el usuario "PORTERIA1": 123@
+INFO - 2024-02-06 07:28:28 --> Contraseña ingresada: 123@
+INFO - 2024-02-06 07:28:28 --> Contraseña verificada con éxito.
+INFO - 2024-02-06 07:28:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-06 07:28:42 --> ArgumentCountError: Too few arguments to function App\Models\Datosbd_usuarios::guardarIngreso(), 2 passed in C:\xampp\htdocs\central\app\Controllers\obtenerRegistros.php on line 43 and exactly 3 expected
+in APPPATH\Models\Datosbd_usuarios.php on line 65.
+ 1 APPPATH\Controllers\obtenerRegistros.php(43): App\Models\Datosbd_usuarios->guardarIngreso('24', 'ADMINISTRACION')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerRegistros->registrarIngreso('24')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerRegistros))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 07:34:09 --> ErrorException: Undefined variable $nusuario
+in APPPATH\Controllers\obtenerRegistros.php on line 43.
+ 1 APPPATH\Controllers\obtenerRegistros.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nusuario', 'C:\\xampp\\htdocs\\central\\app\\Controllers\\obtenerRegistros.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerRegistros->registrarIngreso('24')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerRegistros))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 07:35:03 --> ErrorException: Undefined variable $nusuario
+in APPPATH\Controllers\obtenerRegistros.php on line 43.
+ 1 APPPATH\Controllers\obtenerRegistros.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nusuario', 'C:\\xampp\\htdocs\\central\\app\\Controllers\\obtenerRegistros.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerRegistros->registrarIngreso('24')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerRegistros))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-06 07:42:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 07:42:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 07:42:34 --> Antes de obtener información del usuario para: PORTERIA3
+INFO - 2024-02-06 07:42:34 --> Contraseña almacenada para el usuario "PORTERIA3": 123@
+INFO - 2024-02-06 07:42:34 --> Contraseña ingresada: 123@
+INFO - 2024-02-06 07:42:34 --> Contraseña verificada con éxito.
+INFO - 2024-02-06 07:42:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 07:42:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 08:24:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 08:24:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 08:25:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 08:26:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-06 08:28:44 --> [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Incorrect syntax near 'NULL'.
+CRITICAL - 2024-02-06 08:28:44 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Incorrect syntax near 'NULL'.
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "empleados"."CODIGO", "empleados"."NOMBRE", "empleados"."AREA", "REGISTROS"."ID_INGRESO", "REGISTROS"."FECHA_INGRESO", "REGISTROS"."FECHA_SALIDA"
+FROM "CGingreso"."dbo"."empleados"
+LEFT JOIN "CGingreso"."dbo"."REGISTROS" ON "empleados"."CODIGO" = "REGISTROS"."CODIGO"
+WHERE "empleados"."CODIGO" LIKE :empleados.CODIGO: ESCAPE \'!\'
+AND   (
+COALESCE(REGISTROS.FECHA_SALIDA, 1) = 1
+OR    (
+(REGISTROS.FECHA_INGRESO IS NULL AND REGISTROS.FECHA_SALIDA IS NULL)
+OR ("REGISTROS"."FECHA_INGRESO" IS NOT NULL AND "REGISTROS"."FECHA_SALIDA" IS NULL)
+  )
+ )
+ORDER BY "REGISTROS"."FECHA_SALIDA IS" "NULL" ASC
+ OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 2 APPPATH\Models\Datosbd_usuarios.php(30): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 APPPATH\Controllers\obtenerRegistros.php(34): App\Models\Datosbd_usuarios->buscarRegistros('50')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerRegistros->Buscar2()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerRegistros))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-06 08:28:44 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Incorrect syntax near 'NULL'.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 482.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT "empleados"."CODIGO", "empleados"."NOMBRE", "empleados"."AREA", "REGISTROS"."ID_INGRESO", "REGISTROS"."FECHA_INGRESO", "REGISTROS"."FECHA_SALIDA"
+FROM "CGingreso"."dbo"."empleados"
+LEFT JOIN "CGingreso"."dbo"."REGISTROS" ON "empleados"."CODIGO" = "REGISTROS"."CODIGO"
+WHERE "empleados"."CODIGO" LIKE \'%50%\' ESCAPE \'!\'
+AND   (
+COALESCE(REGISTROS.FECHA_SALIDA, 1) = 1
+OR    (
+(REGISTROS.FECHA_INGRESO IS NULL AND REGISTROS.FECHA_SALIDA IS NULL)
+OR ("REGISTROS"."FECHA_INGRESO" IS NOT NULL AND "REGISTROS"."FECHA_SALIDA" IS NULL)
+  )
+ )
+ORDER BY "REGISTROS"."FECHA_SALIDA IS" "NULL" ASC
+ OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "empleados"."CODIGO", "empleados"."NOMBRE", "empleados"."AREA", "REGISTROS"."ID_INGRESO", "REGISTROS"."FECHA_INGRESO", "REGISTROS"."FECHA_SALIDA"
+FROM "CGingreso"."dbo"."empleados"
+LEFT JOIN "CGingreso"."dbo"."REGISTROS" ON "empleados"."CODIGO" = "REGISTROS"."CODIGO"
+WHERE "empleados"."CODIGO" LIKE \'%50%\' ESCAPE \'!\'
+AND   (
+COALESCE(REGISTROS.FECHA_SALIDA, 1) = 1
+OR    (
+(REGISTROS.FECHA_INGRESO IS NULL AND REGISTROS.FECHA_SALIDA IS NULL)
+OR ("REGISTROS"."FECHA_INGRESO" IS NOT NULL AND "REGISTROS"."FECHA_SALIDA" IS NULL)
+  )
+ )
+ORDER BY "REGISTROS"."FECHA_SALIDA IS" "NULL" ASC
+ OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "empleados"."CODIGO", "empleados"."NOMBRE", "empleados"."AREA", "REGISTROS"."ID_INGRESO", "REGISTROS"."FECHA_INGRESO", "REGISTROS"."FECHA_SALIDA"
+FROM "CGingreso"."dbo"."empleados"
+LEFT JOIN "CGingreso"."dbo"."REGISTROS" ON "empleados"."CODIGO" = "REGISTROS"."CODIGO"
+WHERE "empleados"."CODIGO" LIKE :empleados.CODIGO: ESCAPE \'!\'
+AND   (
+COALESCE(REGISTROS.FECHA_SALIDA, 1) = 1
+OR    (
+(REGISTROS.FECHA_INGRESO IS NULL AND REGISTROS.FECHA_SALIDA IS NULL)
+OR ("REGISTROS"."FECHA_INGRESO" IS NOT NULL AND "REGISTROS"."FECHA_SALIDA" IS NULL)
+  )
+ )
+ORDER BY "REGISTROS"."FECHA_SALIDA IS" "NULL" ASC
+ OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 4 APPPATH\Models\Datosbd_usuarios.php(30): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 APPPATH\Controllers\obtenerRegistros.php(34): App\Models\Datosbd_usuarios->buscarRegistros('50')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerRegistros->Buscar2()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerRegistros))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-06 08:29:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 08:29:18 --> Antes de obtener información del usuario para: PORTERIA3
+INFO - 2024-02-06 08:29:18 --> Contraseña almacenada para el usuario "PORTERIA3": 123@
+INFO - 2024-02-06 08:29:18 --> Contraseña ingresada: 123@
+INFO - 2024-02-06 08:29:18 --> Contraseña verificada con éxito.
+INFO - 2024-02-06 08:29:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 08:31:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 08:31:46 --> Antes de obtener información del usuario para: PORTERIA3
+INFO - 2024-02-06 08:31:46 --> Contraseña almacenada para el usuario "PORTERIA3": 123@
+INFO - 2024-02-06 08:31:46 --> Contraseña ingresada: 123@
+INFO - 2024-02-06 08:31:46 --> Contraseña verificada con éxito.
+INFO - 2024-02-06 08:31:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 08:32:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 08:33:16 --> Antes de obtener información del usuario para: PORTERIA3
+INFO - 2024-02-06 08:33:16 --> Contraseña almacenada para el usuario "PORTERIA3": 123@
+INFO - 2024-02-06 08:33:16 --> Contraseña ingresada: 123@
+INFO - 2024-02-06 08:33:16 --> Contraseña verificada con éxito.
+INFO - 2024-02-06 08:33:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 08:34:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 08:34:27 --> Antes de obtener información del usuario para: PORTERIA3
+INFO - 2024-02-06 08:34:27 --> Contraseña almacenada para el usuario "PORTERIA3": 123@
+INFO - 2024-02-06 08:34:27 --> Contraseña ingresada: 123@
+INFO - 2024-02-06 08:34:27 --> Contraseña verificada con éxito.
+INFO - 2024-02-06 08:34:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 08:36:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 08:36:37 --> Antes de obtener información del usuario para: PORTERIA3
+INFO - 2024-02-06 08:36:37 --> Contraseña almacenada para el usuario "PORTERIA3": 123@
+INFO - 2024-02-06 08:36:37 --> Contraseña ingresada: 123@
+INFO - 2024-02-06 08:36:37 --> Contraseña verificada con éxito.
+INFO - 2024-02-06 08:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 08:37:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-06 08:38:02 --> Antes de obtener información del usuario para: PORTERIA3
+INFO - 2024-02-06 08:38:02 --> Contraseña almacenada para el usuario "PORTERIA3": 123@
+INFO - 2024-02-06 08:38:02 --> Contraseña ingresada: 123@
+INFO - 2024-02-06 08:38:02 --> Contraseña verificada con éxito.
+INFO - 2024-02-06 08:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

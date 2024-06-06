@@ -1,0 +1,1272 @@
+CRITICAL - 2024-01-09 00:10:59 --> Error: Class "App\Models\InformeModel" not found
+in APPPATH\Controllers\ReportesController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 00:12:01 --> Error: Class "App\Models\InformeModel" not found
+in APPPATH\Controllers\ReportesController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 00:12:14 --> Error: Class "App\Models\InformeModel" not found
+in APPPATH\Controllers\ReportesController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 00:14:06 --> ErrorException: Undefined variable $informeModel
+in APPPATH\Controllers\ReportesController.php on line 15.
+ 1 APPPATH\Controllers\ReportesController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $informeModel', 'C:\\xampp\\htdocs\\central\\app\\Controllers\\ReportesController.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-09 00:14:41 --> [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid object name 'dbo.BUSCAR_INFORME'.
+CRITICAL - 2024-01-09 00:14:41 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid object name 'dbo.BUSCAR_INFORME'.
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\InformeModel.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM dbo.BUSCAR_INFORME(12345, \'\', \'\') AS horas_trabajadas')
+ 2 APPPATH\Controllers\ReportesController.php(15): App\Models\InformeModel->obtenerInforme(null, null)
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 00:14:41 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid object name 'dbo.BUSCAR_INFORME'.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 482.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT * FROM dbo.BUSCAR_INFORME(12345, \'\', \'\') AS horas_trabajadas')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM dbo.BUSCAR_INFORME(12345, \'\', \'\') AS horas_trabajadas')
+ 3 APPPATH\Models\InformeModel.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM dbo.BUSCAR_INFORME(12345, \'\', \'\') AS horas_trabajadas')
+ 4 APPPATH\Controllers\ReportesController.php(15): App\Models\InformeModel->obtenerInforme(null, null)
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-09 00:19:48 --> [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid object name 'BUSCAR_INFORME'.
+CRITICAL - 2024-01-09 00:19:48 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid object name 'BUSCAR_INFORME'.
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\InformeModel.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM BUSCAR_INFORME(12345, \'\', \'\') AS horas_trabajadas')
+ 2 APPPATH\Controllers\ReportesController.php(15): App\Models\InformeModel->obtenerInforme(null, null)
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 00:19:48 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid object name 'BUSCAR_INFORME'.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 482.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT * FROM BUSCAR_INFORME(12345, \'\', \'\') AS horas_trabajadas')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM BUSCAR_INFORME(12345, \'\', \'\') AS horas_trabajadas')
+ 3 APPPATH\Models\InformeModel.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM BUSCAR_INFORME(12345, \'\', \'\') AS horas_trabajadas')
+ 4 APPPATH\Controllers\ReportesController.php(15): App\Models\InformeModel->obtenerInforme(null, null)
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-09 12:30:09 --> [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid object name 'dbo.BUSCAR_INFORME'.
+CRITICAL - 2024-01-09 12:30:09 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid object name 'dbo.BUSCAR_INFORME'.
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\InformeModel.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM dbo.BUSCAR_INFORME(12345, \'\', \'\') AS horas_trabajadas')
+ 2 APPPATH\Controllers\ReportesController.php(15): App\Models\InformeModel->obtenerInforme(null, null)
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 12:30:09 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid object name 'dbo.BUSCAR_INFORME'.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 482.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT * FROM dbo.BUSCAR_INFORME(12345, \'\', \'\') AS horas_trabajadas')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM dbo.BUSCAR_INFORME(12345, \'\', \'\') AS horas_trabajadas')
+ 3 APPPATH\Models\InformeModel.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM dbo.BUSCAR_INFORME(12345, \'\', \'\') AS horas_trabajadas')
+ 4 APPPATH\Controllers\ReportesController.php(15): App\Models\InformeModel->obtenerInforme(null, null)
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 14:52:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 14:52:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 14:54:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 14:55:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 14:56:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 14:56:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 14:57:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 14:58:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 14:58:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 14:58:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 14:58:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 14:59:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 14:59:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 15:01:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 15:01:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 15:01:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 15:01:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 15:02:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 15:02:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 15:02:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 15:03:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 15:03:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 15:03:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 15:03:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 15:04:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 15:05:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 15:06:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerRegistros::$Datosbd_usuarios is deprecated in APPPATH\Controllers\obtenerRegistros.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 15:09:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 15:12:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 15:12:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 15:33:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 16:59:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 18:11:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 18:12:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 18:13:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerRegistros::$Datosbd_usuarios is deprecated in APPPATH\Controllers\obtenerRegistros.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 18:13:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 18:13:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 18:13:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerRegistros::$Datosbd_usuarios is deprecated in APPPATH\Controllers\obtenerRegistros.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 18:13:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 18:14:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 18:15:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 18:16:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 18:16:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 18:18:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 18:19:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerRegistros::$Datosbd_usuarios is deprecated in APPPATH\Controllers\obtenerRegistros.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 18:19:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 18:19:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerRegistros::$Datosbd_usuarios is deprecated in APPPATH\Controllers\obtenerRegistros.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 18:19:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 18:20:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 18:21:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerRegistros::$Datosbd_usuarios is deprecated in APPPATH\Controllers\obtenerRegistros.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 18:22:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 18:22:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerRegistros::$Datosbd_usuarios is deprecated in APPPATH\Controllers\obtenerRegistros.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 18:23:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 18:23:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerRegistros::$Datosbd_usuarios is deprecated in APPPATH\Controllers\obtenerRegistros.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 18:23:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerRegistros::$Datosbd_usuarios is deprecated in APPPATH\Controllers\obtenerRegistros.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 18:24:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 18:26:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 18:27:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerRegistros::$Datosbd_usuarios is deprecated in APPPATH\Controllers\obtenerRegistros.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 18:27:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerRegistros::$Datosbd_usuarios is deprecated in APPPATH\Controllers\obtenerRegistros.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 18:28:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerRegistros::$Datosbd_usuarios is deprecated in APPPATH\Controllers\obtenerRegistros.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 18:28:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerRegistros::$Datosbd_usuarios is deprecated in APPPATH\Controllers\obtenerRegistros.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 18:29:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerRegistros::$Datosbd_usuarios is deprecated in APPPATH\Controllers\obtenerRegistros.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 18:29:01 --> ErrorException: Undefined variable $registros
+in APPPATH\Views\CGView\Registros.php on line 137.
+ 1 APPPATH\Views\CGView\Registros.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $registros', 'C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\Registros.php', 137)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\Registros.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('CGView/Registros', [], true)
+ 5 APPPATH\Controllers\obtenerRegistros.php(41): view('CGView/Registros', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerRegistros->Buscar2()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerRegistros))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 18:31:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerRegistros::$Datosbd_usuarios is deprecated in APPPATH\Controllers\obtenerRegistros.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 18:31:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerRegistros::$Datosbd_usuarios is deprecated in APPPATH\Controllers\obtenerRegistros.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 18:31:09 --> ErrorException: Undefined variable $registros
+in APPPATH\Views\CGView\Registros.php on line 137.
+ 1 APPPATH\Views\CGView\Registros.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $registros', 'C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\Registros.php', 137)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\Registros.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('CGView/Registros', [], true)
+ 5 APPPATH\Controllers\obtenerRegistros.php(41): view('CGView/Registros', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerRegistros->Buscar2()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerRegistros))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 18:40:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 18:42:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerRegistros::$Datosbd_usuarios is deprecated in APPPATH\Controllers\obtenerRegistros.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 18:42:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerRegistros::$Datosbd_usuarios is deprecated in APPPATH\Controllers\obtenerRegistros.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 18:43:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerRegistros::$Datosbd_usuarios is deprecated in APPPATH\Controllers\obtenerRegistros.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 18:50:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerRegistros::$Datosbd_usuarios is deprecated in APPPATH\Controllers\obtenerRegistros.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 18:50:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerRegistros::$Datosbd_usuarios is deprecated in APPPATH\Controllers\obtenerRegistros.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 18:50:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerRegistros::$Datosbd_usuarios is deprecated in APPPATH\Controllers\obtenerRegistros.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 18:50:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerRegistros::$Datosbd_usuarios is deprecated in APPPATH\Controllers\obtenerRegistros.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 18:50:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerRegistros::$Datosbd_usuarios is deprecated in APPPATH\Controllers\obtenerRegistros.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 18:51:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerRegistros::$Datosbd_usuarios is deprecated in APPPATH\Controllers\obtenerRegistros.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 18:51:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerRegistros::$Datosbd_usuarios is deprecated in APPPATH\Controllers\obtenerRegistros.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 18:55:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerRegistros::$Datosbd_usuarios is deprecated in APPPATH\Controllers\obtenerRegistros.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 18:55:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerRegistros::$Datosbd_usuarios is deprecated in APPPATH\Controllers\obtenerRegistros.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 18:55:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerRegistros::$Datosbd_usuarios is deprecated in APPPATH\Controllers\obtenerRegistros.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 18:55:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerRegistros::$Datosbd_usuarios is deprecated in APPPATH\Controllers\obtenerRegistros.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 18:55:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerRegistros::$Datosbd_usuarios is deprecated in APPPATH\Controllers\obtenerRegistros.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 18:55:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerRegistros::$Datosbd_usuarios is deprecated in APPPATH\Controllers\obtenerRegistros.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 18:55:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerRegistros::$Datosbd_usuarios is deprecated in APPPATH\Controllers\obtenerRegistros.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 18:56:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerRegistros::$Datosbd_usuarios is deprecated in APPPATH\Controllers\obtenerRegistros.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 18:57:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerRegistros::$Datosbd_usuarios is deprecated in APPPATH\Controllers\obtenerRegistros.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 18:57:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerRegistros::$Datosbd_usuarios is deprecated in APPPATH\Controllers\obtenerRegistros.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 18:57:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerRegistros::$Datosbd_usuarios is deprecated in APPPATH\Controllers\obtenerRegistros.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 19:00:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerRegistros::$Datosbd_usuarios is deprecated in APPPATH\Controllers\obtenerRegistros.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 19:00:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 19:01:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerRegistros::$Datosbd_usuarios is deprecated in APPPATH\Controllers\obtenerRegistros.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 19:01:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerRegistros::$Datosbd_usuarios is deprecated in APPPATH\Controllers\obtenerRegistros.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 19:01:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerRegistros::$Datosbd_usuarios is deprecated in APPPATH\Controllers\obtenerRegistros.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 19:01:28 --> ErrorException: Undefined array key "ID_INGRESO"
+in APPPATH\Views\CGView\Registros.php on line 132.
+ 1 APPPATH\Views\CGView\Registros.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ID_INGRESO"', 'C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\Registros.php', 132)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\Registros.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('CGView/Registros', [], true)
+ 5 APPPATH\Controllers\obtenerRegistros.php(29): view('CGView/Registros', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerRegistros->Buscar2()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerRegistros))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 19:01:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerRegistros::$Datosbd_usuarios is deprecated in APPPATH\Controllers\obtenerRegistros.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 19:01:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerRegistros::$Datosbd_usuarios is deprecated in APPPATH\Controllers\obtenerRegistros.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 19:01:44 --> ErrorException: Undefined array key "ID_INGRESO"
+in APPPATH\Views\CGView\Registros.php on line 132.
+ 1 APPPATH\Views\CGView\Registros.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ID_INGRESO"', 'C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\Registros.php', 132)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\Registros.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('CGView/Registros', [], true)
+ 5 APPPATH\Controllers\obtenerRegistros.php(29): view('CGView/Registros', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerRegistros->Buscar2()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerRegistros))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 19:02:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerRegistros::$Datosbd_usuarios is deprecated in APPPATH\Controllers\obtenerRegistros.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 19:02:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerRegistros::$Datosbd_usuarios is deprecated in APPPATH\Controllers\obtenerRegistros.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 19:08:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerRegistros::$Datosbd_usuarios is deprecated in APPPATH\Controllers\obtenerRegistros.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 19:09:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerRegistros::$Datosbd_usuarios is deprecated in APPPATH\Controllers\obtenerRegistros.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 19:09:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerRegistros::$Datosbd_usuarios is deprecated in APPPATH\Controllers\obtenerRegistros.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 19:09:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerRegistros::$Datosbd_usuarios is deprecated in APPPATH\Controllers\obtenerRegistros.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 19:23:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerRegistros::$Datosbd_usuarios is deprecated in APPPATH\Controllers\obtenerRegistros.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 19:24:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 19:28:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 19:29:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 19:32:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 19:46:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 19:47:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 19:47:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 19:47:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 19:47:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 19:48:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 19:52:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 19:53:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 19:53:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 19:53:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 19:54:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 19:55:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 19:56:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 19:57:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 19:57:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 19:57:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 19:59:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 20:01:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 20:01:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 20:01:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 20:02:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 20:23:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 20:23:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 20:23:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 20:29:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 20:31:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 20:33:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 20:46:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 20:46:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 20:47:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 20:48:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 20:48:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 20:49:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 20:49:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 20:54:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerRegistros::$Datosbd_usuarios is deprecated in APPPATH\Controllers\obtenerRegistros.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 20:54:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerRegistros::$Datosbd_usuarios is deprecated in APPPATH\Controllers\obtenerRegistros.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 20:54:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerRegistros::$Datosbd_usuarios is deprecated in APPPATH\Controllers\obtenerRegistros.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 20:55:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 20:55:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 20:57:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerRegistros::$Datosbd_usuarios is deprecated in APPPATH\Controllers\obtenerRegistros.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 20:57:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerRegistros::$Datosbd_usuarios is deprecated in APPPATH\Controllers\obtenerRegistros.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-09 21:01:21 --> [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid object name 'dbo.BUSCAR_INFORME'.
+CRITICAL - 2024-01-09 21:01:21 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid object name 'dbo.BUSCAR_INFORME'.
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\InformeModel.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM dbo.BUSCAR_INFORME(12345, \'\', \'\') AS horas_trabajadas')
+ 2 APPPATH\Controllers\ReportesController.php(15): App\Models\InformeModel->obtenerInforme(null, null)
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 21:01:21 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid object name 'dbo.BUSCAR_INFORME'.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 482.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT * FROM dbo.BUSCAR_INFORME(12345, \'\', \'\') AS horas_trabajadas')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM dbo.BUSCAR_INFORME(12345, \'\', \'\') AS horas_trabajadas')
+ 3 APPPATH\Models\InformeModel.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM dbo.BUSCAR_INFORME(12345, \'\', \'\') AS horas_trabajadas')
+ 4 APPPATH\Controllers\ReportesController.php(15): App\Models\InformeModel->obtenerInforme(null, null)
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-09 21:13:04 --> [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid object name 'dbo.BUSCAR_INFORME'.
+CRITICAL - 2024-01-09 21:13:04 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid object name 'dbo.BUSCAR_INFORME'.
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\InformeModel.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM dbo.BUSCAR_INFORME(12345, \'2024-01-01\', \'2024-01-31\') AS horas_trabajadas')
+ 2 APPPATH\Controllers\ReportesController.php(19): App\Models\InformeModel->obtenerInforme('2024-01-01', '2024-01-31')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 21:13:04 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid object name 'dbo.BUSCAR_INFORME'.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 482.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT * FROM dbo.BUSCAR_INFORME(12345, \'2024-01-01\', \'2024-01-31\') AS horas_trabajadas')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM dbo.BUSCAR_INFORME(12345, \'2024-01-01\', \'2024-01-31\') AS horas_trabajadas')
+ 3 APPPATH\Models\InformeModel.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM dbo.BUSCAR_INFORME(12345, \'2024-01-01\', \'2024-01-31\') AS horas_trabajadas')
+ 4 APPPATH\Controllers\ReportesController.php(19): App\Models\InformeModel->obtenerInforme('2024-01-01', '2024-01-31')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-09 21:18:54 --> [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid object name 'dbo.BUSCAR_INFORME'.
+CRITICAL - 2024-01-09 21:18:54 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid object name 'dbo.BUSCAR_INFORME'.
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\InformeModel.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM dbo.BUSCAR_INFORME(12345, \'2024-01-01\', \'2024-01-31\') AS horas_trabajadas')
+ 2 APPPATH\Controllers\ReportesController.php(19): App\Models\InformeModel->obtenerInforme('2024-01-01', '2024-01-31')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 21:18:54 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid object name 'dbo.BUSCAR_INFORME'.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 482.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT * FROM dbo.BUSCAR_INFORME(12345, \'2024-01-01\', \'2024-01-31\') AS horas_trabajadas')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM dbo.BUSCAR_INFORME(12345, \'2024-01-01\', \'2024-01-31\') AS horas_trabajadas')
+ 3 APPPATH\Models\InformeModel.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM dbo.BUSCAR_INFORME(12345, \'2024-01-01\', \'2024-01-31\') AS horas_trabajadas')
+ 4 APPPATH\Controllers\ReportesController.php(19): App\Models\InformeModel->obtenerInforme('2024-01-01', '2024-01-31')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-09 21:22:36 --> [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid object name 'dbo.BUSCAR_INFORME'.
+CRITICAL - 2024-01-09 21:22:36 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid object name 'dbo.BUSCAR_INFORME'.
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\InformeModel.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM dbo.BUSCAR_INFORME(2024-01-01, \'2024-01-31\', \'\') AS horas_trabajadas')
+ 2 APPPATH\Controllers\ReportesController.php(20): App\Models\InformeModel->obtenerInforme('2024-01-01', '2024-01-31', null)
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 21:22:36 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid object name 'dbo.BUSCAR_INFORME'.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 482.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT * FROM dbo.BUSCAR_INFORME(2024-01-01, \'2024-01-31\', \'\') AS horas_trabajadas')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM dbo.BUSCAR_INFORME(2024-01-01, \'2024-01-31\', \'\') AS horas_trabajadas')
+ 3 APPPATH\Models\InformeModel.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM dbo.BUSCAR_INFORME(2024-01-01, \'2024-01-31\', \'\') AS horas_trabajadas')
+ 4 APPPATH\Controllers\ReportesController.php(20): App\Models\InformeModel->obtenerInforme('2024-01-01', '2024-01-31', null)
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 21:26:25 --> Error: Class "Model" not found
+in APPPATH\Models\InformeModel.php on line 4.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(309): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\central\\app\\Models\\InformeModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\InformeModel')
+ 4 APPPATH\Controllers\ReportesController.php(17): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\InformeModel')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 21:31:42 --> Error: Call to undefined method CodeIgniter\Database\SQLSRV\Result::num_rows()
+in APPPATH\Models\InformeModel.php on line 15.
+ 1 APPPATH\Controllers\ReportesController.php(20): App\Models\InformeModel->obtenerInforme('2024-01-01', '2024-02-01', null)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 21:37:21 --> Error: Cannot call constructor
+in APPPATH\Controllers\ReportesController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\ReportesController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 21:41:52 --> Error: Undefined constant "App\Controllers\Cedula"
+in APPPATH\Controllers\ReportesController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 21:43:00 --> Error: Undefined constant "App\Controllers\Cedula"
+in APPPATH\Controllers\ReportesController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 21:43:33 --> Error: Undefined constant "App\Controllers\cedula"
+in APPPATH\Controllers\ReportesController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 21:44:26 --> Error: Undefined constant "App\Controllers\fechaInicio"
+in APPPATH\Controllers\ReportesController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 21:45:01 --> Error: Undefined constant "App\Controllers\fechaInicio"
+in APPPATH\Controllers\ReportesController.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 21:45:50 --> ErrorException: Undefined property: App\Controllers\ReportesController::$informeModel
+in APPPATH\Controllers\ReportesController.php on line 22.
+ 1 APPPATH\Controllers\ReportesController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ReportesController::$informeModel', 'C:\\xampp\\htdocs\\central\\app\\Controllers\\ReportesController.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 21:47:37 --> ErrorException: Undefined property: App\Controllers\ReportesController::$informeModel
+in APPPATH\Controllers\ReportesController.php on line 22.
+ 1 APPPATH\Controllers\ReportesController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ReportesController::$informeModel', 'C:\\xampp\\htdocs\\central\\app\\Controllers\\ReportesController.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 21:48:46 --> ErrorException: Undefined variable $cedula
+in APPPATH\Controllers\ReportesController.php on line 17.
+ 1 APPPATH\Controllers\ReportesController.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cedula', 'C:\\xampp\\htdocs\\central\\app\\Controllers\\ReportesController.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 21:57:01 --> ErrorException: Undefined property: stdClass::$nombre
+in APPPATH\Views\CGView\Reportes.php on line 38.
+ 1 APPPATH\Views\CGView\Reportes.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nombre', 'C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\Reportes.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\Reportes.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('CGView/Reportes', [], true)
+ 5 APPPATH\Controllers\ReportesController.php(24): view('CGView/Reportes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 21:59:48 --> ErrorException: Undefined property: stdClass::$horas_trabajadas
+in APPPATH\Views\CGView\Reportes.php on line 35.
+ 1 APPPATH\Views\CGView\Reportes.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$horas_trabajadas', 'C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\Reportes.php', 35)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\Reportes.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('CGView/Reportes', [], true)
+ 5 APPPATH\Controllers\ReportesController.php(24): view('CGView/Reportes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 22:02:20 --> Error: Object of class stdClass could not be converted to string
+in APPPATH\Views\CGView\Reportes.php on line 31.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('CGView/Reportes', [], true)
+ 4 APPPATH\Controllers\ReportesController.php(24): view('CGView/Reportes', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 22:04:03 --> ErrorException: Array to string conversion
+in APPPATH\Views\CGView\Reportes.php on line 30.
+ 1 APPPATH\Views\CGView\Reportes.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\Reportes.php', 30)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\Reportes.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('CGView/Reportes', [], true)
+ 5 APPPATH\Controllers\ReportesController.php(24): view('CGView/Reportes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 22:06:05 --> Error: Object of class stdClass could not be converted to string
+in APPPATH\Views\CGView\Reportes.php on line 31.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('CGView/Reportes', [], true)
+ 4 APPPATH\Controllers\ReportesController.php(24): view('CGView/Reportes', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 22:07:58 --> ErrorException: Attempt to read property "horas_trabajadas" on array
+in APPPATH\Views\CGView\Reportes.php on line 30.
+ 1 APPPATH\Views\CGView\Reportes.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "horas_trabajadas" on array', 'C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\Reportes.php', 30)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\Reportes.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('CGView/Reportes', [], true)
+ 5 APPPATH\Controllers\ReportesController.php(24): view('CGView/Reportes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 22:09:13 --> ErrorException: Undefined property: stdClass::$horas_trabajadas
+in APPPATH\Views\CGView\Reportes.php on line 31.
+ 1 APPPATH\Views\CGView\Reportes.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$horas_trabajadas', 'C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\Reportes.php', 31)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\Reportes.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('CGView/Reportes', [], true)
+ 5 APPPATH\Controllers\ReportesController.php(24): view('CGView/Reportes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 22:11:33 --> ErrorException: Array to string conversion
+in APPPATH\Views\CGView\Reportes.php on line 30.
+ 1 APPPATH\Views\CGView\Reportes.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\Reportes.php', 30)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\Reportes.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('CGView/Reportes', [], true)
+ 5 APPPATH\Controllers\ReportesController.php(24): view('CGView/Reportes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 22:14:40 --> ErrorException: Undefined property: stdClass::$nombre_de_la_columna
+in APPPATH\Views\CGView\Reportes.php on line 31.
+ 1 APPPATH\Views\CGView\Reportes.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nombre_de_la_columna', 'C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\Reportes.php', 31)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\Reportes.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('CGView/Reportes', [], true)
+ 5 APPPATH\Controllers\ReportesController.php(24): view('CGView/Reportes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 22:17:45 --> ErrorException: Undefined property: stdClass::$horas_trabajadas
+in APPPATH\Views\CGView\Reportes.php on line 31.
+ 1 APPPATH\Views\CGView\Reportes.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$horas_trabajadas', 'C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\Reportes.php', 31)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\Reportes.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('CGView/Reportes', [], true)
+ 5 APPPATH\Controllers\ReportesController.php(24): view('CGView/Reportes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 22:18:40 --> ErrorException: Undefined property: stdClass::$horas_trabajadas
+in APPPATH\Views\CGView\Reportes.php on line 31.
+ 1 APPPATH\Views\CGView\Reportes.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$horas_trabajadas', 'C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\Reportes.php', 31)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\Reportes.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('CGView/Reportes', [], true)
+ 5 APPPATH\Controllers\ReportesController.php(24): view('CGView/Reportes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-09 22:28:40 --> [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]The request for procedure 'BUSCAR_INFORME' failed because 'BUSCAR_INFORME' is a table valued function object.
+CRITICAL - 2024-01-09 22:28:40 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]The request for procedure 'BUSCAR_INFORME' failed because 'BUSCAR_INFORME' is a table valued function object.
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\InformeModel.php(9): CodeIgniter\Database\BaseConnection->query('
+            -- Aquí llama a tu función SQL
+            EXEC BUSCAR_INFORME 1234578, \'2024-01-01\', \'2024-02-01\'
+        ')
+ 2 APPPATH\Controllers\ReportesController.php(21): App\Models\InformeModel->buscarInforme('1234578', '2024-01-01', '2024-02-01')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 22:28:40 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]The request for procedure 'BUSCAR_INFORME' failed because 'BUSCAR_INFORME' is a table valued function object.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 482.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\SQLSRV\Connection->execute('
+            -- Aquí llama a tu función SQL
+            EXEC BUSCAR_INFORME 1234578, \'2024-01-01\', \'2024-02-01\'
+        ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('
+            -- Aquí llama a tu función SQL
+            EXEC BUSCAR_INFORME 1234578, \'2024-01-01\', \'2024-02-01\'
+        ')
+ 3 APPPATH\Models\InformeModel.php(9): CodeIgniter\Database\BaseConnection->query('
+            -- Aquí llama a tu función SQL
+            EXEC BUSCAR_INFORME 1234578, \'2024-01-01\', \'2024-02-01\'
+        ')
+ 4 APPPATH\Controllers\ReportesController.php(21): App\Models\InformeModel->buscarInforme('1234578', '2024-01-01', '2024-02-01')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 22:30:21 --> ErrorException: Undefined variable $fechainicio
+in APPPATH\Controllers\ReportesController.php on line 21.
+ 1 APPPATH\Controllers\ReportesController.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $fechainicio', 'C:\\xampp\\htdocs\\central\\app\\Controllers\\ReportesController.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 22:31:22 --> ErrorException: Undefined variable $fechainicio
+in APPPATH\Controllers\ReportesController.php on line 21.
+ 1 APPPATH\Controllers\ReportesController.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $fechainicio', 'C:\\xampp\\htdocs\\central\\app\\Controllers\\ReportesController.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 22:34:08 --> ErrorException: Undefined variable $fechainicio
+in APPPATH\Controllers\ReportesController.php on line 21.
+ 1 APPPATH\Controllers\ReportesController.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $fechainicio', 'C:\\xampp\\htdocs\\central\\app\\Controllers\\ReportesController.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 22:34:57 --> ErrorException: Undefined variable $fechainicio
+in APPPATH\Controllers\ReportesController.php on line 21.
+ 1 APPPATH\Controllers\ReportesController.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $fechainicio', 'C:\\xampp\\htdocs\\central\\app\\Controllers\\ReportesController.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 22:35:42 --> ErrorException: Undefined variable $fechainicio
+in APPPATH\Controllers\ReportesController.php on line 21.
+ 1 APPPATH\Controllers\ReportesController.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $fechainicio', 'C:\\xampp\\htdocs\\central\\app\\Controllers\\ReportesController.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 22:57:24 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Controllers\ReportesController.php on line 14.
+ 1 APPPATH\Controllers\ReportesController.php(14): strtotime(null)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 22:57:24 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Controllers\ReportesController.php on line 15.
+ 1 APPPATH\Controllers\ReportesController.php(15): strtotime(null)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 22:59:08 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Controllers\ReportesController.php on line 14.
+ 1 APPPATH\Controllers\ReportesController.php(14): strtotime(null)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 22:59:08 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Controllers\ReportesController.php on line 15.
+ 1 APPPATH\Controllers\ReportesController.php(15): strtotime(null)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 22:59:08 --> Error: Class "App\Models\DateTime" not found
+in APPPATH\Models\InformeModel.php on line 9.
+ 1 APPPATH\Controllers\ReportesController.php(22): App\Models\InformeModel->buscarInforme('1234578', '1970-01-01', '1970-01-01')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 23:00:50 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Controllers\ReportesController.php on line 14.
+ 1 APPPATH\Controllers\ReportesController.php(14): strtotime(null)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 23:00:50 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Controllers\ReportesController.php on line 15.
+ 1 APPPATH\Controllers\ReportesController.php(15): strtotime(null)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-09 23:00:50 --> Error: Call to a member function format() on bool
+in APPPATH\Models\InformeModel.php on line 10.
+ 1 APPPATH\Controllers\ReportesController.php(22): App\Models\InformeModel->buscarInforme('1234578', '1970-01-01', '1970-01-01')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 23:03:14 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Controllers\ReportesController.php on line 14.
+ 1 APPPATH\Controllers\ReportesController.php(14): strtotime(null)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 23:03:14 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Controllers\ReportesController.php on line 15.
+ 1 APPPATH\Controllers\ReportesController.php(15): strtotime(null)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 23:07:31 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Controllers\ReportesController.php on line 14.
+ 1 APPPATH\Controllers\ReportesController.php(14): strtotime(null)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 23:07:31 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Controllers\ReportesController.php on line 15.
+ 1 APPPATH\Controllers\ReportesController.php(15): strtotime(null)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 23:08:42 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Controllers\ReportesController.php on line 14.
+ 1 APPPATH\Controllers\ReportesController.php(14): strtotime(null)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-09 23:08:42 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Controllers\ReportesController.php on line 15.
+ 1 APPPATH\Controllers\ReportesController.php(15): strtotime(null)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

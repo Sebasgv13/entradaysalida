@@ -1,0 +1,41 @@
+INFO - 2024-01-30 08:39:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 08:39:21 --> Antes de obtener información del usuario para: admin
+INFO - 2024-01-30 08:39:21 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-01-30 08:39:21 --> Contraseña ingresada: pruebaCG123
+INFO - 2024-01-30 08:39:21 --> Contraseña verificada con éxito.
+INFO - 2024-01-30 08:39:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 08:39:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 08:39:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 08:39:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 08:40:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-30 08:40:15 --> [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Conversion failed when converting the varchar value 'Yeison' to data type int.
+CRITICAL - 2024-01-30 08:40:15 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Conversion failed when converting the varchar value 'Yeison' to data type int.
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "empleados"."CODIGO", "empleados"."NOMBRE", "empleados"."AREA", NULL as ID_INGRESO, NULL as FECHA_INGRESO, NULL as FECHA_SALIDA
+FROM "CGingreso"."dbo"."empleados"
+WHERE "empleados"."CODIGO" = :empleados.CODIGO:', [...], false)
+ 2 APPPATH\Models\Datosbd_usuarios.php(37): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 APPPATH\Controllers\obtenerRegistros.php(34): App\Models\Datosbd_usuarios->buscarRegistros('Yeison')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerRegistros->Buscar2()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerRegistros))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-30 08:40:15 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Conversion failed when converting the varchar value 'Yeison' to data type int.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 482.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT "empleados"."CODIGO", "empleados"."NOMBRE", "empleados"."AREA", NULL as ID_INGRESO, NULL as FECHA_INGRESO, NULL as FECHA_SALIDA
+FROM "CGingreso"."dbo"."empleados"
+WHERE "empleados"."CODIGO" = \'Yeison\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "empleados"."CODIGO", "empleados"."NOMBRE", "empleados"."AREA", NULL as ID_INGRESO, NULL as FECHA_INGRESO, NULL as FECHA_SALIDA
+FROM "CGingreso"."dbo"."empleados"
+WHERE "empleados"."CODIGO" = \'Yeison\'')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "empleados"."CODIGO", "empleados"."NOMBRE", "empleados"."AREA", NULL as ID_INGRESO, NULL as FECHA_INGRESO, NULL as FECHA_SALIDA
+FROM "CGingreso"."dbo"."empleados"
+WHERE "empleados"."CODIGO" = :empleados.CODIGO:', [...], false)
+ 4 APPPATH\Models\Datosbd_usuarios.php(37): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 APPPATH\Controllers\obtenerRegistros.php(34): App\Models\Datosbd_usuarios->buscarRegistros('Yeison')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerRegistros->Buscar2()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerRegistros))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-30 08:40:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-30 08:40:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

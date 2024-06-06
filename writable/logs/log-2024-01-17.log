@@ -1,0 +1,454 @@
+INFO - 2024-01-17 00:04:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-17 00:04:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\LoginController::$session is deprecated in APPPATH\Controllers\LoginController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\LoginController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 00:04:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-17 00:04:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\LoginController::$session is deprecated in APPPATH\Controllers\LoginController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\LoginController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-17 00:04:51 --> ErrorException: Undefined property: App\Controllers\LoginController::$UsuarioModel
+in APPPATH\Controllers\LoginController.php on line 29.
+ 1 APPPATH\Controllers\LoginController.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\LoginController::$UsuarioModel', 'C:\\xampp\\htdocs\\central\\app\\Controllers\\LoginController.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->autenticar()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-17 00:08:01 --> ErrorException: Cannot redeclare App\Controllers\LoginController::__construct()
+in APPPATH\Controllers\LoginController.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-01-17 00:08:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-17 00:08:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\LoginController::$session is deprecated in APPPATH\Controllers\LoginController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\LoginController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-17 00:08:57 --> Error: Class "Model" not found
+in APPPATH\Models\UsuarioModel.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(309): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\central\\app\\Models\\UsuarioModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\UsuarioModel')
+ 4 APPPATH\Controllers\LoginController.php(16): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\UsuarioModel')
+ 5 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\LoginController->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 00:10:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-17 00:10:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\LoginController::$session is deprecated in APPPATH\Controllers\LoginController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\LoginController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-17 00:10:41 --> Error: Class "Model" not found
+in APPPATH\Models\UsuarioModel.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(309): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\central\\app\\Models\\UsuarioModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\UsuarioModel')
+ 4 APPPATH\Controllers\LoginController.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\UsuarioModel')
+ 5 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\LoginController->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 00:10:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-17 00:10:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\LoginController::$session is deprecated in APPPATH\Controllers\LoginController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\LoginController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-17 00:10:45 --> Error: Class "Model" not found
+in APPPATH\Models\UsuarioModel.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(309): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\central\\app\\Models\\UsuarioModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\UsuarioModel')
+ 4 APPPATH\Controllers\LoginController.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\UsuarioModel')
+ 5 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\LoginController->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 00:16:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-17 00:16:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\LoginController::$session is deprecated in APPPATH\Controllers\LoginController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\LoginController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 00:16:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-17 00:16:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\LoginController::$session is deprecated in APPPATH\Controllers\LoginController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\LoginController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-17 00:16:24 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 884.
+ 1 SYSTEMPATH\Model.php(662): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(839): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\UsuarioModel.php(11): CodeIgniter\Model->__get('load')
+ 4 APPPATH\Controllers\LoginController.php(35): App\Models\UsuarioModel->autenticar_usuario('admin', '1')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->autenticar()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 00:22:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-17 00:22:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\LoginController::$session is deprecated in APPPATH\Controllers\LoginController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\LoginController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 00:22:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-17 00:22:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\LoginController::$session is deprecated in APPPATH\Controllers\LoginController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\LoginController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-17 00:22:34 --> Error: Call to a member function database() on null
+in APPPATH\Models\UsuarioModel.php on line 12.
+ 1 APPPATH\Controllers\LoginController.php(35): App\Models\UsuarioModel->autenticar_usuario('admin', '1')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->autenticar()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 00:25:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-17 00:25:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\LoginController::$session is deprecated in APPPATH\Controllers\LoginController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\LoginController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 00:25:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-17 00:25:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\LoginController::$session is deprecated in APPPATH\Controllers\LoginController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\LoginController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-17 00:25:13 --> InvalidArgumentException: sqlsrv is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 APPPATH\Models\UsuarioModel.php(13): CodeIgniter\Database\Config::connect('sqlsrv')
+ 2 APPPATH\Controllers\LoginController.php(35): App\Models\UsuarioModel->autenticar_usuario('admin', '1')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->autenticar()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 00:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 00:31:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-17 00:31:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 00:31:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 00:31:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 00:32:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-17 00:32:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 00:32:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-17 01:00:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 01:00:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 01:00:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 01:00:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-17 01:00:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 01:00:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 01:01:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 01:01:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 01:01:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 01:01:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 01:01:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 01:01:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 01:04:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 01:07:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 01:08:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 01:08:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 01:09:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-17 01:09:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 01:09:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 01:09:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 01:09:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 01:09:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-17 01:09:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 01:09:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-17 01:13:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 01:13:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-17 01:14:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 01:14:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 01:14:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 01:14:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 01:15:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 01:17:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 01:17:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 01:19:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 01:19:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 01:22:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 01:22:18 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "tu_vista.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tu_vista.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('tu_vista', [], true)
+ 3 APPPATH\Controllers\TestController.php(23): view('tu_vista')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestController->UsuariosRegistrados()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 01:22:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 01:22:42 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "UsuariosRegistrados.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('UsuariosRegistrados.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('UsuariosRegistrados', [], true)
+ 3 APPPATH\Controllers\TestController.php(23): view('UsuariosRegistrados')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestController->UsuariosRegistrados()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 01:23:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 01:23:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 01:23:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 01:23:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 01:23:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 01:23:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 01:24:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 01:24:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 01:32:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 01:33:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 01:33:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 01:33:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 01:33:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 01:33:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 01:33:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 01:33:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 01:33:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 01:39:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 01:39:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 01:40:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 01:40:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 01:40:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 01:41:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 01:41:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 01:41:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 01:49:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 01:55:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 01:55:19 --> Error: Class "Model" not found
+in APPPATH\Models\UsuarioModel.php on line 3.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(309): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\central\\app\\Models\\UsuarioModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\UsuarioModel')
+ 4 APPPATH\Controllers\LoginController.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\UsuarioModel')
+ 5 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\LoginController->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 01:55:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 01:55:39 --> Error: Class "Model" not found
+in APPPATH\Models\UsuarioModel.php on line 3.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(309): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\central\\app\\Models\\UsuarioModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\UsuarioModel')
+ 4 APPPATH\Controllers\LoginController.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\UsuarioModel')
+ 5 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\LoginController->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 01:56:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 01:56:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 01:56:52 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 884.
+ 1 SYSTEMPATH\Model.php(662): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(839): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\UsuarioModel.php(13): CodeIgniter\Model->__get('load')
+ 4 APPPATH\Controllers\LoginController.php(41): App\Models\UsuarioModel->autenticar_usuario('sistemas', 'sistemasCG123')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->autenticar()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 01:57:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 01:57:37 --> Error: Call to a member function database() on null
+in APPPATH\Models\UsuarioModel.php on line 15.
+ 1 APPPATH\Controllers\LoginController.php(41): App\Models\UsuarioModel->autenticar_usuario('sistemas', 'sistemasCG123')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->autenticar()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 01:57:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 01:57:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 01:57:51 --> Error: Call to a member function database() on null
+in APPPATH\Models\UsuarioModel.php on line 15.
+ 1 APPPATH\Controllers\LoginController.php(41): App\Models\UsuarioModel->autenticar_usuario('admin', '1')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->autenticar()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 02:07:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 02:07:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 02:07:09 --> InvalidArgumentException: sqlsrv is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 SYSTEMPATH\Common.php(365): CodeIgniter\Database\Config::connect('sqlsrv', true)
+ 2 APPPATH\Models\UsuarioModel.php(14): db_connect('sqlsrv')
+ 3 APPPATH\Controllers\LoginController.php(41): App\Models\UsuarioModel->autenticar_usuario('admin', '1')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->autenticar()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 02:10:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 02:10:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 02:10:22 --> InvalidArgumentException: sqlsrv is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 SYSTEMPATH\Common.php(365): CodeIgniter\Database\Config::connect('sqlsrv', true)
+ 2 APPPATH\Models\UsuarioModel.php(14): db_connect('sqlsrv')
+ 3 APPPATH\Controllers\LoginController.php(41): App\Models\UsuarioModel->autenticar_usuario('admin', '1')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->autenticar()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 02:53:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 02:53:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 02:53:24 --> InvalidArgumentException: sqlsrv is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 SYSTEMPATH\Common.php(365): CodeIgniter\Database\Config::connect('sqlsrv', true)
+ 2 APPPATH\Models\UsuarioModel.php(15): db_connect('sqlsrv')
+ 3 APPPATH\Controllers\LoginController.php(41): App\Models\UsuarioModel->autenticar_usuario('admin', '1')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->autenticar()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 02:55:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 02:55:50 --> InvalidArgumentException: sqlsrv is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 APPPATH\Models\UsuarioModel.php(15): CodeIgniter\Database\Config::connect('sqlsrv')
+ 2 APPPATH\Controllers\LoginController.php(41): App\Models\UsuarioModel->autenticar_usuario('admin', '1')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->autenticar()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 02:55:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 02:56:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 02:56:07 --> InvalidArgumentException: sqlsrv is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 APPPATH\Models\UsuarioModel.php(15): CodeIgniter\Database\Config::connect('sqlsrv')
+ 2 APPPATH\Controllers\LoginController.php(41): App\Models\UsuarioModel->autenticar_usuario('admin', '1')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->autenticar()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 12:19:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 12:19:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 12:19:54 --> InvalidArgumentException: sqlsrv is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 APPPATH\Models\UsuarioModel.php(15): CodeIgniter\Database\Config::connect('sqlsrv')
+ 2 APPPATH\Controllers\LoginController.php(41): App\Models\UsuarioModel->autenticar_usuario('admin', '123')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->autenticar()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-17 12:20:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 12:20:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-17 12:34:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 12:34:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-17 12:35:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 12:35:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-17 13:05:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 13:05:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-17 13:07:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 13:07:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-17 14:03:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 14:03:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-17 14:03:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 14:03:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-17 14:03:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 14:03:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-17 14:04:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 14:04:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 14:07:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-17 14:07:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 14:07:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-17 14:07:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 14:07:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-17 14:32:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 14:32:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-17 14:32:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-17 14:32:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 18:11:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-17 18:21:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-17 18:21:34 --> InvalidArgumentException: sqlsrv is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 APPPATH\Models\UsuarioModel.php(15): CodeIgniter\Database\Config::connect('sqlsrv')
+ 2 APPPATH\Controllers\LoginController.php(41): App\Models\UsuarioModel->autenticar_usuario('admin', '1')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->autenticar()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

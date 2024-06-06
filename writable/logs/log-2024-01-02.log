@@ -1,0 +1,442 @@
+CRITICAL - 2024-01-02 13:54:23 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "loginCG.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('loginCG.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('loginCG', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('loginCG')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-02 19:43:21 --> Error: Class "CodeIgniter\Database\SQLServer\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('SQLServer', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Controllers\TestController.php(10): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestController->Prueba()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-02 19:50:05 --> Error: Class "CodeIgniter\Database\SQLServer\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('SQLServer', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Controllers\TestController.php(10): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestController->Prueba()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-02 19:50:07 --> Error: Class "CodeIgniter\Database\SQLServer\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('SQLServer', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Controllers\TestController.php(10): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestController->Prueba()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-02 19:50:08 --> Error: Class "CodeIgniter\Database\SQLServer\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('SQLServer', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Controllers\TestController.php(10): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestController->Prueba()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-02 19:51:56 --> Error: Class "CodeIgniter\Database\SQLServer\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('SQLServer', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Controllers\TestController.php(10): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestController->Prueba()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-02 19:51:57 --> Error: Class "CodeIgniter\Database\SQLServer\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('SQLServer', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Controllers\TestController.php(10): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestController->Prueba()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-02 20:10:35 --> Error: Class "CodeIgniter\Database\SQLServer\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('SQLServer', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Controllers\TestController.php(10): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestController->Prueba()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-02 20:10:36 --> Error: Class "CodeIgniter\Database\SQLServer\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('SQLServer', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Controllers\TestController.php(10): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestController->Prueba()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-02 20:10:36 --> Error: Class "CodeIgniter\Database\SQLServer\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('SQLServer', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Controllers\TestController.php(10): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestController->Prueba()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-02 20:25:01 --> Error: Class "CodeIgniter\Database\SQLServer\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('SQLServer', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Controllers\TestController.php(10): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestController->Prueba()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-02 20:25:02 --> Error: Class "CodeIgniter\Database\SQLServer\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('SQLServer', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Controllers\TestController.php(10): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestController->Prueba()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-02 20:25:02 --> Error: Class "CodeIgniter\Database\SQLServer\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('SQLServer', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Controllers\TestController.php(10): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestController->Prueba()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-02 20:25:03 --> Error: Class "CodeIgniter\Database\SQLServer\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('SQLServer', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Controllers\TestController.php(10): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestController->Prueba()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-02 20:25:04 --> Error: Class "CodeIgniter\Database\SQLServer\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('SQLServer', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Controllers\TestController.php(10): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestController->Prueba()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-02 20:25:06 --> Error: Class "CodeIgniter\Database\SQLServer\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('SQLServer', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Controllers\TestController.php(10): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestController->Prueba()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-02 20:25:10 --> Error: Class "CodeIgniter\Database\SQLServer\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('SQLServer', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Controllers\TestController.php(10): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestController->Prueba()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-02 20:27:07 --> Error: Class "CodeIgniter\Database\SQLServer\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('SQLServer', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Controllers\TestController.php(10): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestController->Prueba()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-02 20:27:09 --> Error: Class "CodeIgniter\Database\SQLServer\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('SQLServer', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Controllers\TestController.php(10): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestController->Prueba()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-02 20:27:09 --> Error: Class "CodeIgniter\Database\SQLServer\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('SQLServer', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Controllers\TestController.php(10): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestController->Prueba()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-02 20:27:10 --> Error: Class "CodeIgniter\Database\SQLServer\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('SQLServer', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Controllers\TestController.php(10): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestController->Prueba()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-02 20:27:10 --> Error: Class "CodeIgniter\Database\SQLServer\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('SQLServer', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Controllers\TestController.php(10): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestController->Prueba()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-02 20:27:10 --> Error: Class "CodeIgniter\Database\SQLServer\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('SQLServer', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Controllers\TestController.php(10): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestController->Prueba()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-02 20:27:15 --> Error: Class "CodeIgniter\Database\SQLServer\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('SQLServer', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 APPPATH\Controllers\TestController.php(10): CodeIgniter\Database\Config::connect()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestController->Prueba()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-02 20:37:00 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Login failed for user 'ingreso'. SQLSTATE: 28000, code: 18456
+[Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot open database "ingresoCG" requested by the login. The login failed. SQLSTATE: 42000, code: 4060
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 142.
+ 1 APPPATH\Controllers\TestController.php(14): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestController->UsuariosRegistrados()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-02 20:41:56 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Login failed for user 'ingreso'. SQLSTATE: 28000, code: 18456
+[Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot open database "ingresoCG" requested by the login. The login failed. SQLSTATE: 42000, code: 4060
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 142.
+ 1 APPPATH\Controllers\TestController.php(14): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestController->UsuariosRegistrados()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-02 20:46:02 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Login failed for user 'ingreso'. SQLSTATE: 28000, code: 18456
+[Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot open database "ingresoCG" requested by the login. The login failed. SQLSTATE: 42000, code: 4060
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 142.
+ 1 APPPATH\Controllers\TestController.php(14): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestController->UsuariosRegistrados()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-02 21:08:03 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server]TCP Provider: Tiempo de espera de la operación de espera agotado.
+ SQLSTATE: 08001, code: 258
+[Microsoft][ODBC Driver 18 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 18 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to AUX3SISTEMAS, 1433. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 258
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 142.
+ 1 APPPATH\Controllers\TestController.php(14): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestController->UsuariosRegistrados()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-02 21:08:43 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server]TCP Provider: Tiempo de espera de la operación de espera agotado.
+ SQLSTATE: 08001, code: 258
+[Microsoft][ODBC Driver 18 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 18 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to AUX3SISTEMAS, 1433. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 258
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 142.
+ 1 APPPATH\Controllers\TestController.php(14): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestController->UsuariosRegistrados()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-02 21:09:25 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server]TCP Provider: Tiempo de espera de la operación de espera agotado.
+ SQLSTATE: 08001, code: 258
+[Microsoft][ODBC Driver 18 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 18 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to AUX3SISTEMAS, 1433. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 258
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 142.
+ 1 APPPATH\Controllers\TestController.php(14): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestController->UsuariosRegistrados()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-02 21:09:46 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server]TCP Provider: Tiempo de espera de la operación de espera agotado.
+ SQLSTATE: 08001, code: 258
+[Microsoft][ODBC Driver 18 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 18 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to AUX3SISTEMAS, 1433. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 258
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 142.
+ 1 APPPATH\Controllers\TestController.php(14): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestController->UsuariosRegistrados()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-02 21:14:07 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server]TCP Provider: Tiempo de espera de la operación de espera agotado.
+ SQLSTATE: 08001, code: 258
+[Microsoft][ODBC Driver 18 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 18 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to AUX3SISTEMAS, 1433. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 258
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 142.
+ 1 APPPATH\Controllers\TestController.php(14): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestController->UsuariosRegistrados()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-02 21:15:06 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Login failed for user 'ingreso'. SQLSTATE: 28000, code: 18456
+[Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot open database "ingresoCG" requested by the login. The login failed. SQLSTATE: 42000, code: 4060
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 142.
+ 1 APPPATH\Controllers\TestController.php(14): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestController->UsuariosRegistrados()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-02 21:15:29 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Login failed for user 'ingreso'. SQLSTATE: 28000, code: 18456
+[Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot open database "ingresoCG" requested by the login. The login failed. SQLSTATE: 42000, code: 4060
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 142.
+ 1 APPPATH\Controllers\TestController.php(14): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestController->UsuariosRegistrados()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-02 21:28:00 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Login failed for user 'ingreso'. SQLSTATE: 28000, code: 18456
+[Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot open database "ingresoCG" requested by the login. The login failed. SQLSTATE: 42000, code: 4060
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 142.
+ 1 APPPATH\Controllers\TestController.php(14): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestController->UsuariosRegistrados()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-02 21:28:23 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Login failed for user 'ingreso'. SQLSTATE: 28000, code: 18456
+[Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot open database "ingresoCG" requested by the login. The login failed. SQLSTATE: 42000, code: 4060
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 142.
+ 1 APPPATH\Controllers\TestController.php(14): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestController->UsuariosRegistrados()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-02 21:28:27 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Login failed for user 'ingreso'. SQLSTATE: 28000, code: 18456
+[Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot open database "ingresoCG" requested by the login. The login failed. SQLSTATE: 42000, code: 4060
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 142.
+ 1 APPPATH\Controllers\TestController.php(14): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestController->UsuariosRegistrados()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-02 21:28:52 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Login failed for user 'ingreso'. SQLSTATE: 28000, code: 18456
+[Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot open database "ingresoCG" requested by the login. The login failed. SQLSTATE: 42000, code: 4060
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 142.
+ 1 APPPATH\Controllers\TestController.php(14): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestController->UsuariosRegistrados()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-02 21:29:32 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Login failed for user 'ingreso'. SQLSTATE: 28000, code: 18456
+[Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot open database "ingresoCG" requested by the login. The login failed. SQLSTATE: 42000, code: 4060
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 142.
+ 1 APPPATH\Controllers\TestController.php(14): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestController->UsuariosRegistrados()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-02 21:29:42 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Login failed for user 'ingreso'. SQLSTATE: 28000, code: 18456
+[Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot open database "ingresoCG" requested by the login. The login failed. SQLSTATE: 42000, code: 4060
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 142.
+ 1 APPPATH\Controllers\TestController.php(14): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestController->UsuariosRegistrados()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-02 21:32:13 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Login failed for user 'ingreso'. SQLSTATE: 28000, code: 18456
+[Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot open database "ingresoCG" requested by the login. The login failed. SQLSTATE: 42000, code: 4060
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 142.
+ 1 APPPATH\Controllers\TestController.php(14): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestController->UsuariosRegistrados()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-02 21:34:19 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Login failed for user 'ingreso'. SQLSTATE: 28000, code: 18456
+[Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot open database "ingresoCG" requested by the login. The login failed. SQLSTATE: 42000, code: 4060
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 142.
+ 1 APPPATH\Controllers\TestController.php(14): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestController->UsuariosRegistrados()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-02 21:36:20 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Login failed for user 'sa'. SQLSTATE: 28000, code: 18456
+[Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot open database "ingresoCG" requested by the login. The login failed. SQLSTATE: 42000, code: 4060
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 142.
+ 1 APPPATH\Controllers\TestController.php(14): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestController->UsuariosRegistrados()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-02 21:36:28 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Login failed for user 'sa'. SQLSTATE: 28000, code: 18456
+[Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot open database "ingresoCG" requested by the login. The login failed. SQLSTATE: 42000, code: 4060
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 142.
+ 1 APPPATH\Controllers\TestController.php(14): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestController->UsuariosRegistrados()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-02 21:36:33 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Login failed for user 'sa'. SQLSTATE: 28000, code: 18456
+[Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot open database "ingresoCG" requested by the login. The login failed. SQLSTATE: 42000, code: 4060
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 142.
+ 1 APPPATH\Controllers\TestController.php(14): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestController->UsuariosRegistrados()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-02 21:42:41 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Login failed for user 'sa'. SQLSTATE: 28000, code: 18456
+[Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot open database "ingresoCG" requested by the login. The login failed. SQLSTATE: 42000, code: 4060
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 142.
+ 1 APPPATH\Controllers\TestController.php(14): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestController->UsuariosRegistrados()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-02 21:46:15 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Login failed for user 'sa'. SQLSTATE: 28000, code: 18456
+[Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot open database "ingresoCG" requested by the login. The login failed. SQLSTATE: 42000, code: 4060
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 142.
+ 1 APPPATH\Controllers\TestController.php(14): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestController->UsuariosRegistrados()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-02 21:49:04 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Login failed for user 'sa'. SQLSTATE: 28000, code: 18456
+[Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot open database "ingresoCG" requested by the login. The login failed. SQLSTATE: 42000, code: 4060
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 142.
+ 1 APPPATH\Controllers\TestController.php(14): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestController->UsuariosRegistrados()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-02 21:49:18 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Login failed for user 'sa'. SQLSTATE: 28000, code: 18456
+[Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot open database "ingresoCG" requested by the login. The login failed. SQLSTATE: 42000, code: 4060
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 142.
+ 1 APPPATH\Controllers\TestController.php(14): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestController->UsuariosRegistrados()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-02 21:50:35 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Login failed for user 'sa'. SQLSTATE: 28000, code: 18456
+[Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot open database "ingresoCG" requested by the login. The login failed. SQLSTATE: 42000, code: 4060
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 142.
+ 1 APPPATH\Controllers\TestController.php(14): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestController->UsuariosRegistrados()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-02 21:50:41 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Login failed for user 'sa'. SQLSTATE: 28000, code: 18456
+[Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot open database "ingresoCG" requested by the login. The login failed. SQLSTATE: 42000, code: 4060
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 142.
+ 1 APPPATH\Controllers\TestController.php(14): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TestController->UsuariosRegistrados()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

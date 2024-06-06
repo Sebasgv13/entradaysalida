@@ -1,0 +1,290 @@
+INFO - 2024-02-28 10:48:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-28 10:49:59 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server]TCP Provider: Tiempo de espera de la operación de espera agotado.
+ SQLSTATE: 08001, code: 258
+[Microsoft][ODBC Driver 18 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 18 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to AUX3SISTEMAS, 1433. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 258 in C:\xampp\htdocs\central\system\Database\SQLSRV\Connection.php:142
+Stack trace:
+#0 C:\xampp\htdocs\central\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\xampp\htdocs\central\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\central\system\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\xampp\htdocs\central\system\Model.php(270): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\central\system\BaseModel.php(676): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\central\app\Models\UsuarioModel.php(38): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\central\app\Controllers\LoginController.php(34): App\Models\UsuarioModel->obtenerUsuario(Array)
+#7 C:\xampp\htdocs\central\system\CodeIgniter.php(941): App\Controllers\LoginController->autenticar()
+#8 C:\xampp\htdocs\central\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#9 C:\xampp\htdocs\central\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\central\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-02-28 10:49:59 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [SQLSRV]: [Microsoft][ODBC Driver 18 for SQL Server]TCP Provider: Tiempo de espera de la operación de espera agotado.
+ SQLSTATE: 08001, code: 258
+[Microsoft][ODBC Driver 18 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 18 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to AUX3SISTEMAS, 1433. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 258
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "CGingreso"."dbo"."usuarios"
+WHERE "NUSUARIO" = :NUSUARIO:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 3 SYSTEMPATH\Model.php(270): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Models\UsuarioModel.php(38): CodeIgniter\BaseModel->first()
+ 6 APPPATH\Controllers\LoginController.php(34): App\Models\UsuarioModel->obtenerUsuario([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->autenticar()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-28 10:50:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-28 10:50:23 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server]TCP Provider: Tiempo de espera de la operación de espera agotado.
+ SQLSTATE: 08001, code: 258
+[Microsoft][ODBC Driver 18 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 18 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to AUX3SISTEMAS, 1433. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 258 in C:\xampp\htdocs\central\system\Database\SQLSRV\Connection.php:142
+Stack trace:
+#0 C:\xampp\htdocs\central\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\xampp\htdocs\central\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\central\system\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\xampp\htdocs\central\system\Model.php(270): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\central\system\BaseModel.php(676): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\central\app\Models\UsuarioModel.php(38): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\central\app\Controllers\LoginController.php(34): App\Models\UsuarioModel->obtenerUsuario(Array)
+#7 C:\xampp\htdocs\central\system\CodeIgniter.php(941): App\Controllers\LoginController->autenticar()
+#8 C:\xampp\htdocs\central\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#9 C:\xampp\htdocs\central\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\central\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-02-28 10:50:23 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [SQLSRV]: [Microsoft][ODBC Driver 18 for SQL Server]TCP Provider: Tiempo de espera de la operación de espera agotado.
+ SQLSTATE: 08001, code: 258
+[Microsoft][ODBC Driver 18 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 18 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to AUX3SISTEMAS, 1433. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 258
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "CGingreso"."dbo"."usuarios"
+WHERE "NUSUARIO" = :NUSUARIO:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 3 SYSTEMPATH\Model.php(270): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Models\UsuarioModel.php(38): CodeIgniter\BaseModel->first()
+ 6 APPPATH\Controllers\LoginController.php(34): App\Models\UsuarioModel->obtenerUsuario([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->autenticar()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-28 10:56:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-28 10:57:14 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server]TCP Provider: Tiempo de espera de la operación de espera agotado.
+ SQLSTATE: 08001, code: 258
+[Microsoft][ODBC Driver 18 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 18 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to AUX3SISTEMAS, 1433. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 258 in C:\xampp\htdocs\central\system\Database\SQLSRV\Connection.php:142
+Stack trace:
+#0 C:\xampp\htdocs\central\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\xampp\htdocs\central\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\central\system\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\xampp\htdocs\central\system\Model.php(270): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\central\system\BaseModel.php(676): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\central\app\Models\UsuarioModel.php(38): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\central\app\Controllers\LoginController.php(34): App\Models\UsuarioModel->obtenerUsuario(Array)
+#7 C:\xampp\htdocs\central\system\CodeIgniter.php(941): App\Controllers\LoginController->autenticar()
+#8 C:\xampp\htdocs\central\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#9 C:\xampp\htdocs\central\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\central\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-02-28 10:57:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [SQLSRV]: [Microsoft][ODBC Driver 18 for SQL Server]TCP Provider: Tiempo de espera de la operación de espera agotado.
+ SQLSTATE: 08001, code: 258
+[Microsoft][ODBC Driver 18 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 18 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to AUX3SISTEMAS, 1433. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 258
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "CGingreso"."dbo"."usuarios"
+WHERE "NUSUARIO" = :NUSUARIO:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 3 SYSTEMPATH\Model.php(270): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Models\UsuarioModel.php(38): CodeIgniter\BaseModel->first()
+ 6 APPPATH\Controllers\LoginController.php(34): App\Models\UsuarioModel->obtenerUsuario([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->autenticar()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-28 11:01:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-28 11:02:09 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server]TCP Provider: Tiempo de espera de la operación de espera agotado.
+ SQLSTATE: 08001, code: 258
+[Microsoft][ODBC Driver 18 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 18 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to AUX3SISTEMAS, 1433. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 258 in C:\xampp\htdocs\central\system\Database\SQLSRV\Connection.php:142
+Stack trace:
+#0 C:\xampp\htdocs\central\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\xampp\htdocs\central\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\central\system\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\xampp\htdocs\central\system\Model.php(270): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\central\system\BaseModel.php(676): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\central\app\Models\UsuarioModel.php(38): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\central\app\Controllers\LoginController.php(34): App\Models\UsuarioModel->obtenerUsuario(Array)
+#7 C:\xampp\htdocs\central\system\CodeIgniter.php(941): App\Controllers\LoginController->autenticar()
+#8 C:\xampp\htdocs\central\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#9 C:\xampp\htdocs\central\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\central\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-02-28 11:02:09 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [SQLSRV]: [Microsoft][ODBC Driver 18 for SQL Server]TCP Provider: Tiempo de espera de la operación de espera agotado.
+ SQLSTATE: 08001, code: 258
+[Microsoft][ODBC Driver 18 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 18 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to AUX3SISTEMAS, 1433. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 258
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "CGingreso"."dbo"."usuarios"
+WHERE "NUSUARIO" = :NUSUARIO:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 3 SYSTEMPATH\Model.php(270): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Models\UsuarioModel.php(38): CodeIgniter\BaseModel->first()
+ 6 APPPATH\Controllers\LoginController.php(34): App\Models\UsuarioModel->obtenerUsuario([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->autenticar()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-28 11:02:12 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server]TCP Provider: Tiempo de espera de la operación de espera agotado.
+ SQLSTATE: 08001, code: 258
+[Microsoft][ODBC Driver 18 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 18 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to AUX3SISTEMAS, 1433. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 258 in C:\xampp\htdocs\central\system\Database\SQLSRV\Connection.php:142
+Stack trace:
+#0 C:\xampp\htdocs\central\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\xampp\htdocs\central\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\central\system\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\xampp\htdocs\central\system\Model.php(270): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\central\system\BaseModel.php(676): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\central\app\Models\UsuarioModel.php(38): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\central\app\Controllers\LoginController.php(34): App\Models\UsuarioModel->obtenerUsuario(Array)
+#7 C:\xampp\htdocs\central\system\CodeIgniter.php(941): App\Controllers\LoginController->autenticar()
+#8 C:\xampp\htdocs\central\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#9 C:\xampp\htdocs\central\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\central\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-02-28 11:02:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [SQLSRV]: [Microsoft][ODBC Driver 18 for SQL Server]TCP Provider: Tiempo de espera de la operación de espera agotado.
+ SQLSTATE: 08001, code: 258
+[Microsoft][ODBC Driver 18 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 18 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to AUX3SISTEMAS, 1433. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 258
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "CGingreso"."dbo"."usuarios"
+WHERE "NUSUARIO" = :NUSUARIO:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 3 SYSTEMPATH\Model.php(270): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Models\UsuarioModel.php(38): CodeIgniter\BaseModel->first()
+ 6 APPPATH\Controllers\LoginController.php(34): App\Models\UsuarioModel->obtenerUsuario([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->autenticar()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-28 11:03:23 --> Antes de obtener información del usuario para: admin
+INFO - 2024-02-28 11:03:23 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-02-28 11:03:23 --> Contraseña ingresada: pruebaCG123
+INFO - 2024-02-28 11:03:23 --> Contraseña verificada con éxito.
+INFO - 2024-02-28 11:03:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 11:21:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-28 11:22:13 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server]TCP Provider: Tiempo de espera de la operación de espera agotado.
+ SQLSTATE: 08001, code: 258
+[Microsoft][ODBC Driver 18 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 18 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to AUX3SISTEMAS, 1433. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 258 in C:\xampp\htdocs\central\system\Database\SQLSRV\Connection.php:142
+Stack trace:
+#0 C:\xampp\htdocs\central\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\xampp\htdocs\central\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\central\system\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\xampp\htdocs\central\system\Model.php(270): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\central\system\BaseModel.php(676): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\central\app\Models\UsuarioModel.php(38): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\central\app\Controllers\LoginController.php(34): App\Models\UsuarioModel->obtenerUsuario(Array)
+#7 C:\xampp\htdocs\central\system\CodeIgniter.php(941): App\Controllers\LoginController->autenticar()
+#8 C:\xampp\htdocs\central\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#9 C:\xampp\htdocs\central\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\central\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-02-28 11:22:13 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [SQLSRV]: [Microsoft][ODBC Driver 18 for SQL Server]TCP Provider: Tiempo de espera de la operación de espera agotado.
+ SQLSTATE: 08001, code: 258
+[Microsoft][ODBC Driver 18 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 18 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to AUX3SISTEMAS, 1433. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 258
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "CGingreso"."dbo"."usuarios"
+WHERE "NUSUARIO" = :NUSUARIO:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 3 SYSTEMPATH\Model.php(270): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Models\UsuarioModel.php(38): CodeIgniter\BaseModel->first()
+ 6 APPPATH\Controllers\LoginController.php(34): App\Models\UsuarioModel->obtenerUsuario([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->autenticar()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-28 11:49:13 --> Antes de obtener información del usuario para: admin
+INFO - 2024-02-28 11:49:13 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-02-28 11:49:13 --> Contraseña ingresada: pruebaCG123
+INFO - 2024-02-28 11:49:13 --> Contraseña verificada con éxito.
+INFO - 2024-02-28 11:49:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 11:49:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 11:49:55 --> Antes de obtener información del usuario para: admin
+INFO - 2024-02-28 11:49:55 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-02-28 11:49:55 --> Contraseña ingresada: pruebaCG123
+INFO - 2024-02-28 11:49:55 --> Contraseña verificada con éxito.
+INFO - 2024-02-28 11:49:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-28 11:49:57 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server]TCP Provider: Tiempo de espera de la operación de espera agotado.
+ SQLSTATE: 08001, code: 258
+[Microsoft][ODBC Driver 18 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 18 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to AUX3SISTEMAS, 1433. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 258 in C:\xampp\htdocs\central\system\Database\SQLSRV\Connection.php:142
+Stack trace:
+#0 C:\xampp\htdocs\central\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\xampp\htdocs\central\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\central\system\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\xampp\htdocs\central\system\Model.php(270): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\central\system\BaseModel.php(676): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\central\app\Models\UsuarioModel.php(38): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\central\app\Controllers\LoginController.php(34): App\Models\UsuarioModel->obtenerUsuario(Array)
+#7 C:\xampp\htdocs\central\system\CodeIgniter.php(941): App\Controllers\LoginController->autenticar()
+#8 C:\xampp\htdocs\central\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#9 C:\xampp\htdocs\central\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\central\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-02-28 11:49:57 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [SQLSRV]: [Microsoft][ODBC Driver 18 for SQL Server]TCP Provider: Tiempo de espera de la operación de espera agotado.
+ SQLSTATE: 08001, code: 258
+[Microsoft][ODBC Driver 18 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 18 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to AUX3SISTEMAS, 1433. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 258
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "CGingreso"."dbo"."usuarios"
+WHERE "NUSUARIO" = :NUSUARIO:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 3 SYSTEMPATH\Model.php(270): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Models\UsuarioModel.php(38): CodeIgniter\BaseModel->first()
+ 6 APPPATH\Controllers\LoginController.php(34): App\Models\UsuarioModel->obtenerUsuario([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->autenticar()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-28 13:34:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 13:34:53 --> Antes de obtener información del usuario para: admin
+INFO - 2024-02-28 13:34:53 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-02-28 13:34:53 --> Contraseña ingresada: pruebaCG123
+INFO - 2024-02-28 13:34:53 --> Contraseña verificada con éxito.
+INFO - 2024-02-28 13:34:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 13:35:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 13:57:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 13:57:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 13:58:10 --> Antes de obtener información del usuario para: admin
+INFO - 2024-02-28 13:58:10 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-02-28 13:58:10 --> Contraseña ingresada: pruebaCG123
+INFO - 2024-02-28 13:58:10 --> Contraseña verificada con éxito.
+INFO - 2024-02-28 13:58:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 13:59:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 13:59:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-28 14:03:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

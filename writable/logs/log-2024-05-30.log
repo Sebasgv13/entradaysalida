@@ -1,0 +1,37 @@
+INFO - 2024-05-30 16:47:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-30 16:47:51 --> Antes de obtener información del usuario para: admin
+INFO - 2024-05-30 16:47:51 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-05-30 16:47:51 --> Contraseña ingresada: Prueba123*
+ERROR - 2024-05-30 16:47:51 --> Autenticación fallida para el usuario: admin
+INFO - 2024-05-30 16:47:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-30 16:47:59 --> Antes de obtener información del usuario para: admin
+INFO - 2024-05-30 16:47:59 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-05-30 16:47:59 --> Contraseña ingresada: sistemasCG123
+ERROR - 2024-05-30 16:47:59 --> Autenticación fallida para el usuario: admin
+INFO - 2024-05-30 16:47:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-30 16:48:07 --> Antes de obtener información del usuario para: admin
+INFO - 2024-05-30 16:48:07 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-05-30 16:48:07 --> Contraseña ingresada: PruebaCG123
+ERROR - 2024-05-30 16:48:07 --> Autenticación fallida para el usuario: admin
+INFO - 2024-05-30 16:48:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-30 16:48:18 --> Antes de obtener información del usuario para: admin
+INFO - 2024-05-30 16:48:18 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-05-30 16:48:18 --> Contraseña ingresada: pruebaCG123
+INFO - 2024-05-30 16:48:18 --> Contraseña verificada con éxito.
+INFO - 2024-05-30 16:48:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-30 16:49:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-30 16:49:13 --> Antes de obtener información del usuario para: sistemas
+INFO - 2024-05-30 16:49:13 --> Contraseña almacenada para el usuario "sistemas": 12345@
+INFO - 2024-05-30 16:49:13 --> Contraseña ingresada: sistemasCG123
+ERROR - 2024-05-30 16:49:13 --> Autenticación fallida para el usuario: sistemas
+INFO - 2024-05-30 16:49:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-30 16:50:02 --> Antes de obtener información del usuario para: DANIEL
+INFO - 2024-05-30 16:50:02 --> Contraseña almacenada para el usuario "DANIEL": 12345@
+INFO - 2024-05-30 16:50:02 --> Contraseña ingresada: sistemasCG123
+ERROR - 2024-05-30 16:50:02 --> Autenticación fallida para el usuario: DANIEL
+INFO - 2024-05-30 16:50:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-30 16:50:09 --> Antes de obtener información del usuario para: daniel
+INFO - 2024-05-30 16:50:09 --> Contraseña almacenada para el usuario "daniel": 12345@
+INFO - 2024-05-30 16:50:09 --> Contraseña ingresada: 12345@
+INFO - 2024-05-30 16:50:09 --> Contraseña verificada con éxito.
+INFO - 2024-05-30 16:50:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

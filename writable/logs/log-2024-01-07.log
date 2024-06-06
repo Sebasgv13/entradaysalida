@@ -1,0 +1,234 @@
+WARNING - 2024-01-07 22:27:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-07 22:27:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-07 22:27:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-07 22:29:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-07 22:33:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-07 22:33:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-07 22:38:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:38:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:38:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:38:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:38:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:38:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:38:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:38:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:38:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:38:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:38:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:38:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:38:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:38:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:38:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:38:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:38:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:38:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:38:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:38:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:38:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:38:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:38:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:38:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:38:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:38:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:38:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:38:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:39:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:39:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:39:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:39:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:39:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:39:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:39:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:39:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:39:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:39:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:39:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:39:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:39:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:39:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:39:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:39:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:39:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:39:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:39:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:39:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:39:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:39:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:39:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:39:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:39:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:39:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:39:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:39:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:39:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:39:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:39:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:39:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:39:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:39:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:39:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:39:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:39:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:39:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:39:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:39:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:39:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:39:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:39:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:39:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:39:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:39:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:39:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:39:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:39:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:39:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:39:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:39:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:39:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:39:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:39:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:39:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:39:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-07 22:41:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-07 22:41:46 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-01-07 22:41:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-07 22:41:46 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-01-07 22:41:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-07 22:41:46 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-01-07 22:41:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-07 22:41:46 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-01-07 22:41:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-07 22:41:46 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-01-07 22:41:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-07 22:41:47 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-01-07 22:41:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-07 22:41:47 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-01-07 22:41:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-07 22:41:47 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-01-07 22:41:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-07 22:41:47 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-01-07 22:41:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-07 22:41:47 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-01-07 22:41:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-07 22:41:49 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-01-07 22:41:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-07 22:41:49 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-01-07 22:41:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-07 22:41:49 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-01-07 22:41:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-07 22:41:49 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-01-07 22:41:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-07 22:41:50 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-01-07 22:41:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-07 22:41:50 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-01-07 22:41:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-07 22:41:50 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-01-07 22:41:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-07 22:41:50 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-01-07 22:41:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-07 22:41:50 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-01-07 22:41:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-07 22:41:51 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-01-07 22:41:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-07 22:41:56 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-01-07 22:41:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-07 22:41:56 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-01-07 22:41:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-07 22:41:56 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-01-07 22:41:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-07 22:41:56 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-01-07 22:41:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-07 22:41:57 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-01-07 22:41:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-07 22:41:57 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-01-07 22:41:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-07 22:41:57 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-01-07 22:41:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-07 22:41:57 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-01-07 22:41:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-07 22:41:57 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-01-07 22:41:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-07 22:41:58 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-01-07 22:42:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-07 22:42:28 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-01-07 22:50:30 --> ErrorException: Undefined variable $registros
+in APPPATH\Views\CGView\UsuariosCG.php on line 137.
+ 1 APPPATH\Views\CGView\UsuariosCG.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $registros', 'C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\UsuariosCG.php', 137)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\UsuariosCG.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('CGView/UsuariosCG', [], true)
+ 5 APPPATH\Controllers\CG.php(9): view('CGView/UsuariosCG')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CG->UsuariosCG()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CG))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-07 22:52:20 --> ErrorException: Undefined variable $registro
+in APPPATH\Views\CGView\UsuariosCG.php on line 137.
+ 1 APPPATH\Views\CGView\UsuariosCG.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $registro', 'C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\UsuariosCG.php', 137)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\central\\app\\Views\\CGView\\UsuariosCG.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('CGView/UsuariosCG', [], true)
+ 5 APPPATH\Controllers\CG.php(9): view('CGView/UsuariosCG')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CG->UsuariosCG()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CG))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-07 22:54:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-07 23:31:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-07 23:34:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-07 23:36:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-07 23:38:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-07 23:39:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\obtenerTodosLosRegistros::$Datosbd_models is deprecated in APPPATH\Controllers\obtenerTodosLosRegistros.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\obtenerTodosLosRegistros->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

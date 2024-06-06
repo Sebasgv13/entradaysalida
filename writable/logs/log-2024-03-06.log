@@ -1,0 +1,53 @@
+INFO - 2024-03-06 14:42:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-06 14:43:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-06 14:43:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-06 14:43:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-06 14:43:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-06 14:43:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-06 14:43:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-06 14:43:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-06 14:44:07 --> Antes de obtener información del usuario para: admin
+INFO - 2024-03-06 14:44:07 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-03-06 14:44:07 --> Contraseña ingresada: pruebaCG123
+INFO - 2024-03-06 14:44:07 --> Contraseña verificada con éxito.
+INFO - 2024-03-06 14:44:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-06 14:44:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-06 14:44:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-06 14:44:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-06 14:44:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-06 14:45:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-06 14:45:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-06 14:45:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-06 14:45:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-06 14:45:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-06 14:46:01 --> Antes de obtener información del usuario para: daniel20
+INFO - 2024-03-06 14:46:01 --> Contraseña almacenada para el usuario "daniel20": 123@
+INFO - 2024-03-06 14:46:01 --> Contraseña ingresada: 123@
+INFO - 2024-03-06 14:46:01 --> Contraseña verificada con éxito.
+INFO - 2024-03-06 14:46:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-06 14:46:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-06 14:47:01 --> Antes de obtener información del usuario para: daniel20
+INFO - 2024-03-06 14:47:01 --> Contraseña almacenada para el usuario "daniel20": 123@
+INFO - 2024-03-06 14:47:01 --> Contraseña ingresada: 123@
+INFO - 2024-03-06 14:47:01 --> Contraseña verificada con éxito.
+INFO - 2024-03-06 14:47:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-06 14:47:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-06 14:47:53 --> Antes de obtener información del usuario para: daniel20
+INFO - 2024-03-06 14:47:53 --> Contraseña almacenada para el usuario "daniel20": 123@
+INFO - 2024-03-06 14:47:53 --> Contraseña ingresada: 123@
+INFO - 2024-03-06 14:47:53 --> Contraseña verificada con éxito.
+INFO - 2024-03-06 14:47:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-06 14:48:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-06 14:48:42 --> Antes de obtener información del usuario para: daniel20
+INFO - 2024-03-06 14:48:42 --> Contraseña almacenada para el usuario "daniel20": 123@
+INFO - 2024-03-06 14:48:42 --> Contraseña ingresada: 123@
+INFO - 2024-03-06 14:48:42 --> Contraseña verificada con éxito.
+INFO - 2024-03-06 14:48:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-06 14:49:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-06 14:49:56 --> Antes de obtener información del usuario para: daniel20
+INFO - 2024-03-06 14:49:56 --> Contraseña almacenada para el usuario "daniel20": 123@
+INFO - 2024-03-06 14:49:56 --> Contraseña ingresada: 123@
+INFO - 2024-03-06 14:49:56 --> Contraseña verificada con éxito.
+INFO - 2024-03-06 14:49:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-06 14:50:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-06 14:50:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

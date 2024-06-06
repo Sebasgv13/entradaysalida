@@ -1,0 +1,625 @@
+INFO - 2024-03-04 06:48:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 06:48:12 --> Antes de obtener información del usuario para: admin
+INFO - 2024-03-04 06:48:12 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-03-04 06:48:12 --> Contraseña ingresada: pruebaCG123
+INFO - 2024-03-04 06:48:12 --> Contraseña verificada con éxito.
+INFO - 2024-03-04 06:48:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 06:48:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 07:13:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 07:13:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 07:13:55 --> Antes de obtener información del usuario para: admin
+INFO - 2024-03-04 07:13:55 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-03-04 07:13:55 --> Contraseña ingresada: pruebaCG123
+INFO - 2024-03-04 07:13:55 --> Contraseña verificada con éxito.
+INFO - 2024-03-04 07:13:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 08:04:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 08:04:38 --> Antes de obtener información del usuario para: admin
+INFO - 2024-03-04 08:04:38 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-03-04 08:04:38 --> Contraseña ingresada: pruebaCG123
+INFO - 2024-03-04 08:04:38 --> Contraseña verificada con éxito.
+INFO - 2024-03-04 08:04:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 08:04:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 08:05:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 08:05:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 08:05:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 08:06:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 08:06:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 08:06:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 08:06:19 --> Antes de obtener información del usuario para: admin
+INFO - 2024-03-04 08:06:19 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-03-04 08:06:19 --> Contraseña ingresada: pruebaCG123
+INFO - 2024-03-04 08:06:19 --> Contraseña verificada con éxito.
+INFO - 2024-03-04 08:06:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 09:51:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 09:52:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 09:52:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 09:53:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 09:53:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 09:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 09:54:28 --> Antes de obtener información del usuario para: admin
+INFO - 2024-03-04 09:54:28 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-03-04 09:54:28 --> Contraseña ingresada: pruebaCG123
+INFO - 2024-03-04 09:54:28 --> Contraseña verificada con éxito.
+INFO - 2024-03-04 09:54:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 10:21:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 10:54:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 10:56:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 10:58:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 11:05:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-04 11:06:16 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server]TCP Provider: Tiempo de espera de la operación de espera agotado.
+ SQLSTATE: 08001, code: 258
+[Microsoft][ODBC Driver 18 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 18 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to AUX3SISTEMAS, 1433. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 258 in C:\xampp\htdocs\central\system\Database\SQLSRV\Connection.php:142
+Stack trace:
+#0 C:\xampp\htdocs\central\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\xampp\htdocs\central\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\central\system\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\xampp\htdocs\central\system\Model.php(270): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\central\system\BaseModel.php(676): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\central\app\Models\UsuarioModel.php(38): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\central\app\Controllers\LoginController.php(34): App\Models\UsuarioModel->obtenerUsuario(Array)
+#7 C:\xampp\htdocs\central\system\CodeIgniter.php(941): App\Controllers\LoginController->autenticar()
+#8 C:\xampp\htdocs\central\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#9 C:\xampp\htdocs\central\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\central\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-04 11:06:16 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [SQLSRV]: [Microsoft][ODBC Driver 18 for SQL Server]TCP Provider: Tiempo de espera de la operación de espera agotado.
+ SQLSTATE: 08001, code: 258
+[Microsoft][ODBC Driver 18 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 18 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to AUX3SISTEMAS, 1433. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 258
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "CGingreso"."dbo"."usuarios"
+WHERE "NUSUARIO" = :NUSUARIO:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 3 SYSTEMPATH\Model.php(270): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Models\UsuarioModel.php(38): CodeIgniter\BaseModel->first()
+ 6 APPPATH\Controllers\LoginController.php(34): App\Models\UsuarioModel->obtenerUsuario([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->autenticar()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-04 11:06:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-04 11:07:12 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server]TCP Provider: Tiempo de espera de la operación de espera agotado.
+ SQLSTATE: 08001, code: 258
+[Microsoft][ODBC Driver 18 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 18 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to AUX3SISTEMAS, 1433. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 258 in C:\xampp\htdocs\central\system\Database\SQLSRV\Connection.php:142
+Stack trace:
+#0 C:\xampp\htdocs\central\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\xampp\htdocs\central\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\central\system\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\xampp\htdocs\central\system\Model.php(270): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\central\system\BaseModel.php(676): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\central\app\Models\UsuarioModel.php(38): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\central\app\Controllers\LoginController.php(34): App\Models\UsuarioModel->obtenerUsuario(Array)
+#7 C:\xampp\htdocs\central\system\CodeIgniter.php(941): App\Controllers\LoginController->autenticar()
+#8 C:\xampp\htdocs\central\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#9 C:\xampp\htdocs\central\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\central\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-04 11:07:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [SQLSRV]: [Microsoft][ODBC Driver 18 for SQL Server]TCP Provider: Tiempo de espera de la operación de espera agotado.
+ SQLSTATE: 08001, code: 258
+[Microsoft][ODBC Driver 18 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 18 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to AUX3SISTEMAS, 1433. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 258
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "CGingreso"."dbo"."usuarios"
+WHERE "NUSUARIO" = :NUSUARIO:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 3 SYSTEMPATH\Model.php(270): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Models\UsuarioModel.php(38): CodeIgniter\BaseModel->first()
+ 6 APPPATH\Controllers\LoginController.php(34): App\Models\UsuarioModel->obtenerUsuario([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->autenticar()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-04 11:07:38 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server]TCP Provider: Tiempo de espera de la operación de espera agotado.
+ SQLSTATE: 08001, code: 258
+[Microsoft][ODBC Driver 18 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 18 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to AUX3SISTEMAS, 1433. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 258 in C:\xampp\htdocs\central\system\Database\SQLSRV\Connection.php:142
+Stack trace:
+#0 C:\xampp\htdocs\central\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\xampp\htdocs\central\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\central\system\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\xampp\htdocs\central\system\Model.php(270): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\central\system\BaseModel.php(676): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\central\app\Models\UsuarioModel.php(38): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\central\app\Controllers\LoginController.php(34): App\Models\UsuarioModel->obtenerUsuario(Array)
+#7 C:\xampp\htdocs\central\system\CodeIgniter.php(941): App\Controllers\LoginController->autenticar()
+#8 C:\xampp\htdocs\central\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#9 C:\xampp\htdocs\central\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\central\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-04 11:07:38 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [SQLSRV]: [Microsoft][ODBC Driver 18 for SQL Server]TCP Provider: Tiempo de espera de la operación de espera agotado.
+ SQLSTATE: 08001, code: 258
+[Microsoft][ODBC Driver 18 for SQL Server]Login timeout expired SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 18 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to AUX3SISTEMAS, 1433. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. SQLSTATE: 08001, code: 258
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "CGingreso"."dbo"."usuarios"
+WHERE "NUSUARIO" = :NUSUARIO:
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [...], false)
+ 3 SYSTEMPATH\Model.php(270): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Models\UsuarioModel.php(38): CodeIgniter\BaseModel->first()
+ 6 APPPATH\Controllers\LoginController.php(34): App\Models\UsuarioModel->obtenerUsuario([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\LoginController->autenticar()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-04 11:11:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 11:11:40 --> Antes de obtener información del usuario para: admin
+INFO - 2024-03-04 11:11:40 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-03-04 11:11:40 --> Contraseña ingresada: pruebaCG123
+INFO - 2024-03-04 11:11:40 --> Contraseña verificada con éxito.
+INFO - 2024-03-04 11:11:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 11:11:44 --> Antes de obtener información del usuario para: admin
+INFO - 2024-03-04 11:11:44 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-03-04 11:11:44 --> Contraseña ingresada: pruebaCG123
+INFO - 2024-03-04 11:11:44 --> Contraseña verificada con éxito.
+INFO - 2024-03-04 11:11:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 11:24:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 11:25:20 --> Antes de obtener información del usuario para: Admin
+INFO - 2024-03-04 11:25:20 --> Contraseña almacenada para el usuario "Admin": pruebaCG123
+INFO - 2024-03-04 11:25:20 --> Contraseña ingresada: pruebaCG123
+INFO - 2024-03-04 11:25:20 --> Contraseña verificada con éxito.
+INFO - 2024-03-04 11:25:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 11:26:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 11:27:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 11:27:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 11:28:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 11:28:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 11:29:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 11:30:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 11:34:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 11:34:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 11:35:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 11:37:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 11:45:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 11:55:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 11:55:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 11:55:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 11:55:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 11:55:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 11:55:43 --> Antes de obtener información del usuario para: Admin
+INFO - 2024-03-04 11:55:43 --> Contraseña almacenada para el usuario "Admin": pruebaCG123
+INFO - 2024-03-04 11:55:43 --> Contraseña ingresada: pruebaCG123
+INFO - 2024-03-04 11:55:43 --> Contraseña verificada con éxito.
+INFO - 2024-03-04 11:55:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 11:56:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 11:56:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 11:56:48 --> Antes de obtener información del usuario para: Admin
+INFO - 2024-03-04 11:56:48 --> Contraseña almacenada para el usuario "Admin": pruebaCG123
+INFO - 2024-03-04 11:56:48 --> Contraseña ingresada: pruebaCG123
+INFO - 2024-03-04 11:56:48 --> Contraseña verificada con éxito.
+INFO - 2024-03-04 11:56:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 13:57:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 13:57:23 --> Antes de obtener información del usuario para: admin
+INFO - 2024-03-04 13:57:23 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-03-04 13:57:23 --> Contraseña ingresada: pruebaCG123
+INFO - 2024-03-04 13:57:23 --> Contraseña verificada con éxito.
+INFO - 2024-03-04 13:57:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-04 13:58:07 --> [DEPRECATED] password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in APPPATH\Controllers\RegistroController.php on line 17.
+ 1 APPPATH\Controllers\RegistroController.php(17): password_hash(Object(SensitiveParameterValue), '2y')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RegistroController->registrarUsuario()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-04 13:58:07 --> [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot insert the value NULL into column 'TIPO_USUARIO', table 'CGingreso.dbo.USUARIOS'; column does not allow nulls. INSERT fails.
+CRITICAL - 2024-03-04 13:58:07 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot insert the value NULL into column 'TIPO_USUARIO', table 'CGingreso.dbo.USUARIOS'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO "CGingreso"."dbo"."usuarios" ("nombre","nusuario","contrasena","tipo_usuario") VALUES (:nombre:, :nusuario:, :contrasena:, :tipo_usuario:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\RegistroController.php(27): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RegistroController->registrarUsuario()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 13:58:07 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot insert the value NULL into column 'TIPO_USUARIO', table 'CGingreso.dbo.USUARIOS'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 482.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\SQLSRV\Connection->execute('INSERT INTO "CGingreso"."dbo"."usuarios" ("nombre","nusuario","contrasena","tipo_usuario") VALUES (\'Yeison\', \'yamunoz\', \'$2y$10$xGN2EF5w1K5YEDnocjNq3e1MKaJpSw9ay0U3OioF0UuGH7bVfBbZS\', NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "CGingreso"."dbo"."usuarios" ("nombre","nusuario","contrasena","tipo_usuario") VALUES (\'Yeison\', \'yamunoz\', \'$2y$10$xGN2EF5w1K5YEDnocjNq3e1MKaJpSw9ay0U3OioF0UuGH7bVfBbZS\', NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO "CGingreso"."dbo"."usuarios" ("nombre","nusuario","contrasena","tipo_usuario") VALUES (:nombre:, :nusuario:, :contrasena:, :tipo_usuario:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\RegistroController.php(27): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RegistroController->registrarUsuario()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-04 13:58:31 --> [DEPRECATED] password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in APPPATH\Controllers\RegistroController.php on line 17.
+ 1 APPPATH\Controllers\RegistroController.php(17): password_hash(Object(SensitiveParameterValue), '2y')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RegistroController->registrarUsuario()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-04 13:58:32 --> [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot insert the value NULL into column 'TIPO_USUARIO', table 'CGingreso.dbo.USUARIOS'; column does not allow nulls. INSERT fails.
+CRITICAL - 2024-03-04 13:58:32 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot insert the value NULL into column 'TIPO_USUARIO', table 'CGingreso.dbo.USUARIOS'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO "CGingreso"."dbo"."usuarios" ("nombre","nusuario","contrasena","tipo_usuario") VALUES (:nombre:, :nusuario:, :contrasena:, :tipo_usuario:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\RegistroController.php(27): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RegistroController->registrarUsuario()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 13:58:32 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot insert the value NULL into column 'TIPO_USUARIO', table 'CGingreso.dbo.USUARIOS'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 482.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\SQLSRV\Connection->execute('INSERT INTO "CGingreso"."dbo"."usuarios" ("nombre","nusuario","contrasena","tipo_usuario") VALUES (\'Daniel\', \'danielp\', \'$2y$10$Tcs3qSUzTlVmd8b07Qi1.ebtNmUECH/tgiP/eoFqWTs/Kj4DG2NTG\', NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "CGingreso"."dbo"."usuarios" ("nombre","nusuario","contrasena","tipo_usuario") VALUES (\'Daniel\', \'danielp\', \'$2y$10$Tcs3qSUzTlVmd8b07Qi1.ebtNmUECH/tgiP/eoFqWTs/Kj4DG2NTG\', NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO "CGingreso"."dbo"."usuarios" ("nombre","nusuario","contrasena","tipo_usuario") VALUES (:nombre:, :nusuario:, :contrasena:, :tipo_usuario:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\RegistroController.php(27): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RegistroController->registrarUsuario()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-04 14:02:08 --> [DEPRECATED] password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in APPPATH\Controllers\RegistroController.php on line 17.
+ 1 APPPATH\Controllers\RegistroController.php(17): password_hash(Object(SensitiveParameterValue), '2y')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RegistroController->registrarUsuario()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-04 14:02:08 --> [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot insert the value NULL into column 'TIPO_USUARIO', table 'CGingreso.dbo.USUARIOS'; column does not allow nulls. INSERT fails.
+CRITICAL - 2024-03-04 14:02:08 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot insert the value NULL into column 'TIPO_USUARIO', table 'CGingreso.dbo.USUARIOS'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO "CGingreso"."dbo"."usuarios" ("nombre","nusuario","contrasena","tipo_usuario") VALUES (:nombre:, :nusuario:, :contrasena:, :tipo_usuario:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\RegistroController.php(27): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RegistroController->registrarUsuario()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 14:02:08 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot insert the value NULL into column 'TIPO_USUARIO', table 'CGingreso.dbo.USUARIOS'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 482.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\SQLSRV\Connection->execute('INSERT INTO "CGingreso"."dbo"."usuarios" ("nombre","nusuario","contrasena","tipo_usuario") VALUES (\'Daniel\', \'danielp\', \'$2y$10$AqcVctd4mArlgY0AWO6a9eB0gk9Z1sNJHA57S/7QXKruYrIJFc7J2\', NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "CGingreso"."dbo"."usuarios" ("nombre","nusuario","contrasena","tipo_usuario") VALUES (\'Daniel\', \'danielp\', \'$2y$10$AqcVctd4mArlgY0AWO6a9eB0gk9Z1sNJHA57S/7QXKruYrIJFc7J2\', NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO "CGingreso"."dbo"."usuarios" ("nombre","nusuario","contrasena","tipo_usuario") VALUES (:nombre:, :nusuario:, :contrasena:, :tipo_usuario:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\RegistroController.php(27): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RegistroController->registrarUsuario()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-04 14:08:48 --> [DEPRECATED] password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in APPPATH\Controllers\RegistroController.php on line 17.
+ 1 APPPATH\Controllers\RegistroController.php(17): password_hash(Object(SensitiveParameterValue), '2y')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RegistroController->registrarUsuario()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-04 14:08:48 --> [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot insert the value NULL into column 'TIPO_USUARIO', table 'CGingreso.dbo.USUARIOS'; column does not allow nulls. INSERT fails.
+CRITICAL - 2024-03-04 14:08:48 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot insert the value NULL into column 'TIPO_USUARIO', table 'CGingreso.dbo.USUARIOS'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO "CGingreso"."dbo"."usuarios" ("nombre","nusuario","contrasena","tipo_usuario") VALUES (:nombre:, :nusuario:, :contrasena:, :tipo_usuario:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\RegistroController.php(27): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RegistroController->registrarUsuario()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 14:08:48 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot insert the value NULL into column 'TIPO_USUARIO', table 'CGingreso.dbo.USUARIOS'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 482.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\SQLSRV\Connection->execute('INSERT INTO "CGingreso"."dbo"."usuarios" ("nombre","nusuario","contrasena","tipo_usuario") VALUES (\'Daniel\', \'danielp\', \'$2y$10$k6yZUL7TCu1hrTEQvlrppeMWNqIxpe6Xd2JxpLJRhA2g7SLA2z0We\', NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "CGingreso"."dbo"."usuarios" ("nombre","nusuario","contrasena","tipo_usuario") VALUES (\'Daniel\', \'danielp\', \'$2y$10$k6yZUL7TCu1hrTEQvlrppeMWNqIxpe6Xd2JxpLJRhA2g7SLA2z0We\', NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO "CGingreso"."dbo"."usuarios" ("nombre","nusuario","contrasena","tipo_usuario") VALUES (:nombre:, :nusuario:, :contrasena:, :tipo_usuario:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\RegistroController.php(27): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RegistroController->registrarUsuario()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-04 14:13:30 --> [DEPRECATED] password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in APPPATH\Controllers\RegistroController.php on line 17.
+ 1 APPPATH\Controllers\RegistroController.php(17): password_hash(Object(SensitiveParameterValue), '2y')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RegistroController->registrarUsuario()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-04 14:13:30 --> [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot insert the value NULL into column 'TIPO_USUARIO', table 'CGingreso.dbo.USUARIOS'; column does not allow nulls. INSERT fails.
+CRITICAL - 2024-03-04 14:13:30 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot insert the value NULL into column 'TIPO_USUARIO', table 'CGingreso.dbo.USUARIOS'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO "CGingreso"."dbo"."usuarios" ("nombre","nusuario","contrasena","tipo_usuario") VALUES (:nombre:, :nusuario:, :contrasena:, :tipo_usuario:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\RegistroController.php(27): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RegistroController->registrarUsuario()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 14:13:30 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot insert the value NULL into column 'TIPO_USUARIO', table 'CGingreso.dbo.USUARIOS'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 482.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\SQLSRV\Connection->execute('INSERT INTO "CGingreso"."dbo"."usuarios" ("nombre","nusuario","contrasena","tipo_usuario") VALUES (\'Daniel\', \'danielp\', \'$2y$10$u7RKoBKc3GfbrWo7p8Jkcu1h0zKePFH4c5USuF97JhnOLEEGK5wvW\', NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "CGingreso"."dbo"."usuarios" ("nombre","nusuario","contrasena","tipo_usuario") VALUES (\'Daniel\', \'danielp\', \'$2y$10$u7RKoBKc3GfbrWo7p8Jkcu1h0zKePFH4c5USuF97JhnOLEEGK5wvW\', NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO "CGingreso"."dbo"."usuarios" ("nombre","nusuario","contrasena","tipo_usuario") VALUES (:nombre:, :nusuario:, :contrasena:, :tipo_usuario:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\RegistroController.php(27): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RegistroController->registrarUsuario()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-04 14:37:41 --> [DEPRECATED] password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in APPPATH\Controllers\RegistroController.php on line 17.
+ 1 APPPATH\Controllers\RegistroController.php(17): password_hash(Object(SensitiveParameterValue), '2y')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RegistroController->registrarUsuario()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-04 14:37:41 --> [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot insert the value NULL into column 'TIPO_USUARIO', table 'CGingreso.dbo.USUARIOS'; column does not allow nulls. INSERT fails.
+CRITICAL - 2024-03-04 14:37:41 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot insert the value NULL into column 'TIPO_USUARIO', table 'CGingreso.dbo.USUARIOS'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO "CGingreso"."dbo"."usuarios" ("nombre","nusuario","contrasena","tipo_usuario") VALUES (:nombre:, :nusuario:, :contrasena:, :tipo_usuario:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\RegistroController.php(27): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RegistroController->registrarUsuario()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 14:37:41 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot insert the value NULL into column 'TIPO_USUARIO', table 'CGingreso.dbo.USUARIOS'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 482.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\SQLSRV\Connection->execute('INSERT INTO "CGingreso"."dbo"."usuarios" ("nombre","nusuario","contrasena","tipo_usuario") VALUES (\'Daniel\', \'danielp\', \'$2y$10$7TeocvxDamm8v.E00LiYCeHXOnvWhoTydDuV0zdehvNioTAK8KQVC\', NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "CGingreso"."dbo"."usuarios" ("nombre","nusuario","contrasena","tipo_usuario") VALUES (\'Daniel\', \'danielp\', \'$2y$10$7TeocvxDamm8v.E00LiYCeHXOnvWhoTydDuV0zdehvNioTAK8KQVC\', NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO "CGingreso"."dbo"."usuarios" ("nombre","nusuario","contrasena","tipo_usuario") VALUES (:nombre:, :nusuario:, :contrasena:, :tipo_usuario:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\RegistroController.php(27): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RegistroController->registrarUsuario()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-04 14:45:25 --> [DEPRECATED] password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in APPPATH\Controllers\RegistroController.php on line 17.
+ 1 APPPATH\Controllers\RegistroController.php(17): password_hash(Object(SensitiveParameterValue), '2y')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RegistroController->registrarUsuario()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-04 14:45:25 --> [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot insert the value NULL into column 'TIPO_USUARIO', table 'CGingreso.dbo.USUARIOS'; column does not allow nulls. INSERT fails.
+CRITICAL - 2024-03-04 14:45:25 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot insert the value NULL into column 'TIPO_USUARIO', table 'CGingreso.dbo.USUARIOS'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO "CGingreso"."dbo"."usuarios" ("nombre","nusuario","contrasena","tipo_usuario") VALUES (:nombre:, :nusuario:, :contrasena:, :tipo_usuario:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\RegistroController.php(27): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RegistroController->registrarUsuario()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 14:45:25 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot insert the value NULL into column 'TIPO_USUARIO', table 'CGingreso.dbo.USUARIOS'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 482.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\SQLSRV\Connection->execute('INSERT INTO "CGingreso"."dbo"."usuarios" ("nombre","nusuario","contrasena","tipo_usuario") VALUES (\'Daniel\', \'danielp\', \'$2y$10$v1i05PUEW2nR2T6HLF0xse542Ox5p9SmtMaBOcHlBiYoeIHO9fvG2\', NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "CGingreso"."dbo"."usuarios" ("nombre","nusuario","contrasena","tipo_usuario") VALUES (\'Daniel\', \'danielp\', \'$2y$10$v1i05PUEW2nR2T6HLF0xse542Ox5p9SmtMaBOcHlBiYoeIHO9fvG2\', NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO "CGingreso"."dbo"."usuarios" ("nombre","nusuario","contrasena","tipo_usuario") VALUES (:nombre:, :nusuario:, :contrasena:, :tipo_usuario:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\RegistroController.php(27): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RegistroController->registrarUsuario()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-04 14:57:11 --> [DEPRECATED] password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in APPPATH\Controllers\RegistroController.php on line 17.
+ 1 APPPATH\Controllers\RegistroController.php(17): password_hash(Object(SensitiveParameterValue), '2y')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RegistroController->registrarUsuario()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-04 14:57:11 --> [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot insert the value NULL into column 'TIPO_USUARIO', table 'CGingreso.dbo.USUARIOS'; column does not allow nulls. INSERT fails.
+CRITICAL - 2024-03-04 14:57:11 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot insert the value NULL into column 'TIPO_USUARIO', table 'CGingreso.dbo.USUARIOS'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO "CGingreso"."dbo"."usuarios" ("nombre","nusuario","contrasena","tipo_usuario") VALUES (:nombre:, :nusuario:, :contrasena:, :tipo_usuario:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\RegistroController.php(27): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RegistroController->registrarUsuario()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 14:57:11 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot insert the value NULL into column 'TIPO_USUARIO', table 'CGingreso.dbo.USUARIOS'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 482.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\SQLSRV\Connection->execute('INSERT INTO "CGingreso"."dbo"."usuarios" ("nombre","nusuario","contrasena","tipo_usuario") VALUES (\'Daniel\', \'danielpi\', \'$2y$10$gV7V/FG6Hkj0ghafpD2pU.k7.KToykB1pV5PEckNxcc.Dw89/zKtW\', NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "CGingreso"."dbo"."usuarios" ("nombre","nusuario","contrasena","tipo_usuario") VALUES (\'Daniel\', \'danielpi\', \'$2y$10$gV7V/FG6Hkj0ghafpD2pU.k7.KToykB1pV5PEckNxcc.Dw89/zKtW\', NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO "CGingreso"."dbo"."usuarios" ("nombre","nusuario","contrasena","tipo_usuario") VALUES (:nombre:, :nusuario:, :contrasena:, :tipo_usuario:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\RegistroController.php(27): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RegistroController->registrarUsuario()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-04 15:08:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 15:08:07 --> Antes de obtener información del usuario para: admin
+INFO - 2024-03-04 15:08:07 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-03-04 15:08:07 --> Contraseña ingresada: pruebaCG123
+INFO - 2024-03-04 15:08:07 --> Contraseña verificada con éxito.
+INFO - 2024-03-04 15:08:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-04 15:11:27 --> [DEPRECATED] password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in APPPATH\Controllers\RegistroController.php on line 17.
+ 1 APPPATH\Controllers\RegistroController.php(17): password_hash(Object(SensitiveParameterValue), '2y')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RegistroController->registrarUsuario()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-04 15:11:27 --> [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot insert the value NULL into column 'TIPO_USUARIO', table 'CGingreso.dbo.USUARIOS'; column does not allow nulls. INSERT fails.
+CRITICAL - 2024-03-04 15:11:27 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot insert the value NULL into column 'TIPO_USUARIO', table 'CGingreso.dbo.USUARIOS'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO "CGingreso"."dbo"."usuarios" ("nombre","nusuario","contrasena","tipo_usuario") VALUES (:nombre:, :nusuario:, :contrasena:, :tipo_usuario:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\RegistroController.php(27): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RegistroController->registrarUsuario()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 15:11:27 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot insert the value NULL into column 'TIPO_USUARIO', table 'CGingreso.dbo.USUARIOS'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 482.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\SQLSRV\Connection->execute('INSERT INTO "CGingreso"."dbo"."usuarios" ("nombre","nusuario","contrasena","tipo_usuario") VALUES (\'Daniel\', \'danielpineda\', \'$2y$10$XAkJrsBytsiPjQfmJR9M4e5DepEl8gl3wW1cDXHmJhb/6uqUN3UxG\', NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "CGingreso"."dbo"."usuarios" ("nombre","nusuario","contrasena","tipo_usuario") VALUES (\'Daniel\', \'danielpineda\', \'$2y$10$XAkJrsBytsiPjQfmJR9M4e5DepEl8gl3wW1cDXHmJhb/6uqUN3UxG\', NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO "CGingreso"."dbo"."usuarios" ("nombre","nusuario","contrasena","tipo_usuario") VALUES (:nombre:, :nusuario:, :contrasena:, :tipo_usuario:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\RegistroController.php(27): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RegistroController->registrarUsuario()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-04 15:11:27 --> [DEPRECATED] password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in APPPATH\Controllers\RegistroController.php on line 17.
+ 1 APPPATH\Controllers\RegistroController.php(17): password_hash(Object(SensitiveParameterValue), '2y')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RegistroController->registrarUsuario()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-04 15:11:27 --> [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot insert the value NULL into column 'TIPO_USUARIO', table 'CGingreso.dbo.USUARIOS'; column does not allow nulls. INSERT fails.
+CRITICAL - 2024-03-04 15:11:27 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot insert the value NULL into column 'TIPO_USUARIO', table 'CGingreso.dbo.USUARIOS'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO "CGingreso"."dbo"."usuarios" ("nombre","nusuario","contrasena","tipo_usuario") VALUES (:nombre:, :nusuario:, :contrasena:, :tipo_usuario:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\RegistroController.php(27): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RegistroController->registrarUsuario()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 15:11:27 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot insert the value NULL into column 'TIPO_USUARIO', table 'CGingreso.dbo.USUARIOS'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 482.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\SQLSRV\Connection->execute('INSERT INTO "CGingreso"."dbo"."usuarios" ("nombre","nusuario","contrasena","tipo_usuario") VALUES (\'Daniel\', \'danielpineda\', \'$2y$10$EGU89NxwOtc5XLTqeYyYY.g1O67MfKhooByjP7vpCUdmtunC/qseq\', NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "CGingreso"."dbo"."usuarios" ("nombre","nusuario","contrasena","tipo_usuario") VALUES (\'Daniel\', \'danielpineda\', \'$2y$10$EGU89NxwOtc5XLTqeYyYY.g1O67MfKhooByjP7vpCUdmtunC/qseq\', NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO "CGingreso"."dbo"."usuarios" ("nombre","nusuario","contrasena","tipo_usuario") VALUES (:nombre:, :nusuario:, :contrasena:, :tipo_usuario:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\RegistroController.php(27): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RegistroController->registrarUsuario()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-04 15:13:27 --> [DEPRECATED] password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in APPPATH\Controllers\RegistroController.php on line 17.
+ 1 APPPATH\Controllers\RegistroController.php(17): password_hash(Object(SensitiveParameterValue), '2y')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RegistroController->registrarUsuario()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-04 15:13:27 --> [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot insert the value NULL into column 'TIPO_USUARIO', table 'CGingreso.dbo.USUARIOS'; column does not allow nulls. INSERT fails.
+CRITICAL - 2024-03-04 15:13:27 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot insert the value NULL into column 'TIPO_USUARIO', table 'CGingreso.dbo.USUARIOS'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO "CGingreso"."dbo"."usuarios" ("nombre","nusuario","contrasena") VALUES (:nombre:, :nusuario:, :contrasena:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\RegistroController.php(27): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RegistroController->registrarUsuario()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 15:13:27 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot insert the value NULL into column 'TIPO_USUARIO', table 'CGingreso.dbo.USUARIOS'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 482.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\SQLSRV\Connection->execute('INSERT INTO "CGingreso"."dbo"."usuarios" ("nombre","nusuario","contrasena") VALUES (\'DANIEL\', \'PINEDA\', \'$2y$10$5X3pgSZO/FbnHWrQ423KxuJOcK5sGjjC9UhYZ7ZcPyRUc7Svbe9Le\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "CGingreso"."dbo"."usuarios" ("nombre","nusuario","contrasena") VALUES (\'DANIEL\', \'PINEDA\', \'$2y$10$5X3pgSZO/FbnHWrQ423KxuJOcK5sGjjC9UhYZ7ZcPyRUc7Svbe9Le\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO "CGingreso"."dbo"."usuarios" ("nombre","nusuario","contrasena") VALUES (:nombre:, :nusuario:, :contrasena:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\RegistroController.php(27): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RegistroController->registrarUsuario()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-04 15:16:29 --> [DEPRECATED] password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in APPPATH\Controllers\RegistroController.php on line 17.
+ 1 APPPATH\Controllers\RegistroController.php(17): password_hash(Object(SensitiveParameterValue), '2y')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RegistroController->registrarUsuario()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-04 15:16:29 --> [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot insert the value NULL into column 'TIPO_USUARIO', table 'CGingreso.dbo.USUARIOS'; column does not allow nulls. INSERT fails.
+CRITICAL - 2024-03-04 15:16:29 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot insert the value NULL into column 'TIPO_USUARIO', table 'CGingreso.dbo.USUARIOS'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO "CGingreso"."dbo"."usuarios" ("nombre","nusuario","contrasena") VALUES (:nombre:, :nusuario:, :contrasena:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\RegistroController.php(27): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RegistroController->registrarUsuario()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-04 15:16:29 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot insert the value NULL into column 'TIPO_USUARIO', table 'CGingreso.dbo.USUARIOS'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 482.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\SQLSRV\Connection->execute('INSERT INTO "CGingreso"."dbo"."usuarios" ("nombre","nusuario","contrasena") VALUES (\'Daniel\', \'pineda\', \'$2y$10$Bj2jzzx9dBY66Wv3P6R5PuBvwIWIV6bj1j.eSJKJBkAw1q5SgUxgy\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "CGingreso"."dbo"."usuarios" ("nombre","nusuario","contrasena") VALUES (\'Daniel\', \'pineda\', \'$2y$10$Bj2jzzx9dBY66Wv3P6R5PuBvwIWIV6bj1j.eSJKJBkAw1q5SgUxgy\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO "CGingreso"."dbo"."usuarios" ("nombre","nusuario","contrasena") VALUES (:nombre:, :nusuario:, :contrasena:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\RegistroController.php(27): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RegistroController->registrarUsuario()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-04 15:19:15 --> [DEPRECATED] password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in APPPATH\Controllers\RegistroController.php on line 17.
+ 1 APPPATH\Controllers\RegistroController.php(17): password_hash(Object(SensitiveParameterValue), '2y')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RegistroController->registrarUsuario()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-04 15:19:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 15:32:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 15:32:20 --> Antes de obtener información del usuario para: admin
+INFO - 2024-03-04 15:32:20 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-03-04 15:32:20 --> Contraseña ingresada: pruebaCG123
+INFO - 2024-03-04 15:32:20 --> Contraseña verificada con éxito.
+INFO - 2024-03-04 15:32:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-04 15:41:43 --> [DEPRECATED] password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in APPPATH\Controllers\RegistroController.php on line 17.
+ 1 APPPATH\Controllers\RegistroController.php(17): password_hash(Object(SensitiveParameterValue), '2y')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RegistroController->registrarUsuario()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-04 15:41:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-04 15:45:31 --> [DEPRECATED] password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in APPPATH\Controllers\RegistroController.php on line 17.
+ 1 APPPATH\Controllers\RegistroController.php(17): password_hash(Object(SensitiveParameterValue), '2y')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RegistroController->registrarUsuario()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-04 15:45:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 15:47:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 15:47:53 --> Antes de obtener información del usuario para: gustavo
+INFO - 2024-03-04 15:47:53 --> Contraseña almacenada para el usuario "gustavo": $2y$10$tAWP.a5uOaeBVCYiZtSXiuH0NzMWsW7qOv3iY9UxMOy9hD4ZdjkDm
+INFO - 2024-03-04 15:47:53 --> Contraseña ingresada: 1234
+ERROR - 2024-03-04 15:47:53 --> Autenticación fallida para el usuario: gustavo
+INFO - 2024-03-04 15:47:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 15:48:08 --> Antes de obtener información del usuario para: gustavo
+INFO - 2024-03-04 15:48:08 --> Contraseña almacenada para el usuario "gustavo": $2y$10$tAWP.a5uOaeBVCYiZtSXiuH0NzMWsW7qOv3iY9UxMOy9hD4ZdjkDm
+INFO - 2024-03-04 15:48:08 --> Contraseña ingresada: 1234
+ERROR - 2024-03-04 15:48:08 --> Autenticación fallida para el usuario: gustavo
+INFO - 2024-03-04 15:48:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

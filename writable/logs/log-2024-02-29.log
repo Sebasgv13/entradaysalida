@@ -1,0 +1,16 @@
+INFO - 2024-02-29 08:13:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 08:13:35 --> Antes de obtener información del usuario para: admin
+INFO - 2024-02-29 08:13:35 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-02-29 08:13:35 --> Contraseña ingresada: pruebaCG123
+INFO - 2024-02-29 08:13:35 --> Contraseña verificada con éxito.
+INFO - 2024-02-29 08:13:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 08:13:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 08:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 08:13:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 08:52:00 --> Antes de obtener información del usuario para: admin
+INFO - 2024-02-29 08:52:00 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-02-29 08:52:00 --> Contraseña ingresada: 3
+ERROR - 2024-02-29 08:52:00 --> Autenticación fallida para el usuario: admin
+INFO - 2024-02-29 08:52:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 08:52:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 08:52:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

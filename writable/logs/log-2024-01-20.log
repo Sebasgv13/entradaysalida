@@ -1,0 +1,52 @@
+INFO - 2024-01-20 00:00:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-20 00:03:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-20 00:03:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-20 00:03:51 --> Datos del usuario obtenidos:
+INFO - 2024-01-20 00:03:51 --> Antes de obtener información del usuario para: admin
+ERROR - 2024-01-20 00:03:51 --> Autenticación fallida para el usuario: admin
+INFO - 2024-01-20 00:03:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-20 00:03:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-20 00:12:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-20 00:12:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-20 00:12:38 --> Datos del usuario obtenidos:
+INFO - 2024-01-20 00:12:38 --> Antes de obtener información del usuario para: admin
+ERROR - 2024-01-20 00:12:38 --> Autenticación fallida para el usuario: admin
+INFO - 2024-01-20 00:12:38 --> Contenido de $datosUsuario:
+INFO - 2024-01-20 00:12:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-20 00:12:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-20 00:23:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-20 00:23:16 --> Datos del usuario obtenidos:
+INFO - 2024-01-20 00:23:16 --> Antes de obtener información del usuario para: sistemas
+ERROR - 2024-01-20 00:23:16 --> Autenticación fallida para el usuario: sistemas
+INFO - 2024-01-20 00:23:16 --> Contenido de $datosUsuario:
+INFO - 2024-01-20 00:23:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-20 00:23:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-20 00:36:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-20 00:36:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-20 00:36:45 --> Datos del usuario obtenidos:
+INFO - 2024-01-20 00:36:45 --> Antes de obtener información del usuario para: sistemas
+INFO - 2024-01-20 00:36:45 --> Contraseña almacenada para el usuario "sistemas": $2y$10$.aqHFMKr7ddtjkNErcjS0Ov7TrHdgEJ6tdkZPxoCtHty5c9PojFVS
+ERROR - 2024-01-20 00:36:45 --> Autenticación fallida para el usuario: sistemas
+INFO - 2024-01-20 00:36:45 --> Contenido de $datosUsuario:
+INFO - 2024-01-20 00:36:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-20 00:36:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-20 00:55:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-20 00:55:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-20 00:55:32 --> Datos del usuario obtenidos:
+INFO - 2024-01-20 00:55:32 --> Antes de obtener información del usuario para: sistemas
+INFO - 2024-01-20 00:55:32 --> Contraseña ingresada: sistemasCG123
+INFO - 2024-01-20 00:55:32 --> Contraseña almacenada para el usuario "sistemas": $2y$10$.aqHFMKr7ddtjkNErcjS0Ov7TrHdgEJ6tdkZPxoCtHty5c9PojFVS
+ERROR - 2024-01-20 00:55:32 --> Autenticación fallida para el usuario: sistemas
+INFO - 2024-01-20 00:55:32 --> Contenido de $datosUsuario:
+INFO - 2024-01-20 00:55:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-20 00:55:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-20 01:07:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-20 01:07:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-20 01:07:39 --> Datos del usuario obtenidos:
+INFO - 2024-01-20 01:07:39 --> Antes de obtener información del usuario para: sistemas
+INFO - 2024-01-20 01:07:39 --> Contraseña ingresada: sistemasCG123
+INFO - 2024-01-20 01:07:39 --> Contraseña almacenada para el usuario "sistemas": $2y$10$.aqHFMKr7ddtjkNErcjS0Ov7TrHdgEJ6tdkZPxoCtHty5c9PojFVS
+ERROR - 2024-01-20 01:07:39 --> Autenticación fallida para el usuario: sistemas
+INFO - 2024-01-20 01:07:39 --> Contenido de $datosUsuario:
+INFO - 2024-01-20 01:07:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-20 01:07:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,467 @@
+INFO - 2024-01-24 13:31:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 13:31:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 13:32:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 13:32:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 13:32:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 13:32:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 13:32:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 13:32:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 13:33:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 13:33:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 13:44:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 13:47:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 13:48:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 13:49:04 --> Antes de obtener información del usuario para: admin
+INFO - 2024-01-24 13:49:04 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-01-24 13:49:04 --> Contraseña ingresada: 1234
+ERROR - 2024-01-24 13:49:04 --> Autenticación fallida para el usuario: admin
+INFO - 2024-01-24 13:49:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 13:49:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 13:50:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 13:50:17 --> Antes de obtener información del usuario para: admin
+INFO - 2024-01-24 13:50:17 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-01-24 13:50:17 --> Contraseña ingresada: pruebaCG123
+ERROR - 2024-01-24 13:50:17 --> Autenticación fallida para el usuario: admin
+INFO - 2024-01-24 13:50:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 13:50:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 13:55:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 13:55:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 13:55:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 13:55:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 13:55:59 --> Antes de obtener información del usuario para: admin
+INFO - 2024-01-24 13:55:59 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-01-24 13:55:59 --> Contraseña ingresada: pruebaCG123
+ERROR - 2024-01-24 13:55:59 --> Autenticación fallida para el usuario: admin
+INFO - 2024-01-24 13:55:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 13:55:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:00:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:00:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:00:23 --> Antes de obtener información del usuario para: admin
+INFO - 2024-01-24 14:00:23 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-01-24 14:00:23 --> Contraseña ingresada: pruebaCG123
+INFO - 2024-01-24 14:00:23 --> Contraseña verificada con éxito.
+INFO - 2024-01-24 14:00:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:07:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:07:40 --> Antes de obtener información del usuario para: admin
+INFO - 2024-01-24 14:07:40 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-01-24 14:07:40 --> Contraseña ingresada: sistemasCG123
+ERROR - 2024-01-24 14:07:40 --> Autenticación fallida para el usuario: admin
+INFO - 2024-01-24 14:07:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:07:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:07:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:08:13 --> Antes de obtener información del usuario para: admin
+INFO - 2024-01-24 14:08:13 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-01-24 14:08:13 --> Contraseña ingresada: pruebaCG123
+INFO - 2024-01-24 14:08:13 --> Contraseña verificada con éxito.
+INFO - 2024-01-24 14:08:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:11:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:11:12 --> Antes de obtener información del usuario para: admin
+INFO - 2024-01-24 14:11:12 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-01-24 14:11:12 --> Contraseña ingresada: pruebaCG123
+INFO - 2024-01-24 14:11:12 --> Contraseña verificada con éxito.
+INFO - 2024-01-24 14:11:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:12:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:12:38 --> Antes de obtener información del usuario para: admin
+INFO - 2024-01-24 14:12:38 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-01-24 14:12:38 --> Contraseña ingresada: PruebaCG123
+ERROR - 2024-01-24 14:12:38 --> Autenticación fallida para el usuario: admin
+INFO - 2024-01-24 14:12:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:12:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:13:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:13:49 --> Antes de obtener información del usuario para: admin
+INFO - 2024-01-24 14:13:49 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-01-24 14:13:49 --> Contraseña ingresada: 1
+ERROR - 2024-01-24 14:13:49 --> Autenticación fallida para el usuario: admin
+INFO - 2024-01-24 14:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:13:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:14:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:16:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:17:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:18:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:18:57 --> Antes de obtener información del usuario para: admin
+INFO - 2024-01-24 14:18:57 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-01-24 14:18:57 --> Contraseña ingresada: 1
+ERROR - 2024-01-24 14:18:57 --> Autenticación fallida para el usuario: admin
+INFO - 2024-01-24 14:18:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-24 14:19:23 --> ErrorException: Undefined property: Config\App::$indexPage
+in SYSTEMPATH\HTTP\SiteURI.php on line 98.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\App::$indexPage', 'C:\\xampp\\htdocs\\central\\system\\HTTP\\SiteURI.php', 98)
+ 2 SYSTEMPATH\HTTP\SiteURIFactory.php(224): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), '/', null)
+ 3 SYSTEMPATH\HTTP\SiteURIFactory.php(45): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('/')
+ 4 SYSTEMPATH\Config\Services.php(799): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+ 5 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(null, false)
+ 6 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', [...])
+ 7 SYSTEMPATH\Config\Services.php(792): CodeIgniter\Config\BaseService::getSharedInstance('uri', null)
+ 8 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+ 9 SYSTEMPATH\Config\Services.php(566): CodeIgniter\Config\BaseService::__callStatic('uri', [])
+10 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+11 SYSTEMPATH\Config\Services.php(524): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', [...])
+12 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::request(Object(Config\App), false)
+13 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', [...])
+14 SYSTEMPATH\Config\Services.php(559): CodeIgniter\Config\BaseService::getSharedInstance('request', Object(Config\App))
+15 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App))
+16 SYSTEMPATH\Config\Services.php(539): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', [...])
+17 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::createRequest(Object(Config\App))
+18 SYSTEMPATH\CodeIgniter.php(655): CodeIgniter\Config\BaseService::__callStatic('createRequest', [...])
+19 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->getRequestObject()
+20 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-24 14:19:23 --> ErrorException: Uncaught ErrorException: Undefined property: Config\App::$indexPage in C:\xampp\htdocs\central\system\HTTP\SiteURI.php:98
+Stack trace:
+#0 C:\xampp\htdocs\central\system\HTTP\SiteURI.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 98)
+#1 C:\xampp\htdocs\central\system\HTTP\SiteURIFactory.php(224): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), '/', NULL)
+#2 C:\xampp\htdocs\central\system\HTTP\SiteURIFactory.php(45): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('/')
+#3 C:\xampp\htdocs\central\system\Config\Services.php(799): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+#4 C:\xampp\htdocs\central\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(NULL, false)
+#5 C:\xampp\htdocs\central\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#6 C:\xampp\htdocs\central\system\Config\Services.php(792): CodeIgniter\Config\BaseService::getSharedInstance('uri', NULL)
+#7 C:\xampp\htdocs\central\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+#8 C:\xampp\htdocs\central\system\Config\Services.php(566): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#9 C:\xampp\htdocs\central\system\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#10 C:\xampp\htdocs\central\system\Config\Services.php(524): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', Array)
+#11 C:\xampp\htdocs\central\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request(NULL, false)
+#12 C:\xampp\htdocs\central\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#13 C:\xampp\htdocs\central\system\Config\Services.php(520): CodeIgniter\Config\BaseService::getSharedInstance('request', NULL)
+#14 C:\xampp\htdocs\central\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request()
+#15 C:\xampp\htdocs\central\system\Debug\Exceptions.php(150): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#16 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#17 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined property: Config\App::$indexPage
+#0 C:\xampp\htdocs\central\system\HTTP\SiteURI.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 98)
+#1 C:\xampp\htdocs\central\system\HTTP\SiteURIFactory.php(224): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), '/', NULL)
+#2 C:\xampp\htdocs\central\system\HTTP\SiteURIFactory.php(45): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('/')
+#3 C:\xampp\htdocs\central\system\Config\Services.php(799): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+#4 C:\xampp\htdocs\central\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(NULL, false)
+#5 C:\xampp\htdocs\central\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#6 C:\xampp\htdocs\central\system\Config\Services.php(792): CodeIgniter\Config\BaseService::getSharedInstance('uri', NULL)
+#7 C:\xampp\htdocs\central\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+#8 C:\xampp\htdocs\central\system\Config\Services.php(566): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#9 C:\xampp\htdocs\central\system\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#10 C:\xampp\htdocs\central\system\Config\Services.php(524): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', Array)
+#11 C:\xampp\htdocs\central\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request(Object(Config\App), false)
+#12 C:\xampp\htdocs\central\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#13 C:\xampp\htdocs\central\system\Config\Services.php(559): CodeIgniter\Config\BaseService::getSharedInstance('request', Object(Config\App))
+#14 C:\xampp\htdocs\central\system\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App))
+#15 C:\xampp\htdocs\central\system\Config\Services.php(539): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', Array)
+#16 C:\xampp\htdocs\central\system\Config\BaseService.php(258): CodeIgniter\Config\Services::createRequest(Object(Config\App))
+#17 C:\xampp\htdocs\central\system\CodeIgniter.php(655): CodeIgniter\Config\BaseService::__callStatic('createRequest', Array)
+#18 C:\xampp\htdocs\central\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->getRequestObject()
+#19 C:\xampp\htdocs\central\index.php(79): CodeIgniter\CodeIgniter->run()
+#20 {main}
+in SYSTEMPATH\HTTP\SiteURI.php on line 98.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-24 14:19:26 --> ErrorException: Undefined property: Config\App::$indexPage
+in SYSTEMPATH\HTTP\SiteURI.php on line 98.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\App::$indexPage', 'C:\\xampp\\htdocs\\central\\system\\HTTP\\SiteURI.php', 98)
+ 2 SYSTEMPATH\HTTP\SiteURIFactory.php(224): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), 'loginCG', null)
+ 3 SYSTEMPATH\HTTP\SiteURIFactory.php(45): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('loginCG')
+ 4 SYSTEMPATH\Config\Services.php(799): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+ 5 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(null, false)
+ 6 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', [...])
+ 7 SYSTEMPATH\Config\Services.php(792): CodeIgniter\Config\BaseService::getSharedInstance('uri', null)
+ 8 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+ 9 SYSTEMPATH\Config\Services.php(566): CodeIgniter\Config\BaseService::__callStatic('uri', [])
+10 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+11 SYSTEMPATH\Config\Services.php(524): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', [...])
+12 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::request(Object(Config\App), false)
+13 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', [...])
+14 SYSTEMPATH\Config\Services.php(559): CodeIgniter\Config\BaseService::getSharedInstance('request', Object(Config\App))
+15 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App))
+16 SYSTEMPATH\Config\Services.php(539): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', [...])
+17 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::createRequest(Object(Config\App))
+18 SYSTEMPATH\CodeIgniter.php(655): CodeIgniter\Config\BaseService::__callStatic('createRequest', [...])
+19 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->getRequestObject()
+20 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-24 14:19:26 --> ErrorException: Uncaught ErrorException: Undefined property: Config\App::$indexPage in C:\xampp\htdocs\central\system\HTTP\SiteURI.php:98
+Stack trace:
+#0 C:\xampp\htdocs\central\system\HTTP\SiteURI.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 98)
+#1 C:\xampp\htdocs\central\system\HTTP\SiteURIFactory.php(224): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), 'loginCG', NULL)
+#2 C:\xampp\htdocs\central\system\HTTP\SiteURIFactory.php(45): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('loginCG')
+#3 C:\xampp\htdocs\central\system\Config\Services.php(799): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+#4 C:\xampp\htdocs\central\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(NULL, false)
+#5 C:\xampp\htdocs\central\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#6 C:\xampp\htdocs\central\system\Config\Services.php(792): CodeIgniter\Config\BaseService::getSharedInstance('uri', NULL)
+#7 C:\xampp\htdocs\central\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+#8 C:\xampp\htdocs\central\system\Config\Services.php(566): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#9 C:\xampp\htdocs\central\system\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#10 C:\xampp\htdocs\central\system\Config\Services.php(524): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', Array)
+#11 C:\xampp\htdocs\central\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request(NULL, false)
+#12 C:\xampp\htdocs\central\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#13 C:\xampp\htdocs\central\system\Config\Services.php(520): CodeIgniter\Config\BaseService::getSharedInstance('request', NULL)
+#14 C:\xampp\htdocs\central\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request()
+#15 C:\xampp\htdocs\central\system\Debug\Exceptions.php(150): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#16 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#17 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined property: Config\App::$indexPage
+#0 C:\xampp\htdocs\central\system\HTTP\SiteURI.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 98)
+#1 C:\xampp\htdocs\central\system\HTTP\SiteURIFactory.php(224): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), 'loginCG', NULL)
+#2 C:\xampp\htdocs\central\system\HTTP\SiteURIFactory.php(45): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('loginCG')
+#3 C:\xampp\htdocs\central\system\Config\Services.php(799): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+#4 C:\xampp\htdocs\central\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(NULL, false)
+#5 C:\xampp\htdocs\central\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#6 C:\xampp\htdocs\central\system\Config\Services.php(792): CodeIgniter\Config\BaseService::getSharedInstance('uri', NULL)
+#7 C:\xampp\htdocs\central\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+#8 C:\xampp\htdocs\central\system\Config\Services.php(566): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#9 C:\xampp\htdocs\central\system\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#10 C:\xampp\htdocs\central\system\Config\Services.php(524): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', Array)
+#11 C:\xampp\htdocs\central\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request(Object(Config\App), false)
+#12 C:\xampp\htdocs\central\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#13 C:\xampp\htdocs\central\system\Config\Services.php(559): CodeIgniter\Config\BaseService::getSharedInstance('request', Object(Config\App))
+#14 C:\xampp\htdocs\central\system\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App))
+#15 C:\xampp\htdocs\central\system\Config\Services.php(539): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', Array)
+#16 C:\xampp\htdocs\central\system\Config\BaseService.php(258): CodeIgniter\Config\Services::createRequest(Object(Config\App))
+#17 C:\xampp\htdocs\central\system\CodeIgniter.php(655): CodeIgniter\Config\BaseService::__callStatic('createRequest', Array)
+#18 C:\xampp\htdocs\central\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->getRequestObject()
+#19 C:\xampp\htdocs\central\index.php(79): CodeIgniter\CodeIgniter->run()
+#20 {main}
+in SYSTEMPATH\HTTP\SiteURI.php on line 98.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-01-24 14:19:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:20:09 --> Antes de obtener información del usuario para: admin
+INFO - 2024-01-24 14:20:09 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-01-24 14:20:09 --> Contraseña ingresada: 1
+ERROR - 2024-01-24 14:20:09 --> Autenticación fallida para el usuario: admin
+INFO - 2024-01-24 14:20:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:20:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:20:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:20:42 --> Antes de obtener información del usuario para: admin
+INFO - 2024-01-24 14:20:42 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-01-24 14:20:42 --> Contraseña ingresada: 1
+ERROR - 2024-01-24 14:20:42 --> Autenticación fallida para el usuario: admin
+INFO - 2024-01-24 14:20:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:20:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:20:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:20:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:21:04 --> Antes de obtener información del usuario para: admin
+INFO - 2024-01-24 14:21:04 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-01-24 14:21:04 --> Contraseña ingresada: PruebaCG123
+ERROR - 2024-01-24 14:21:04 --> Autenticación fallida para el usuario: admin
+INFO - 2024-01-24 14:21:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:21:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:21:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:21:14 --> Antes de obtener información del usuario para: admin
+INFO - 2024-01-24 14:21:14 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-01-24 14:21:14 --> Contraseña ingresada: pruebaCG123
+INFO - 2024-01-24 14:21:14 --> Contraseña verificada con éxito.
+INFO - 2024-01-24 14:21:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:21:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:21:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:21:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:30:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:30:37 --> Antes de obtener información del usuario para: DANIEL
+INFO - 2024-01-24 14:30:37 --> Contraseña almacenada para el usuario "DANIEL": $2y$10$S9GNMSJpJDjDlE3eP7gw4ePDyLPNKDmuCT1faIE8t8YKceNymhJvG
+INFO - 2024-01-24 14:30:37 --> Contraseña ingresada: 2387740dp
+ERROR - 2024-01-24 14:30:37 --> Autenticación fallida para el usuario: DANIEL
+INFO - 2024-01-24 14:30:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:30:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:30:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:30:50 --> Antes de obtener información del usuario para: DANIEL
+INFO - 2024-01-24 14:30:50 --> Contraseña almacenada para el usuario "DANIEL": $2y$10$S9GNMSJpJDjDlE3eP7gw4ePDyLPNKDmuCT1faIE8t8YKceNymhJvG
+INFO - 2024-01-24 14:30:50 --> Contraseña ingresada: 2387740Dp
+ERROR - 2024-01-24 14:30:50 --> Autenticación fallida para el usuario: DANIEL
+INFO - 2024-01-24 14:30:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:30:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:30:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:31:28 --> Antes de obtener información del usuario para: porteria1
+INFO - 2024-01-24 14:31:28 --> Contraseña almacenada para el usuario "porteria1": 123@
+INFO - 2024-01-24 14:31:28 --> Contraseña ingresada: 12364
+ERROR - 2024-01-24 14:31:28 --> Autenticación fallida para el usuario: porteria1
+INFO - 2024-01-24 14:31:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:31:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:31:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:31:58 --> Antes de obtener información del usuario para: admin
+INFO - 2024-01-24 14:31:58 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-01-24 14:31:58 --> Contraseña ingresada: 123@
+ERROR - 2024-01-24 14:31:58 --> Autenticación fallida para el usuario: admin
+INFO - 2024-01-24 14:31:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:31:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:32:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:32:09 --> Antes de obtener información del usuario para: PORTERIA1
+INFO - 2024-01-24 14:32:09 --> Contraseña almacenada para el usuario "PORTERIA1": 123@
+INFO - 2024-01-24 14:32:09 --> Contraseña ingresada: 123@
+INFO - 2024-01-24 14:32:09 --> Contraseña verificada con éxito.
+INFO - 2024-01-24 14:32:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:32:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:32:47 --> Antes de obtener información del usuario para: DANIEL
+INFO - 2024-01-24 14:32:47 --> Contraseña almacenada para el usuario "DANIEL": 12345@
+INFO - 2024-01-24 14:32:47 --> Contraseña ingresada: 12345@
+INFO - 2024-01-24 14:32:47 --> Contraseña verificada con éxito.
+INFO - 2024-01-24 14:32:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:33:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:34:04 --> Antes de obtener información del usuario para: DANIEL
+INFO - 2024-01-24 14:34:04 --> Contraseña almacenada para el usuario "DANIEL": 12345@
+INFO - 2024-01-24 14:34:04 --> Contraseña ingresada: 12345@
+INFO - 2024-01-24 14:34:04 --> Contraseña verificada con éxito.
+INFO - 2024-01-24 14:34:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:34:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:34:18 --> Antes de obtener información del usuario para: sistemas
+INFO - 2024-01-24 14:34:18 --> Contraseña almacenada para el usuario "sistemas": 12345@
+INFO - 2024-01-24 14:34:18 --> Contraseña ingresada: 12345@
+INFO - 2024-01-24 14:34:18 --> Contraseña verificada con éxito.
+INFO - 2024-01-24 14:34:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:34:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:34:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:35:05 --> Antes de obtener información del usuario para: DANIEL
+INFO - 2024-01-24 14:35:05 --> Contraseña almacenada para el usuario "DANIEL": 12345@
+INFO - 2024-01-24 14:35:05 --> Contraseña ingresada: 12345@
+INFO - 2024-01-24 14:35:05 --> Contraseña verificada con éxito.
+INFO - 2024-01-24 14:35:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:35:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:35:56 --> Antes de obtener información del usuario para: PORTERIA1
+INFO - 2024-01-24 14:35:56 --> Contraseña almacenada para el usuario "PORTERIA1": 123@
+INFO - 2024-01-24 14:35:56 --> Contraseña ingresada: 123@
+INFO - 2024-01-24 14:35:56 --> Contraseña verificada con éxito.
+INFO - 2024-01-24 14:35:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:36:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:36:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:36:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:36:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:36:48 --> Antes de obtener información del usuario para: DANIEL
+INFO - 2024-01-24 14:36:48 --> Contraseña almacenada para el usuario "DANIEL": 12345@
+INFO - 2024-01-24 14:36:48 --> Contraseña ingresada: 12345@
+INFO - 2024-01-24 14:36:48 --> Contraseña verificada con éxito.
+INFO - 2024-01-24 14:36:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-24 14:36:57 --> [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Arithmetic overflow error converting numeric to data type varchar.
+CRITICAL - 2024-01-24 14:36:57 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Arithmetic overflow error converting numeric to data type varchar.
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\InformeModel.php(15): CodeIgniter\Database\BaseConnection->query('
+            -- Llamada a tu función SQL con el formato correcto
+            SELECT * FROM BUSCAR_INFORME (1234578, \'2024-01-01 00:00:00\', \'2024-01-31 23:59:59\')
+        ')
+ 2 APPPATH\Controllers\ReportesController.php(23): App\Models\InformeModel->buscarInforme('1234578', '2024-01-01 00:00:00', '2024-01-31 23:59:59')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-24 14:36:57 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Arithmetic overflow error converting numeric to data type varchar.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 482.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\SQLSRV\Connection->execute('
+            -- Llamada a tu función SQL con el formato correcto
+            SELECT * FROM BUSCAR_INFORME (1234578, \'2024-01-01 00:00:00\', \'2024-01-31 23:59:59\')
+        ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('
+            -- Llamada a tu función SQL con el formato correcto
+            SELECT * FROM BUSCAR_INFORME (1234578, \'2024-01-01 00:00:00\', \'2024-01-31 23:59:59\')
+        ')
+ 3 APPPATH\Models\InformeModel.php(15): CodeIgniter\Database\BaseConnection->query('
+            -- Llamada a tu función SQL con el formato correcto
+            SELECT * FROM BUSCAR_INFORME (1234578, \'2024-01-01 00:00:00\', \'2024-01-31 23:59:59\')
+        ')
+ 4 APPPATH\Controllers\ReportesController.php(23): App\Models\InformeModel->buscarInforme('1234578', '2024-01-01 00:00:00', '2024-01-31 23:59:59')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-24 14:38:50 --> [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Arithmetic overflow error converting numeric to data type varchar.
+CRITICAL - 2024-01-24 14:38:50 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Arithmetic overflow error converting numeric to data type varchar.
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\InformeModel.php(15): CodeIgniter\Database\BaseConnection->query('
+            -- Llamada a tu función SQL con el formato correcto
+            SELECT * FROM BUSCAR_INFORME (1234578, \'2024-01-01 00:00:00\', \'2024-01-31 23:59:59\')
+        ')
+ 2 APPPATH\Controllers\ReportesController.php(23): App\Models\InformeModel->buscarInforme('1234578', '2024-01-01 00:00:00', '2024-01-31 23:59:59')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-24 14:38:50 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Arithmetic overflow error converting numeric to data type varchar.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 482.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\SQLSRV\Connection->execute('
+            -- Llamada a tu función SQL con el formato correcto
+            SELECT * FROM BUSCAR_INFORME (1234578, \'2024-01-01 00:00:00\', \'2024-01-31 23:59:59\')
+        ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('
+            -- Llamada a tu función SQL con el formato correcto
+            SELECT * FROM BUSCAR_INFORME (1234578, \'2024-01-01 00:00:00\', \'2024-01-31 23:59:59\')
+        ')
+ 3 APPPATH\Models\InformeModel.php(15): CodeIgniter\Database\BaseConnection->query('
+            -- Llamada a tu función SQL con el formato correcto
+            SELECT * FROM BUSCAR_INFORME (1234578, \'2024-01-01 00:00:00\', \'2024-01-31 23:59:59\')
+        ')
+ 4 APPPATH\Controllers\ReportesController.php(23): App\Models\InformeModel->buscarInforme('1234578', '2024-01-01 00:00:00', '2024-01-31 23:59:59')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-24 14:39:00 --> [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid object name 'BUSCAR_INFORME'.
+CRITICAL - 2024-01-24 14:39:00 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid object name 'BUSCAR_INFORME'.
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\InformeModel.php(15): CodeIgniter\Database\BaseConnection->query('
+            -- Llamada a tu función SQL con el formato correcto
+            SELECT * FROM BUSCAR_INFORME (1234578, \'2024-01-24 00:00:00\', \'2024-01-24 23:59:59\')
+        ')
+ 2 APPPATH\Controllers\ReportesController.php(23): App\Models\InformeModel->buscarInforme('1234578', '2024-01-24 00:00:00', '2024-01-24 23:59:59')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-24 14:39:00 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid object name 'BUSCAR_INFORME'.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 482.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\SQLSRV\Connection->execute('
+            -- Llamada a tu función SQL con el formato correcto
+            SELECT * FROM BUSCAR_INFORME (1234578, \'2024-01-24 00:00:00\', \'2024-01-24 23:59:59\')
+        ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('
+            -- Llamada a tu función SQL con el formato correcto
+            SELECT * FROM BUSCAR_INFORME (1234578, \'2024-01-24 00:00:00\', \'2024-01-24 23:59:59\')
+        ')
+ 3 APPPATH\Models\InformeModel.php(15): CodeIgniter\Database\BaseConnection->query('
+            -- Llamada a tu función SQL con el formato correcto
+            SELECT * FROM BUSCAR_INFORME (1234578, \'2024-01-24 00:00:00\', \'2024-01-24 23:59:59\')
+        ')
+ 4 APPPATH\Controllers\ReportesController.php(23): App\Models\InformeModel->buscarInforme('1234578', '2024-01-24 00:00:00', '2024-01-24 23:59:59')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-24 14:39:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 14:40:00 --> Antes de obtener información del usuario para: DANIEL
+INFO - 2024-01-24 14:40:00 --> Contraseña almacenada para el usuario "DANIEL": 12345@
+INFO - 2024-01-24 14:40:00 --> Contraseña ingresada: 12345@
+INFO - 2024-01-24 14:40:00 --> Contraseña verificada con éxito.
+INFO - 2024-01-24 14:40:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-24 14:44:31 --> [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Arithmetic overflow error converting numeric to data type varchar.
+CRITICAL - 2024-01-24 14:44:31 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Arithmetic overflow error converting numeric to data type varchar.
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\InformeModel.php(15): CodeIgniter\Database\BaseConnection->query('
+            -- Llamada a tu función SQL con el formato correcto
+            SELECT * FROM BUSCAR_INFORME (1234578, \'2024-01-01 00:00:00\', \'2024-01-23 23:59:59\')
+        ')
+ 2 APPPATH\Controllers\ReportesController.php(23): App\Models\InformeModel->buscarInforme('1234578', '2024-01-01 00:00:00', '2024-01-23 23:59:59')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-24 14:44:31 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Arithmetic overflow error converting numeric to data type varchar.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 482.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\SQLSRV\Connection->execute('
+            -- Llamada a tu función SQL con el formato correcto
+            SELECT * FROM BUSCAR_INFORME (1234578, \'2024-01-01 00:00:00\', \'2024-01-23 23:59:59\')
+        ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('
+            -- Llamada a tu función SQL con el formato correcto
+            SELECT * FROM BUSCAR_INFORME (1234578, \'2024-01-01 00:00:00\', \'2024-01-23 23:59:59\')
+        ')
+ 3 APPPATH\Models\InformeModel.php(15): CodeIgniter\Database\BaseConnection->query('
+            -- Llamada a tu función SQL con el formato correcto
+            SELECT * FROM BUSCAR_INFORME (1234578, \'2024-01-01 00:00:00\', \'2024-01-23 23:59:59\')
+        ')
+ 4 APPPATH\Controllers\ReportesController.php(23): App\Models\InformeModel->buscarInforme('1234578', '2024-01-01 00:00:00', '2024-01-23 23:59:59')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ReportesController->generarInforme()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportesController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-24 15:00:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 15:00:34 --> Antes de obtener información del usuario para: admin
+INFO - 2024-01-24 15:00:34 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-01-24 15:00:34 --> Contraseña ingresada: pruebaCG123
+INFO - 2024-01-24 15:00:34 --> Contraseña verificada con éxito.
+INFO - 2024-01-24 15:00:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 15:00:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-24 15:01:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

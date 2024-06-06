@@ -1,0 +1,177 @@
+INFO - 2024-01-23 07:52:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 08:23:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 08:23:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 08:24:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 08:24:13 --> Datos del usuario obtenidos:
+INFO - 2024-01-23 08:24:13 --> Antes de obtener información del usuario para: sistemas
+INFO - 2024-01-23 08:24:13 --> Contraseña ingresada: sistemasCG123
+INFO - 2024-01-23 08:24:13 --> Contraseña almacenada para el usuario "sistemas": $2y$10$.aqHFMKr7ddtjkNErcjS0Ov7TrHdgEJ6tdkZPxoCtHty5c9PojFVS
+ERROR - 2024-01-23 08:24:13 --> Autenticación fallida para el usuario: sistemas
+INFO - 2024-01-23 08:24:13 --> Contenido de $datosUsuario:
+INFO - 2024-01-23 08:24:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 08:24:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-23 08:25:13 --> [DEPRECATED] password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in APPPATH\Controllers\RegistroController.php on line 17.
+ 1 APPPATH\Controllers\RegistroController.php(17): password_hash(Object(SensitiveParameterValue), '2y')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RegistroController->registrarUsuario()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-23 08:25:13 --> [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot insert the value NULL into column 'TIPO_USUARIO', table 'CGingreso.dbo.USUARIOS'; column does not allow nulls. INSERT fails.
+CRITICAL - 2024-01-23 08:25:13 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot insert the value NULL into column 'TIPO_USUARIO', table 'CGingreso.dbo.USUARIOS'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO "CGingreso"."dbo"."usuarios" ("nombre","nusuario","contrasena","tipo_usuario") VALUES (:nombre:, :nusuario:, :contrasena:, :tipo_usuario:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\RegistroController.php(27): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RegistroController->registrarUsuario()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-23 08:25:13 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot insert the value NULL into column 'TIPO_USUARIO', table 'CGingreso.dbo.USUARIOS'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 482.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\SQLSRV\Connection->execute('INSERT INTO "CGingreso"."dbo"."usuarios" ("nombre","nusuario","contrasena","tipo_usuario") VALUES (\'Daniel Pineda\', \'auxsistemas\', \'$2y$10$kTx3JoRG/ISyN/fI.fbNI.qwvleLF0ux2Yb9HzKkoBJ6HAUF4voVi\', NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "CGingreso"."dbo"."usuarios" ("nombre","nusuario","contrasena","tipo_usuario") VALUES (\'Daniel Pineda\', \'auxsistemas\', \'$2y$10$kTx3JoRG/ISyN/fI.fbNI.qwvleLF0ux2Yb9HzKkoBJ6HAUF4voVi\', NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO "CGingreso"."dbo"."usuarios" ("nombre","nusuario","contrasena","tipo_usuario") VALUES (:nombre:, :nusuario:, :contrasena:, :tipo_usuario:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\RegistroController.php(27): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RegistroController->registrarUsuario()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-23 08:29:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 08:29:30 --> Datos del usuario obtenidos:
+INFO - 2024-01-23 08:29:30 --> Antes de obtener información del usuario para: sistemas
+INFO - 2024-01-23 08:29:30 --> Contraseña ingresada: sistemasCG123
+INFO - 2024-01-23 08:29:30 --> Contraseña almacenada para el usuario "sistemas": $2y$10$.aqHFMKr7ddtjkNErcjS0Ov7TrHdgEJ6tdkZPxoCtHty5c9PojFVS
+ERROR - 2024-01-23 08:29:30 --> Autenticación fallida para el usuario: sistemas
+INFO - 2024-01-23 08:29:30 --> Contenido de $datosUsuario:
+INFO - 2024-01-23 08:29:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 08:29:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 08:50:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 08:50:33 --> Datos del usuario obtenidos:
+INFO - 2024-01-23 08:50:33 --> Antes de obtener información del usuario para: sistemas
+INFO - 2024-01-23 08:50:33 --> Contraseña ingresada: sistemasCG123
+INFO - 2024-01-23 08:50:33 --> Contraseña almacenada para el usuario "sistemas": $2y$10$.aqHFMKr7ddtjkNErcjS0Ov7TrHdgEJ6tdkZPxoCtHty5c9PojFVS
+ERROR - 2024-01-23 08:50:34 --> Autenticación fallida para el usuario: sistemas
+INFO - 2024-01-23 08:50:34 --> Contenido de $datosUsuario:
+INFO - 2024-01-23 08:50:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 08:50:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 08:52:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 08:52:47 --> Datos del usuario obtenidos:
+INFO - 2024-01-23 08:52:47 --> Antes de obtener información del usuario para: admin
+ERROR - 2024-01-23 08:52:47 --> Autenticación fallida para el usuario: admin
+INFO - 2024-01-23 08:52:47 --> Contenido de $datosUsuario:
+INFO - 2024-01-23 08:52:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 08:52:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 08:54:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 08:54:41 --> Datos del usuario obtenidos:
+INFO - 2024-01-23 08:54:41 --> Antes de obtener información del usuario para: admin
+ERROR - 2024-01-23 08:54:41 --> Autenticación fallida para el usuario: admin
+INFO - 2024-01-23 08:54:41 --> Contenido de $datosUsuario:
+INFO - 2024-01-23 08:54:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 08:54:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 08:55:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 08:55:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 08:55:40 --> Datos del usuario obtenidos:
+INFO - 2024-01-23 08:55:40 --> Antes de obtener información del usuario para: admin
+ERROR - 2024-01-23 08:55:40 --> Autenticación fallida para el usuario: admin
+INFO - 2024-01-23 08:55:40 --> Contenido de $datosUsuario:
+INFO - 2024-01-23 08:55:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 08:55:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 08:55:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 08:56:06 --> Datos del usuario obtenidos:
+INFO - 2024-01-23 08:56:06 --> Antes de obtener información del usuario para: sistemas
+INFO - 2024-01-23 08:56:06 --> Contraseña ingresada: sistemasCG123
+INFO - 2024-01-23 08:56:06 --> Contraseña almacenada para el usuario "sistemas": $2y$10$.aqHFMKr7ddtjkNErcjS0Ov7TrHdgEJ6tdkZPxoCtHty5c9PojFVS
+ERROR - 2024-01-23 08:56:06 --> Autenticación fallida para el usuario: sistemas
+INFO - 2024-01-23 08:56:06 --> Contenido de $datosUsuario:
+INFO - 2024-01-23 08:56:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 08:56:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 09:18:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 09:18:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 09:19:03 --> Antes de obtener información del usuario para: sistemas
+INFO - 2024-01-23 09:19:03 --> Contraseña almacenada para el usuario "sistemas": $2y$10$.aqHFMKr7ddtjkNErcjS0Ov7TrHdgEJ6tdkZPxoCtHty5c9PojFVS
+ERROR - 2024-01-23 09:19:03 --> Autenticación fallida para el usuario: sistemas
+INFO - 2024-01-23 09:19:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 09:19:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 09:28:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-23 09:28:56 --> [DEPRECATED] password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in APPPATH\Controllers\RegistroController.php on line 17.
+ 1 APPPATH\Controllers\RegistroController.php(17): password_hash(Object(SensitiveParameterValue), '2y')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RegistroController->registrarUsuario()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-23 09:28:56 --> [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot insert the value NULL into column 'TIPO_USUARIO', table 'CGingreso.dbo.USUARIOS'; column does not allow nulls. INSERT fails.
+CRITICAL - 2024-01-23 09:28:56 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot insert the value NULL into column 'TIPO_USUARIO', table 'CGingreso.dbo.USUARIOS'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO "CGingreso"."dbo"."usuarios" ("nombre","nusuario","contrasena","tipo_usuario") VALUES (:nombre:, :nusuario:, :contrasena:, :tipo_usuario:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\RegistroController.php(27): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RegistroController->registrarUsuario()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-23 09:28:56 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Cannot insert the value NULL into column 'TIPO_USUARIO', table 'CGingreso.dbo.USUARIOS'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 482.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\SQLSRV\Connection->execute('INSERT INTO "CGingreso"."dbo"."usuarios" ("nombre","nusuario","contrasena","tipo_usuario") VALUES (\'Daniel Pineda\', \'auxsistemas\', \'$2y$10$RS3CEwlvo10cVLrsICzYp.M.EEDfGmtSYQbZVJrBjgHD7bcGSHiGm\', NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "CGingreso"."dbo"."usuarios" ("nombre","nusuario","contrasena","tipo_usuario") VALUES (\'Daniel Pineda\', \'auxsistemas\', \'$2y$10$RS3CEwlvo10cVLrsICzYp.M.EEDfGmtSYQbZVJrBjgHD7bcGSHiGm\', NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query('INSERT INTO "CGingreso"."dbo"."usuarios" ("nombre","nusuario","contrasena","tipo_usuario") VALUES (:nombre:, :nusuario:, :contrasena:, :tipo_usuario:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\RegistroController.php(27): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RegistroController->registrarUsuario()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistroController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-23 09:41:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 09:41:53 --> Antes de obtener información del usuario para: sistemas
+INFO - 2024-01-23 09:41:53 --> Contraseña almacenada para el usuario "sistemas": $2y$10$.aqHFMKr7ddtjkNErcjS0Ov7TrHdgEJ6tdkZPxoCtHty5c9PojFVS
+ERROR - 2024-01-23 09:41:53 --> Autenticación fallida para el usuario: sistemas
+INFO - 2024-01-23 09:41:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 09:41:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 09:42:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 09:43:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 09:43:12 --> Antes de obtener información del usuario para: sistemas
+INFO - 2024-01-23 09:43:12 --> Contraseña almacenada para el usuario "sistemas": $2y$10$.aqHFMKr7ddtjkNErcjS0Ov7TrHdgEJ6tdkZPxoCtHty5c9PojFVS
+INFO - 2024-01-23 09:43:12 --> Contraseña verificada: 
+ERROR - 2024-01-23 09:43:12 --> Autenticación fallida para el usuario: sistemas
+INFO - 2024-01-23 09:43:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 09:43:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 09:57:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 09:57:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 09:57:23 --> Antes de obtener información del usuario para: sistemas
+INFO - 2024-01-23 09:57:23 --> Contraseña almacenada para el usuario "sistemas": $2y$10$.aqHFMKr7ddtjkNErcjS0Ov7TrHdgEJ6tdkZPxoCtHty5c9PojFVS
+INFO - 2024-01-23 09:57:23 --> Contraseña verificada: 
+ERROR - 2024-01-23 09:57:23 --> Autenticación fallida para el usuario: sistemas
+INFO - 2024-01-23 09:57:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 09:57:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 10:12:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 10:13:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 10:13:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 10:13:12 --> Antes de obtener información del usuario para: sistemas
+INFO - 2024-01-23 10:13:12 --> Contraseña almacenada para el usuario "sistemas": $2y$10$.aqHFMKr7ddtjkNErcjS0Ov7TrHdgEJ6tdkZPxoCtHty5c9PojFVS
+INFO - 2024-01-23 10:13:12 --> Contraseña ingresada: sistemasCG123
+ERROR - 2024-01-23 10:13:13 --> Autenticación fallida para el usuario: sistemas
+INFO - 2024-01-23 10:13:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 10:13:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 10:13:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 10:13:48 --> Antes de obtener información del usuario para: sistemas
+INFO - 2024-01-23 10:13:48 --> Contraseña almacenada para el usuario "sistemas": $2y$10$.aqHFMKr7ddtjkNErcjS0Ov7TrHdgEJ6tdkZPxoCtHty5c9PojFVS
+INFO - 2024-01-23 10:13:48 --> Contraseña ingresada: SistemasCG123
+ERROR - 2024-01-23 10:13:49 --> Autenticación fallida para el usuario: sistemas
+INFO - 2024-01-23 10:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 10:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 10:13:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 10:14:02 --> Antes de obtener información del usuario para: sistemas
+INFO - 2024-01-23 10:14:02 --> Contraseña almacenada para el usuario "sistemas": $2y$10$.aqHFMKr7ddtjkNErcjS0Ov7TrHdgEJ6tdkZPxoCtHty5c9PojFVS
+INFO - 2024-01-23 10:14:02 --> Contraseña ingresada: sistem@sCG
+ERROR - 2024-01-23 10:14:02 --> Autenticación fallida para el usuario: sistemas
+INFO - 2024-01-23 10:14:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 10:14:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-23 10:38:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,156 @@
+INFO - 2024-03-01 06:56:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 06:56:27 --> Antes de obtener información del usuario para: admin
+INFO - 2024-03-01 06:56:27 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-03-01 06:56:27 --> Contraseña ingresada: pruebaCG123
+INFO - 2024-03-01 06:56:27 --> Contraseña verificada con éxito.
+INFO - 2024-03-01 06:56:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-01 06:56:43 --> [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Conversion failed when converting the varchar value 'dsa' to data type int.
+CRITICAL - 2024-03-01 06:56:43 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Conversion failed when converting the varchar value 'dsa' to data type int.
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "empleados"."CODIGO", "empleados"."NOMBRE", "empleados"."AREA", NULL as ID_INGRESO, NULL as FECHA_INGRESO, NULL as FECHA_SALIDA
+FROM "CGingreso"."dbo"."empleados"
+WHERE "empleados"."CODIGO" = :empleados.CODIGO:
+AND "empleados"."ESTADO" != :empleados.ESTADO:', [...], false)
+ 2 APPPATH\Models\Datosbd_usuarios.php(40): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 APPPATH\Controllers\obtenerRegistros.php(34): App\Models\Datosbd_usuarios->buscarRegistros('dsa')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerRegistros->Buscar2()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerRegistros))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 06:56:43 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Conversion failed when converting the varchar value 'dsa' to data type int.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 482.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT "empleados"."CODIGO", "empleados"."NOMBRE", "empleados"."AREA", NULL as ID_INGRESO, NULL as FECHA_INGRESO, NULL as FECHA_SALIDA
+FROM "CGingreso"."dbo"."empleados"
+WHERE "empleados"."CODIGO" = \'dsa\'
+AND "empleados"."ESTADO" != \'retirado\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "empleados"."CODIGO", "empleados"."NOMBRE", "empleados"."AREA", NULL as ID_INGRESO, NULL as FECHA_INGRESO, NULL as FECHA_SALIDA
+FROM "CGingreso"."dbo"."empleados"
+WHERE "empleados"."CODIGO" = \'dsa\'
+AND "empleados"."ESTADO" != \'retirado\'')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT "empleados"."CODIGO", "empleados"."NOMBRE", "empleados"."AREA", NULL as ID_INGRESO, NULL as FECHA_INGRESO, NULL as FECHA_SALIDA
+FROM "CGingreso"."dbo"."empleados"
+WHERE "empleados"."CODIGO" = :empleados.CODIGO:
+AND "empleados"."ESTADO" != :empleados.ESTADO:', [...], false)
+ 4 APPPATH\Models\Datosbd_usuarios.php(40): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 APPPATH\Controllers\obtenerRegistros.php(34): App\Models\Datosbd_usuarios->buscarRegistros('dsa')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerRegistros->Buscar2()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerRegistros))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-01 07:16:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 07:16:16 --> Antes de obtener información del usuario para: admin
+INFO - 2024-03-01 07:16:16 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-03-01 07:16:16 --> Contraseña ingresada: pruebaCG123
+INFO - 2024-03-01 07:16:16 --> Contraseña verificada con éxito.
+INFO - 2024-03-01 07:16:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 07:18:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 07:21:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 07:21:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 07:41:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 07:58:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 07:58:14 --> Antes de obtener información del usuario para: admin
+INFO - 2024-03-01 07:58:14 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-03-01 07:58:14 --> Contraseña ingresada: pruebaCG123
+INFO - 2024-03-01 07:58:14 --> Contraseña verificada con éxito.
+INFO - 2024-03-01 07:58:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-01 08:07:45 --> BadMethodCallException: Call to undefined method App\Models\Datosbd_usuarios::obtenerDiezPrimerosRegistros
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\obtenerRegistros.php(18): CodeIgniter\Model->__call('obtenerDiezPrimerosRegistros', [])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerRegistros->Registros()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerRegistros))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-01 08:11:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 08:17:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 08:17:07 --> Antes de obtener información del usuario para: admin
+INFO - 2024-03-01 08:17:07 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-03-01 08:17:07 --> Contraseña ingresada: pruebaCG123
+INFO - 2024-03-01 08:17:07 --> Contraseña verificada con éxito.
+INFO - 2024-03-01 08:17:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 08:19:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-01 08:19:47 --> BadMethodCallException: Call to undefined method App\Models\Datosbd_usuarios::obtenerDiezPrimerosRegistros
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\obtenerRegistros.php(18): CodeIgniter\Model->__call('obtenerDiezPrimerosRegistros', [])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerRegistros->Registros()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerRegistros))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-01 08:20:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 08:20:10 --> Antes de obtener información del usuario para: admin
+INFO - 2024-03-01 08:20:10 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-03-01 08:20:10 --> Contraseña ingresada: pruebaCG123
+INFO - 2024-03-01 08:20:10 --> Contraseña verificada con éxito.
+INFO - 2024-03-01 08:20:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-01 08:20:12 --> BadMethodCallException: Call to undefined method App\Models\Datosbd_usuarios::obtenerDiezPrimerosRegistros
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\obtenerRegistros.php(18): CodeIgniter\Model->__call('obtenerDiezPrimerosRegistros', [])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerRegistros->Registros()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerRegistros))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 08:20:26 --> BadMethodCallException: Call to undefined method App\Models\Datosbd_usuarios::obtenerDiezPrimerosRegistros
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\obtenerRegistros.php(18): CodeIgniter\Model->__call('obtenerDiezPrimerosRegistros', [])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerRegistros->Registros()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerRegistros))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 08:21:36 --> BadMethodCallException: Call to undefined method App\Models\Datosbd_usuarios::obtenerDiezPrimerosRegistros
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\obtenerRegistros.php(18): CodeIgniter\Model->__call('obtenerDiezPrimerosRegistros', [])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerRegistros->Registros()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerRegistros))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-01 08:21:39 --> BadMethodCallException: Call to undefined method App\Models\Datosbd_usuarios::obtenerDiezPrimerosRegistros
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\obtenerRegistros.php(18): CodeIgniter\Model->__call('obtenerDiezPrimerosRegistros', [])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerRegistros->Registros()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerRegistros))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-01 08:21:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 08:21:44 --> Antes de obtener información del usuario para: admin
+INFO - 2024-03-01 08:21:44 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-03-01 08:21:44 --> Contraseña ingresada: pruebaCG123
+INFO - 2024-03-01 08:21:44 --> Contraseña verificada con éxito.
+INFO - 2024-03-01 08:21:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-01 08:21:46 --> BadMethodCallException: Call to undefined method App\Models\Datosbd_usuarios::obtenerDiezPrimerosRegistros
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\obtenerRegistros.php(18): CodeIgniter\Model->__call('obtenerDiezPrimerosRegistros', [])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\obtenerRegistros->Registros()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\obtenerRegistros))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-01 08:32:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 08:35:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 08:40:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 09:09:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 09:10:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 09:17:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 09:19:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 09:19:50 --> Antes de obtener información del usuario para: admin
+INFO - 2024-03-01 09:19:50 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-03-01 09:19:50 --> Contraseña ingresada: pruebaCG123
+INFO - 2024-03-01 09:19:50 --> Contraseña verificada con éxito.
+INFO - 2024-03-01 09:19:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 10:24:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 10:24:35 --> Antes de obtener información del usuario para: admin
+INFO - 2024-03-01 10:24:35 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-03-01 10:24:35 --> Contraseña ingresada: pruebaCG123
+INFO - 2024-03-01 10:24:35 --> Contraseña verificada con éxito.
+INFO - 2024-03-01 10:24:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 10:24:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 12:10:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 12:10:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 12:10:12 --> Antes de obtener información del usuario para: admin
+INFO - 2024-03-01 12:10:12 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-03-01 12:10:12 --> Contraseña ingresada: pruebaCG123
+INFO - 2024-03-01 12:10:12 --> Contraseña verificada con éxito.
+INFO - 2024-03-01 12:10:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 12:13:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 12:13:47 --> Antes de obtener información del usuario para: admin
+INFO - 2024-03-01 12:13:47 --> Contraseña almacenada para el usuario "admin": pruebaCG123
+INFO - 2024-03-01 12:13:47 --> Contraseña ingresada: pruebaCG123
+INFO - 2024-03-01 12:13:47 --> Contraseña verificada con éxito.
+INFO - 2024-03-01 12:13:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
