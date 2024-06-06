@@ -42,8 +42,8 @@ class LoginController extends Controller
 
         if ($datosUsuario) {
             // Imprimir la contraseña almacenada solo para propósitos de depuración
-            $this->logger->info('Contraseña almacenada para el usuario "' . $nusuario . '": ' . $datosUsuario['CONTRASENA']);
-            $this->logger->info('Contraseña ingresada: ' . $contrasena);
+            log_message('info', 'Contraseña almacenada para el usuario "' . $nusuario . '": ' . $datosUsuario['CONTRASENA']);
+            log_message('info', 'Contraseña ingresada: ' . $contrasena);
 
             // Verificar la contraseña
             if (trim($contrasena) === trim($datosUsuario['CONTRASENA'])) {

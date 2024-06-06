@@ -38,34 +38,22 @@
 
 <style>
              /* Estilos opcionales para mejorar la apariencia */
+/* body {
+  background-image: url('assets-app/images/fondo_admin.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
 
 body {
   font-family: var(--font-inter), sans-serif;
   text-align: center;
 }
 
-
-h1 {
-  font-family: var(--font-inter), sans-serif;
-}
-
-form {
-    display: inline-block;
-    vertical-align: middle;
-    
-}
-
-button {
-  background-color: #fff; /* Blue */
-  color: black; /* Text color */
-  border: 2px solid black;
-  padding: 10px 20px;
-  border-radius: 5px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-  font-size: 16px;
-  font-weight: bold;
-  cursor: pointer;
-
+img {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
 }
 
 button:hover {

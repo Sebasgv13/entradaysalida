@@ -32,16 +32,6 @@ class obtenerTodosLosRegistros extends BaseController
         // Cargar la vista con los resultados de la búsqueda
         return view('CGView/UsuariosCG', $data);
     }
-    public function InfoRegistros()
-    {
-        $query = $this->request->getPost('query');
-
-        // Lógica para buscar en el modelo
-        $data['registros'] = $this->Datosbd_models->buscarRegistros($query);
-
-        // Cargar la vista con los resultados de la búsqueda
-        return view('CGView/InfoRegistros', $data);
-    }
 
     public function editar($cedula)
     {
